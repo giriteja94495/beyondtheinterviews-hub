@@ -44,24 +44,27 @@ The frontend calls `/api/health` on load and switches automatically.
 6. Drop your real PDFs into `downloads/` (names must match `api/_lib/products.js`).
 7. Swap in live keys (`rzp_live_…`) when ready.
 
-## Local development
+## Local development & test mode
 
-```bash
-node --version            # need 18+
-node local-server.mjs     # API on :3000
-npx serve .               # static site on :3000 conflicts — use: npx serve -l 5500 .
-# open http://localhost:5500 — it auto-detects the API on same origin? No:
-```
-
-For local testing with the API, serve everything through one origin:
+`local-server.mjs` serves the site AND the API on one port:
 
 ```bash
 RAZORPAY_KEY_ID=rzp_test_xxx RAZORPAY_KEY_SECRET=xxx node local-server.mjs
-curl http://localhost:3000/api/health
+# open http://localhost:3000 — full test-mode checkout
 ```
 
-`local-server.mjs` serves the API routes only; point your static server's `/api` proxy at it,
-or quickly smoke-test endpoints with curl:
+Test instruments (sandbox): card `4111 1111 1111 1111` (any future expiry/CVV, pick
+Success on the mock bank page), UPI VPA `success@razorpay` (or `failure@razorpay`
+to exercise the failure path).
+
+Without keys, the same command still works — the site runs in showcase mode and the
+Buy buttons offer a "Simulate successful payment" demo that walks the real
+success → download modal using the sample PDFs in `downloads/`.
+
+Webhook testing locally needs a public URL: `ngrok http 3000`, then set that as the
+webhook URL in Dashboard → Webhooks with your `RAZORPAY_WEBHOOK_SECRET`.
+
+Smoke-test endpoints:
 
 ```bash
 curl http://localhost:3000/api/products

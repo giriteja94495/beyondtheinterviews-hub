@@ -5,6 +5,7 @@ const FALLBACK_PRODUCTS = [
     tagline: "One map from pattern → problem → recognition cue. Stop re-solving blind.",
     bullets: ["40 patterns with when-to-use signals", "Curated LeetCode links per pattern", "Printable revision tracker"],
     price: "₹199", amount: 19900, anchor: null,
+    downloadUrl: "/downloads/dsa-decoder.pdf",
     featured: false
   },
   {
@@ -13,6 +14,7 @@ const FALLBACK_PRODUCTS = [
     tagline: "~250 real questions from Flipkart, Swiggy, PhonePe, Razorpay-tier loops — tagged by pattern and frequency.",
     bullets: ["Company-wise frequency tags", "Solution sketches, not spoilers", "48-hour sprint plans per company"],
     price: "₹499", amount: 49900, anchor: null,
+    downloadUrl: "/downloads/company-vault.pdf",
     featured: false
   },
   {
@@ -21,6 +23,7 @@ const FALLBACK_PRODUCTS = [
     tagline: "12 worked designs modeled on real India-loop questions — cart service, payment retries, delivery tracking.",
     bullets: ["45-minute answer framework", "Evaluation rubric used by interviewers", "HLD diagrams you can reproduce"],
     price: "₹499", amount: 49900, anchor: null,
+    downloadUrl: "/downloads/system-design.pdf",
     featured: false
   },
   {
@@ -29,6 +32,7 @@ const FALLBACK_PRODUCTS = [
     tagline: "Resume + LinkedIn + negotiation scripts tuned for Naukri/LinkedIn India and CTC-vs-ESOP reality.",
     bullets: ["ATS-ready resume templates", "Recruiter-screening checklist", "Fixed vs variable vs ESOP scripts"],
     price: "₹299", amount: 29900, anchor: null,
+    downloadUrl: "/downloads/offer-stack.pdf",
     featured: false
   },
   {
@@ -37,6 +41,7 @@ const FALLBACK_PRODUCTS = [
     tagline: "Every kit above, sequenced into one system from application to signed offer.",
     bullets: ["All four kits, one bundle", "12-week master schedule", "Lifetime updates included"],
     price: "₹1,299", amount: 129900, anchor: 149700,
+    downloadUrl: "/downloads/complete-system.pdf",
     featured: true
   }
 ];
@@ -146,10 +151,12 @@ function loadCheckout() {
 async function buy(sku, name) {
   if (!state.apiAvailable || !state.razorpayConfigured) {
     showModal(
-      "Checkout not live yet",
-      `<p>This is showcase mode — payments activate once Razorpay keys are configured.</p>
-       <p class="modal-small">Owner: add <code>RAZORPAY_KEY_ID</code> and <code>RAZORPAY_KEY_SECRET</code> env vars and deploy with the <code>api/</code> folder enabled (see README). Test keys work too.</p>`
+      "Checkout not live yet — try the demo",
+      `<p>Live payments activate once Razorpay keys are configured. Meanwhile, preview the exact post-payment experience:</p>
+       <button class="btn btn-primary" id="demo-pay-btn" style="width:100%">Simulate successful payment (demo)</button>
+       <p class="modal-small" style="margin-top:10px">Owner: add <code>RAZORPAY_KEY_ID</code> and <code>RAZORPAY_KEY_SECRET</code> env vars and deploy with the <code>api/</code> folder enabled (see README). Test keys work too.</p>`
     );
+    document.getElementById("demo-pay-btn").addEventListener("click", () => simulateSuccess(sku));
     return;
   }
   try {
@@ -187,6 +194,17 @@ async function buy(sku, name) {
     showModal("Payment failed", "<p>Your bank declined the payment. No money was captured — you can retry safely.</p>")
   );
   rzp.open();
+}
+
+function simulateSuccess(sku) {
+  const product = state.products.find(p => p.sku === sku);
+  if (!product) return;
+  showModal(
+    "Payment verified 🎉 (demo)",
+    `<p><strong>${product.name}</strong> is yours.</p>
+     <a class="btn btn-primary modal-download" href="${product.downloadUrl || "#"}" download>Download your files</a>
+     <p class="modal-small">This is the exact screen real buyers see after Razorpay verification. The PDF is a sample placeholder — swap in your real files in <code>downloads/</code>.</p>`
+  );
 }
 
 async function verifyAndDeliver(sku, resp) {
