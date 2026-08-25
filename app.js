@@ -188,7 +188,10 @@ async function buy(sku, name) {
     order_id: order.orderId,
     theme: { color: "#2563eb" },
     handler: resp => verifyAndDeliver(sku, resp),
-    modal: { ondismiss: () => {} }
+    modal: {
+      ondismiss: () =>
+        showModal("Payment cancelled", "<p>No money was captured. You can retry anytime.</p>")
+    }
   });
   rzp.on("payment.failed", () =>
     showModal("Payment failed", "<p>Your bank declined the payment. No money was captured — you can retry safely.</p>")

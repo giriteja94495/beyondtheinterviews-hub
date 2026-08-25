@@ -34,7 +34,11 @@ async function createOrder({ amountPaise, receipt, notes }) {
   });
   const data = await res.json();
   if (!res.ok) {
-    throw new Error(data.error && data.error.description ? data.error.description : "Razorpay order creation failed");
+    const err = new Error(
+      data.error && data.error.description ? data.error.description : "Razorpay order creation failed"
+    );
+    err.status = res.status;
+    throw err;
   }
   return data;
 }

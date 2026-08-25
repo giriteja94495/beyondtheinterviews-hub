@@ -27,6 +27,9 @@ async function createOrderHandler(body) {
   if (!product) {
     return json(400, { error: "Unknown product." });
   }
+  if (!Number.isInteger(product.amount_paise) || product.amount_paise < 100) {
+    return json(400, { error: "Invalid product amount." });
+  }
   try {
     const order = await razorpay.createOrder({
       amountPaise: product.amount_paise,
@@ -42,8 +45,13 @@ async function createOrderHandler(body) {
       receipt: order.receipt
     });
   } catch (e) {
-    console.error("[create-order]", e.message);
-    return json(502, { error: "Payment gateway error. Please retry." });
+    console.error("[create-order]", e.status || "", e.message);
+    if (e.status === 401) {
+      return json(401, { error: "Payment gateway authentication failed. Check API keys." });
+    }
+    return json(e.status && e.status >= 400 && e.status < 500 ? e.status : 502, {
+      error: "Payment gateway error. Please retry."
+    });
   }
 }
 

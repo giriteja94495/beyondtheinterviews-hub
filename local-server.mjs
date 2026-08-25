@@ -7,6 +7,14 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const handlers = require("./api/_lib/handlers.js");
 
+try {
+  const envFile = fs.readFileSync(new URL("./.env", import.meta.url), "utf8");
+  for (const line of envFile.split("\n")) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
+    if (m && !(m[1] in process.env)) process.env[m[1]] = m[2];
+  }
+} catch {}
+
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const MIME = {
   ".html": "text/html; charset=utf-8",
