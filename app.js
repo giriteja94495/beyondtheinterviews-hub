@@ -4,7 +4,7 @@ const FALLBACK_PRODUCTS = [
     name: "The 40-Pattern DSA Decoder",
     tagline: "One map from pattern → problem → recognition cue. Stop re-solving blind.",
     bullets: ["40 patterns with when-to-use signals", "Curated LeetCode links per pattern", "Printable revision tracker"],
-    price: "₹199", amount: 19900, anchor: null,
+    price: "₹49", amount: 4900, anchor: null,
     downloadUrl: "/downloads/dsa-decoder.pdf",
     featured: false
   },
@@ -13,7 +13,7 @@ const FALLBACK_PRODUCTS = [
     name: "Product Company Vault",
     tagline: "~250 real questions from Flipkart, Swiggy, PhonePe, Razorpay-tier loops — tagged by pattern and frequency.",
     bullets: ["Company-wise frequency tags", "Solution sketches, not spoilers", "48-hour sprint plans per company"],
-    price: "₹499", amount: 49900, anchor: null,
+    price: "₹149", amount: 14900, anchor: null,
     downloadUrl: "/downloads/company-vault.pdf",
     featured: false
   },
@@ -22,7 +22,7 @@ const FALLBACK_PRODUCTS = [
     name: "System Design for Indian Product Companies",
     tagline: "12 worked designs modeled on real India-loop questions — cart service, payment retries, delivery tracking.",
     bullets: ["45-minute answer framework", "Evaluation rubric used by interviewers", "HLD diagrams you can reproduce"],
-    price: "₹499", amount: 49900, anchor: null,
+    price: "₹149", amount: 14900, anchor: null,
     downloadUrl: "/downloads/system-design.pdf",
     featured: false
   },
@@ -31,7 +31,7 @@ const FALLBACK_PRODUCTS = [
     name: "The Offer Stack",
     tagline: "Resume + LinkedIn + negotiation scripts tuned for Naukri/LinkedIn India and CTC-vs-ESOP reality.",
     bullets: ["ATS-ready resume templates", "Recruiter-screening checklist", "Fixed vs variable vs ESOP scripts"],
-    price: "₹299", amount: 29900, anchor: null,
+    price: "₹99", amount: 9900, anchor: null,
     downloadUrl: "/downloads/offer-stack.pdf",
     featured: false
   },
@@ -40,7 +40,7 @@ const FALLBACK_PRODUCTS = [
     name: "The Complete Interview System",
     tagline: "Every kit above, sequenced into one system from application to signed offer.",
     bullets: ["All four kits, one bundle", "12-week master schedule", "Lifetime updates included"],
-    price: "₹1,299", amount: 129900, anchor: 149700,
+    price: "₹299", amount: 29900, anchor: 44600,
     downloadUrl: "/downloads/complete-system.pdf",
     featured: true
   }
