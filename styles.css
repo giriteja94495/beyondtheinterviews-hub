@@ -657,8 +657,6 @@ html:not(.dark) .icon-moon { display: none; }
   padding: 40px 0;
 }
 
-.hidden { display: none; }
-
 .newsletter-box {
   background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 65%, #111));
   color: #fff;
@@ -863,4 +861,8 @@ html:not(.dark) .icon-moon { display: none; }
   .product-card h3 {
     padding-right: 0;
   }
+}
+
+.hidden {
+  display: none !important;
 }
