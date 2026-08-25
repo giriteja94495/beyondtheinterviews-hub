@@ -274,10 +274,10 @@ const backdrop = document.getElementById("modal-backdrop");
 function showModal(title, bodyHTML) {
   document.getElementById("modal-title").textContent = title;
   document.getElementById("modal-body").innerHTML = bodyHTML;
-  backdrop.classList.remove("hidden");
+  backdrop.style.display = "flex";
 }
 function closeModal() {
-  backdrop.classList.add("hidden");
+  backdrop.style.display = "none";
 }
 document.getElementById("modal-close").addEventListener("click", closeModal);
 backdrop.addEventListener("click", e => {
