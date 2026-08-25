@@ -1,59 +1,92 @@
-# Beyond The Interviews — Affiliate Resource Hub
+# Beyond The Interviews — Direct-sales store (Razorpay)
 
-A fast, static, monetization-ready landing page for **beyondtheinterviews.com**.
-Curated interview-prep resources (coding practice, system design, mock interviews, courses, books, resume tools) with affiliate-ready outbound links and an email-capture funnel.
+Static-first storefront selling interview-prep kits for INR via **Razorpay**, plus a curated
+free-resources section. Design decisions and the full product debate are recorded in
+[DEBATE_LOG.md](./DEBATE_LOG.md) — read that first.
 
-## Stack
+## Architecture (ADR-04/05/06 summary)
 
-Plain HTML + CSS + JS. No build step. No dependencies. Deploys anywhere static files are served.
+```
+Browser ──Buy──▶ /api/create-order ──▶ Razorpay Orders API   (amounts from shared catalog)
+        ◀──order_id──┘
+Browser ──checkout.js modal──▶ Razorpay (UPI/cards/netbanking/wallets)
+        ──handler payload──▶ /api/verify-payment ──▶ HMAC verify + order re-fetch + amount check
+        ◀──downloadUrl──┘
+Razorpay ──webhook──▶ /api/webhook ──▶ raw-body HMAC verify ──▶ fulfilment hook (email backup)
+```
 
-## Monetization built in
+- `api/_lib/products.js` is the single source of truth for SKUs/amounts/download URLs.
+  The client can never dictate a price.
+- Zero npm dependencies. Node 18+ (built-in fetch/crypto only).
 
-1. **Affiliate links** — every resource card links out with `rel="noopener sponsored"`.
-2. **Email capture** — newsletter section wired for [Formspree](https://formspree.io).
-3. **FTC-compliant affiliate disclosure** in the footer.
+## Two modes
 
-## Make it yours (2 required edits)
+| Mode | Where | Payments |
+|------|-------|----------|
+| Showcase | GitHub Pages (current) | Buy buttons explain setup; site is fully browsable |
+| Live | Vercel/Netlify/any Node host with env vars | Full Razorpay checkout + verified delivery |
 
-1. **Affiliate URLs** — edit the `RESOURCES` array at the top of `script.js`.
-   Replace each `url` with your tracked affiliate link, e.g.
-   `https://www.educative.io/explore?aff=YOUR_ID`.
-   Recommended programs to join:
-   - NeetCode — affiliate application on their site
-   - Educative.io — partner program (PartnerStack)
-   - ByteByteGo — affiliate program (their site footer)
-   - Interviewing.io — partner program
-   - Exponent — affiliate program (their site)
-   - Amazon Associates — for the books (Cracking the Coding Interview, DDIA)
-   - Coursera / Udemy — via Impact/Rakuten or their affiliate pages
+The frontend calls `/api/health` on load and switches automatically.
 
-2. **Newsletter form** — in `index.html`, replace `YOUR_FORM_ID` in the Formspree action URL with your real form ID. Until then the form shows a demo message instead of failing silently.
+## Razorpay setup (go-live checklist)
 
-## Run locally
+1. Create an account at https://dashboard.razorpay.com → complete KYC.
+2. **Test keys:** Settings → API Keys → Generate test keys (`rzp_test_…`).
+3. Set env vars on your host:
+   - `RAZORPAY_KEY_ID`
+   - `RAZORPAY_KEY_SECRET`
+   - `RAZORPAY_WEBHOOK_SECRET` (create a webhook in Dashboard → Webhooks pointing at
+     `https://YOUR-DOMAIN/api/webhook`, events: `payment.captured`, `payment.failed`, `order.paid`)
+4. Deploy to **Vercel** (recommended): import the repo — `api/*.js` become serverless functions
+   automatically; add the three env vars in project settings.
+5. Test in sandbox: card `4111 1111 1111 1111` (any future expiry/CVV), UPI VPA
+   `success@razorpay`. Failure paths: `failure@razorpay`.
+6. Drop your real PDFs into `downloads/` (names must match `api/_lib/products.js`).
+7. Swap in live keys (`rzp_live_…`) when ready.
+
+## Local development
 
 ```bash
-npx serve .        # or: python3 -m http.server 8000
+node --version            # need 18+
+node local-server.mjs     # API on :3000
+npx serve .               # static site on :3000 conflicts — use: npx serve -l 5500 .
+# open http://localhost:5500 — it auto-detects the API on same origin? No:
 ```
 
-Open http://localhost:8000 (or :3000 for serve).
+For local testing with the API, serve everything through one origin:
 
-## Deploy
-
-- GitHub Pages is preconfigured via `.github/workflows/deploy.yml` — it deploys on every push to `main`.
-- To use a custom domain later: add a `CNAME` file containing `beyondtheinterviews.com`, and point your DNS at GitHub Pages (A records / CNAME per https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
-
-## Adding a resource
-
-Append an object to `RESOURCES` in `script.js`:
-
-```js
-{
-  name: "Resource Name",
-  category: "Coding Practice", // any category; filter chips auto-generate
-  tag: "paid",                 // free | paid | freemium
-  tagLabel: "$$",
-  blurb: "One honest sentence on who it's for.",
-  url: "https://your-affiliate-link",
-  featured: true               // optional: adds "Top pick" flag
-}
+```bash
+RAZORPAY_KEY_ID=rzp_test_xxx RAZORPAY_KEY_SECRET=xxx node local-server.mjs
+curl http://localhost:3000/api/health
 ```
+
+`local-server.mjs` serves the API routes only; point your static server's `/api` proxy at it,
+or quickly smoke-test endpoints with curl:
+
+```bash
+curl http://localhost:3000/api/products
+curl -X POST http://localhost:3000/api/create-order -H 'Content-Type: application/json' -d '{"sku":"dsa-decoder"}'
+```
+
+## Security model
+
+- Order creation server-side only; client-supplied amounts are ignored by design.
+- Payment verification = HMAC-SHA256(`order_id|payment_id`, key_secret) with timing-safe compare,
+  THEN independent re-fetch of the order from Razorpay confirming `status=paid` and exact amount
+  match against the catalog SKU.
+- Webhooks verify HMAC over the **raw request bytes** with a dedicated webhook secret.
+- Card data never touches this app (Razorpay-hosted iframe ⇒ out of PCI DSS scope).
+
+## Owner action items
+
+1. Author the five product PDFs (start with Vault + Decoder per DEBATE_LOG R2-C6).
+2. Replace Formspree placeholder (`YOUR_FORM_ID` in index.html) to deliver the free lead magnet.
+3. Add real refund-policy/terms/privacy page URLs (footer placeholders marked).
+4. Wire `deliverBackupCopy()` in `api/_lib/handlers.js` to your email provider, deduped on event id.
+5. Longer term: replace static `downloads/` files with signed URLs issued post-verification.
+
+## Legacy deploy note
+
+GitHub Pages workflow still deploys the static showcase on every push to `main`. The `api/`
+folder is inert there (no secrets exist in code). For payments, use the Vercel deployment path
+above and repoint the domain when ready.
