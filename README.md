@@ -17,7 +17,32 @@ Razorpay ──webhook──▶ /api/webhook ──▶ raw-body HMAC verify ─�
 
 - `api/_lib/products.js` is the single source of truth for SKUs/amounts/download URLs.
   The client can never dictate a price.
-- Zero npm dependencies. Node 18+ (built-in fetch/crypto only).
+- The storefront and `api/*.js` have **zero runtime dependencies** (Node 18+, built-in
+  fetch/crypto only). `jpeg-js` is a *build-time* devDependency used only when regenerating
+  the kit PDFs.
+
+## Product kits (content source)
+
+The five downloadable kits are compiled from the **Evolving Engineer** Substack archive
+(23 public posts, 130 diagrams) plus one authored chapter:
+
+| SKU | Product | Price | Pages |
+|-----|---------|------:|------:|
+| `dsa-decoder` | The 40-Pattern DSA Decoder | ₹49 | 18 |
+| `offer-stack` | AI & LLM Systems Playbook | ₹99 | 37 |
+| `company-vault` | Database & Storage Deep Dive | ₹149 | 55 |
+| `system-design` | System Design Interview Vault | ₹149 | 60 |
+| `complete-system` | The Complete Interview System | ₹299 | 165 |
+
+Regenerate the PDFs after content changes:
+
+```bash
+npm install          # build-time deps only (jpeg-js)
+npm run refresh      # re-fetch the Substack archive, then rebuild all kits
+```
+
+This writes `downloads/*.pdf` and `api/_lib/kits.json` (chapter metadata used by the
+storefront). Committed PDFs mean the host never needs to run the build.
 
 ## Two modes
 
@@ -41,7 +66,8 @@ The frontend calls `/api/health` on load and switches automatically.
    automatically; add the three env vars in project settings.
 5. Test in sandbox: card `4111 1111 1111 1111` (any future expiry/CVV), UPI VPA
    `success@razorpay`. Failure paths: `failure@razorpay`.
-6. Drop your real PDFs into `downloads/` (names must match `api/_lib/products.js`).
+6. Kit PDFs are committed under `downloads/` and named to match `api/_lib/products.js`.
+   Regenerate them with `npm run refresh` if the content changes.
 7. Swap in live keys (`rzp_live_…`) when ready.
 
 ## Local development & test mode

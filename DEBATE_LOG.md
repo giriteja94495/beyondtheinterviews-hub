@@ -37,6 +37,10 @@ cross-examined against each other (Round 2), producing final decisions (Round 3)
 | 4 | The Offer Stack (Resume+LinkedIn+Negotiation) | ₹299 | Core |
 | 5 | The Complete Interview System (bundle) | ₹1,299 (anchor ₹1,497) | Premium |
 
+> **Superseded — see ADR-11.** The prices and the lineup above were the initial
+> proposal. The store now runs charm pricing and two SKUs were repurposed once the
+> real content source (the Evolving Engineer Substack archive) was chosen.
+
 **Funnel:** lead magnet → email → ₹199 tripwire → email sequence days 2–14 → bundle.
 
 **Conversion rules:** testimonials beside Buy buttons (only once real ones exist);
@@ -159,13 +163,33 @@ alternative. No link farms.
 | ADR-08 | No fake scarcity/testimonials; publish refund policy + contact | Legal safety (CPA 2019/E-Commerce Rules 2020) + unknown-brand trust building |
 | ADR-09 | Curated resource list v2 (13 verified picks, WHO-it's-for blurbs), placed BELOW products | Fixes "materials are not good"; supports funnel without cannibalizing |
 | ADR-10 | Lead magnet email capture stays (Formspree placeholder) | Funnel entry; works even in showcase mode |
+| ADR-11 | Charm pricing: ₹49 / ₹99 / ₹149 / ₹149 / ₹299 (bundle anchor ₹446); repurpose `company-vault` → Database & Storage Deep Dive and `offer-stack` → AI & LLM Systems Playbook | Final prices sit in impulse-buy territory; the two renamed SKUs were the ones with no matching source content once the Evolving Engineer archive became the content base. `sku` strings were kept so no links/payments break |
+
+### ADR-11 detail — content base and repurposing
+
+The downloadable kits are now compiled from the owner's own public archive
+(23 posts, 130 diagrams) rather than written speculatively. Mapping:
+
+| SKU | Product | Source chapters |
+|-----|---------|-----------------|
+| `dsa-decoder` | The 40-Pattern DSA Decoder | authored patterns + Skip Lists + inverted indexes |
+| `offer-stack` | AI & LLM Systems Playbook | agents, RAG 1–3, semantic caching, Supabase, shell |
+| `company-vault` | Database & Storage Deep Dive | disk storage, WAL, ACID 1–2, sharding, scaling, SQL/NoSQL |
+| `system-design` | System Design Interview Vault | caching, CAP, consistent hashing, concurrency, proxies, Bloom, Kafka |
+| `complete-system` | The Complete Interview System | all 24 chapters, 165 pages |
+
+Consequence: `downloads/company-vault.pdf` and `downloads/offer-stack.pdf` now hold
+different products than their filenames suggest. Filenames were left alone so no
+`download_url` or issued payment link breaks. Rename later only with a redirect.
 
 ## Consequences / open items for owner
-1. Create Razorpay account → get `rzp_test_` keys → configure webhook secret → swap to live keys (README checklist).
-2. Author product PDFs (Vault + Decoder first); set `download_url` per product.
+1. Razorpay is live: `rzp_live_` keys set on Vercel; test keys rotated out.
+2. Kits are real (see table above); regenerate with `npm run refresh`.
 3. Connect Formspree form ID for lead magnet.
-4. Harvest 10 verifiable testimonials via free lead-magnet window before raising ad spend.
-5. Later: watermark deliveries with buyer email via webhook automation; signed-URL CDN delivery.
+4. Set `RAZORPAY_WEBHOOK_SECRET` + add the webhook URL in the Razorpay dashboard so
+   `payment.captured` can trigger the backup-delivery email (currently a stub).
+5. Harvest 10 verifiable testimonials via free lead-magnet window before raising ad spend.
+6. Later: watermark deliveries with buyer email via webhook automation; signed-URL CDN delivery.
 
 ---
 *Every code file in this repo traces back to an ADR above.*
