@@ -1,0 +1,15 @@
+{
+  "name": "beyondtheinterviews",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Build tooling for Beyond The Interviews kit PDFs. The deployed site and api/ functions have no runtime dependencies. Do NOT add \"type\": \"module\" here: api/*.js are CommonJS serverless functions.",
+  "scripts": {
+    "fetch:substack": "node scripts/fetch-substack.mjs",
+    "build:kits": "node scripts/build-kits.mjs",
+    "build": "node scripts/fetch-substack.mjs && node scripts/build-kits.mjs",
+    "serve": "node local-server.mjs"
+  },
+  "devDependencies": {
+    "jpeg-js": "^0.4.4"
+  }
+}

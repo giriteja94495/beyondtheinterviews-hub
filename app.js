@@ -2,44 +2,44 @@ const FALLBACK_PRODUCTS = [
   {
     sku: "dsa-decoder",
     name: "The 40-Pattern DSA Decoder",
-    tagline: "One map from pattern → problem → recognition cue. Stop re-solving blind.",
-    bullets: ["40 patterns with when-to-use signals", "Curated LeetCode links per pattern", "Printable revision tracker"],
+    tagline: "Recognition-first DSA: 40 patterns, plus the data structures that power real systems.",
+    bullets: ["40 patterns with recognition cues", "Skip Lists & inverted indexes deep-dive", "Printable revision tracker"],
     price: "₹49", amount: 4900, anchor: null,
     downloadUrl: "/downloads/dsa-decoder.pdf",
     featured: false
   },
   {
+    sku: "offer-stack",
+    name: "AI & LLM Systems Playbook",
+    tagline: "RAG, agents, semantic caching and the backend stack behind production AI systems.",
+    bullets: ["Production-ready RAG, parts 1–3", "Agents & agentic patterns from zero", "Semantic caching + Supabase"],
+    price: "₹99", amount: 9900, anchor: null,
+    downloadUrl: "/downloads/offer-stack.pdf",
+    featured: false
+  },
+  {
     sku: "company-vault",
-    name: "Product Company Vault",
-    tagline: "~250 real questions from Flipkart, Swiggy, PhonePe, Razorpay-tier loops — tagged by pattern and frequency.",
-    bullets: ["Company-wise frequency tags", "Solution sketches, not spoilers", "48-hour sprint plans per company"],
+    name: "Database & Storage Deep Dive",
+    tagline: "How databases really store, scale, shard and stay reliable under load.",
+    bullets: ["Disk storage, WAL & ACID internals", "Sharding, replication & scaling strategy", "SQL vs NoSQL decision checklist"],
     price: "₹149", amount: 14900, anchor: null,
     downloadUrl: "/downloads/company-vault.pdf",
     featured: false
   },
   {
     sku: "system-design",
-    name: "System Design for Indian Product Companies",
-    tagline: "12 worked designs modeled on real India-loop questions — cart service, payment retries, delivery tracking.",
-    bullets: ["45-minute answer framework", "Evaluation rubric used by interviewers", "HLD diagrams you can reproduce"],
+    name: "System Design Interview Vault",
+    tagline: "Caching, CAP, consistent hashing and the patterns interviewers actually probe.",
+    bullets: ["Caching playbook + eviction policies", "CAP theorem & consistent hashing", "Kafka, Bloom filters, proxies"],
     price: "₹149", amount: 14900, anchor: null,
     downloadUrl: "/downloads/system-design.pdf",
     featured: false
   },
   {
-    sku: "offer-stack",
-    name: "The Offer Stack",
-    tagline: "Resume + LinkedIn + negotiation scripts tuned for Naukri/LinkedIn India and CTC-vs-ESOP reality.",
-    bullets: ["ATS-ready resume templates", "Recruiter-screening checklist", "Fixed vs variable vs ESOP scripts"],
-    price: "₹99", amount: 9900, anchor: null,
-    downloadUrl: "/downloads/offer-stack.pdf",
-    featured: false
-  },
-  {
     sku: "complete-system",
     name: "The Complete Interview System",
-    tagline: "Every kit above, sequenced into one system from application to signed offer.",
-    bullets: ["All four kits, one bundle", "12-week master schedule", "Lifetime updates included"],
+    tagline: "Every kit in one bundle — DSA, databases, distributed systems and AI. 165 pages.",
+    bullets: ["All four kits, 24 chapters", "Compiled from the Evolving Engineer archive", "Lifetime updates included"],
     price: "₹299", amount: 29900, anchor: 44600,
     downloadUrl: "/downloads/complete-system.pdf",
     featured: true
