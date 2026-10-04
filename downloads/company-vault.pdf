@@ -4,16 +4,16 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R 74 0 R 76 0 R 78 0 R 80 0 R 82 0 R 84 0 R 86 0 R 88 0 R 90 0 R 92 0 R 94 0 R 96 0 R 98 0 R 100 0 R 102 0 R 104 0 R 106 0 R 108 0 R 110 0 R 112 0 R] /Count 55 >>
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R 74 0 R 76 0 R 78 0 R 80 0 R 82 0 R 84 0 R 86 0 R 88 0 R 90 0 R 92 0 R 94 0 R 96 0 R 98 0 R 100 0 R 102 0 R 104 0 R 106 0 R 108 0 R 110 0 R 112 0 R 114 0 R 116 0 R 118 0 R 120 0 R] /Count 59 >>
 endobj
 3 0 obj
-<< /Font << /F1 114 0 R /F2 115 0 R /F3 116 0 R /F4 117 0 R >> /XObject << /Im1 118 0 R /Im2 119 0 R /Im3 120 0 R /Im4 121 0 R /Im5 122 0 R /Im6 123 0 R /Im7 124 0 R /Im8 125 0 R /Im9 126 0 R /Im10 127 0 R /Im11 128 0 R /Im12 129 0 R /Im13 130 0 R /Im14 131 0 R /Im15 132 0 R /Im16 133 0 R /Im17 134 0 R /Im18 135 0 R /Im19 136 0 R /Im20 137 0 R /Im21 138 0 R /Im22 139 0 R /Im23 140 0 R /Im24 141 0 R /Im25 142 0 R /Im26 143 0 R /Im27 144 0 R /Im28 145 0 R /Im29 146 0 R /Im30 147 0 R /Im31 148 0 R /Im32 149 0 R /Im33 150 0 R /Im34 151 0 R /Im35 152 0 R /Im36 153 0 R /Im37 154 0 R /Im38 155 0 R /Im39 156 0 R /Im40 157 0 R /Im41 158 0 R /Im42 159 0 R /Im43 160 0 R /Im44 161 0 R >> >>
+<< /Font << /F1 122 0 R /F2 123 0 R /F3 124 0 R /F4 125 0 R >> /XObject << /Im1 126 0 R /Im2 127 0 R /Im3 128 0 R /Im4 129 0 R /Im5 130 0 R /Im6 131 0 R /Im7 132 0 R /Im8 133 0 R /Im9 134 0 R /Im10 135 0 R /Im11 136 0 R /Im12 137 0 R /Im13 138 0 R /Im14 139 0 R /Im15 140 0 R /Im16 141 0 R /Im17 142 0 R /Im18 143 0 R /Im19 144 0 R /Im20 145 0 R /Im21 146 0 R /Im22 147 0 R /Im23 148 0 R /Im24 149 0 R /Im25 150 0 R /Im26 151 0 R /Im27 152 0 R /Im28 153 0 R /Im29 154 0 R /Im30 155 0 R /Im31 156 0 R /Im32 157 0 R /Im33 158 0 R /Im34 159 0 R /Im35 160 0 R /Im36 161 0 R /Im37 162 0 R /Im38 163 0 R /Im39 164 0 R /Im40 165 0 R /Im41 166 0 R /Im42 167 0 R /Im43 168 0 R /Im44 169 0 R >> >>
 endobj
 4 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 5 0 R >>
 endobj
 5 0 obj
-<< /Length 1574 >>
+<< /Length 1846 >>
 stream
 0.078 g 0.00 628.00 595.00 214.00 re f
 0 g
@@ -26,10 +26,10 @@ BT /F2 9 Tf 58.00 780.00 Td (BEYOND THE INTERVIEWS) Tj ET
 BT /F2 27 Tf 58.00 730.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.82 g
-BT /F3 11 Tf 58.00 692.00 Td (How databases really store, scale, shard and stay reliable under load.) Tj ET
+BT /F3 11 Tf 58.00 654.00 Td (How databases really store, scale, shard and stay reliable under load.) Tj ET
 0 g
 0.42 g
-BT /F1 9.4 Tf 58.00 582.00 Td (7 chapters \267 compiled from the Evolving Engineer \227 pradyumnachippigiri.substack.com) Tj ET
+BT /F1 9.4 Tf 58.00 582.00 Td (10 chapters \267 compiled from the author's engineering notes and essays) Tj ET
 0 g
 0.42 g
 BT /F1 9.4 Tf 58.00 567.00 Td (By Pradyumna Chippigiri) Tj ET
@@ -44,22 +44,31 @@ BT /F2 9 Tf 58.00 521.00 Td (WHAT'S INSIDE) Tj ET
 BT /F1 9 Tf 58.00 501.00 Td (\225 How databases store data on the disk) Tj ET
 0 g
 0.24 g
-BT /F1 9 Tf 58.00 487.50 Td (\225 Scaling the Databases: Choosing the right strategy) Tj ET
+BT /F1 9 Tf 58.00 487.50 Td (\225 Local SSD \(NVMe\) vs Network SSD \(Block Storage\)) Tj ET
 0 g
 0.24 g
-BT /F1 9 Tf 58.00 474.00 Td (\225 Nail Sharding in System Design Interviews: Range-Based, Hash-Based, Directory-Based) Tj ET
+BT /F1 9 Tf 58.00 474.00 Td (\225 Database Indexing Best Practises) Tj ET
 0 g
 0.24 g
-BT /F1 9 Tf 58.00 460.50 Td (\225 SQL vs NoSQL: A Simple Checklist to Choose the Right Database in Interviews) Tj ET
+BT /F1 9 Tf 58.00 460.50 Td (\225 Scaling the Databases: Choosing the right strategy) Tj ET
 0 g
 0.24 g
-BT /F1 9 Tf 58.00 447.00 Td (\225 Relational Databases & ACID Transactions) Tj ET
+BT /F1 9 Tf 58.00 447.00 Td (\225 Nail Sharding in System Design Interviews: Range-Based, Hash-Based, Directory-Based) Tj ET
 0 g
 0.24 g
-BT /F1 9 Tf 58.00 433.50 Td (\225 Relational Database & ACID Transactions : Part 2) Tj ET
+BT /F1 9 Tf 58.00 433.50 Td (\225 SQL vs NoSQL: A Simple Checklist to Choose the Right Database in Interviews) Tj ET
 0 g
 0.24 g
-BT /F1 9 Tf 58.00 420.00 Td (\225 How does the database guarantee reliability using write-ahead logging?) Tj ET
+BT /F1 9 Tf 58.00 420.00 Td (\225 Relational Databases & ACID Transactions) Tj ET
+0 g
+0.24 g
+BT /F1 9 Tf 58.00 406.50 Td (\225 Relational Database & ACID Transactions : Part 2) Tj ET
+0 g
+0.24 g
+BT /F1 9 Tf 58.00 393.00 Td (\225 How does the database guarantee reliability using write-ahead logging?) Tj ET
+0 g
+0.24 g
+BT /F1 9 Tf 58.00 379.50 Td (\225 Bronze, Silver, Gold layers in data engineering) Tj ET
 0 g
 0.5 g
 BT /F1 8 Tf 58.00 22.00 Td (\251 2026 Pradyumna Chippigiri. Personal-use licence.) Tj ET
@@ -71,7 +80,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 7 0 R >>
 endobj
 7 0 obj
-<< /Length 2128 >>
+<< /Length 2780 >>
 stream
 0.1 g
 BT /F2 15 Tf 58.00 772.00 Td (CONTENTS) Tj ET
@@ -86,58 +95,85 @@ BT /F1 9.4 Tf 531.77 802.00 Td (3) Tj ET
 BT /F3 8.3 Tf 66.00 815.50 Td (Easy explanation of how HDDs and SSDs store data from database) Tj ET
 0 g
 0.12 g
-BT /F2 9.4 Tf 58.00 833.00 Td (Scaling the Databases: Choosing the right strategy) Tj ET
+BT /F2 9.4 Tf 58.00 833.00 Td (Local SSD \(NVMe\) vs Network SSD \(Block Storage\)) Tj ET
 0 g
 0.3 g
 BT /F1 9.4 Tf 526.55 833.00 Td (14) Tj ET
 0 g
 0.48 g
-BT /F3 8.3 Tf 66.00 846.50 Td (Vertical Scaling, Horizontal Scaling: Replication, Sharding.) Tj ET
+BT /F3 8.3 Tf 66.00 846.50 Td (distributed systems) Tj ET
 0 g
 0.12 g
-BT /F2 9.4 Tf 58.00 864.00 Td (Nail Sharding in System Design Interviews: Range-Based, Hash-Based, Directory-Based) Tj ET
+BT /F2 9.4 Tf 58.00 864.00 Td (Database Indexing Best Practises) Tj ET
 0 g
 0.3 g
-BT /F1 9.4 Tf 526.55 864.00 Td (23) Tj ET
+BT /F1 9.4 Tf 526.55 864.00 Td (15) Tj ET
 0 g
 0.48 g
-BT /F3 8.3 Tf 66.00 877.50 Td (A Practical guide about Database Sharding and Partioning in System Design Interviews) Tj ET
+BT /F3 8.3 Tf 66.00 877.50 Td (distributed systems) Tj ET
 0 g
 0.12 g
-BT /F2 9.4 Tf 58.00 895.00 Td (SQL vs NoSQL: A Simple Checklist to Choose the Right Database in Interviews) Tj ET
+BT /F2 9.4 Tf 58.00 895.00 Td (Scaling the Databases: Choosing the right strategy) Tj ET
 0 g
 0.3 g
-BT /F1 9.4 Tf 526.55 895.00 Td (30) Tj ET
+BT /F1 9.4 Tf 526.55 895.00 Td (16) Tj ET
 0 g
 0.48 g
-BT /F3 8.3 Tf 66.00 908.50 Td (Don\222t Guess the Database choice in System Design Interviews: Use this decision checklist) Tj ET
+BT /F3 8.3 Tf 66.00 908.50 Td (Vertical Scaling, Horizontal Scaling: Replication, Sharding.) Tj ET
 0 g
 0.12 g
-BT /F2 9.4 Tf 58.00 926.00 Td (Relational Databases & ACID Transactions) Tj ET
+BT /F2 9.4 Tf 58.00 926.00 Td (Nail Sharding in System Design Interviews: Range-Based, Hash-Based, Directory-Based) Tj ET
 0 g
 0.3 g
-BT /F1 9.4 Tf 526.55 926.00 Td (32) Tj ET
+BT /F1 9.4 Tf 526.55 926.00 Td (25) Tj ET
 0 g
 0.48 g
-BT /F3 8.3 Tf 66.00 939.50 Td (System Design from First Principles : Part 1) Tj ET
+BT /F3 8.3 Tf 66.00 939.50 Td (A Practical guide about Database Sharding and Partioning in System Design Interviews) Tj ET
 0 g
 0.12 g
-BT /F2 9.4 Tf 58.00 957.00 Td (Relational Database & ACID Transactions : Part 2) Tj ET
+BT /F2 9.4 Tf 58.00 957.00 Td (SQL vs NoSQL: A Simple Checklist to Choose the Right Database in Interviews) Tj ET
 0 g
 0.3 g
-BT /F1 9.4 Tf 526.55 957.00 Td (41) Tj ET
+BT /F1 9.4 Tf 526.55 957.00 Td (32) Tj ET
 0 g
 0.48 g
-BT /F3 8.3 Tf 66.00 970.50 Td (System Design from First Principles : Part 2) Tj ET
+BT /F3 8.3 Tf 66.00 970.50 Td (Don\222t Guess the Database choice in System Design Interviews: Use this decision checklist) Tj ET
 0 g
 0.12 g
-BT /F2 9.4 Tf 58.00 988.00 Td (How does the database guarantee reliability using write-ahead logging?) Tj ET
+BT /F2 9.4 Tf 58.00 988.00 Td (Relational Databases & ACID Transactions) Tj ET
 0 g
 0.3 g
-BT /F1 9.4 Tf 526.55 988.00 Td (49) Tj ET
+BT /F1 9.4 Tf 526.55 988.00 Td (34) Tj ET
 0 g
 0.48 g
-BT /F3 8.3 Tf 66.00 1001.50 Td (System Design from its first principles : Part 3) Tj ET
+BT /F3 8.3 Tf 66.00 1001.50 Td (System Design from First Principles : Part 1) Tj ET
+0 g
+0.12 g
+BT /F2 9.4 Tf 58.00 1019.00 Td (Relational Database & ACID Transactions : Part 2) Tj ET
+0 g
+0.3 g
+BT /F1 9.4 Tf 526.55 1019.00 Td (43) Tj ET
+0 g
+0.48 g
+BT /F3 8.3 Tf 66.00 1032.50 Td (System Design from First Principles : Part 2) Tj ET
+0 g
+0.12 g
+BT /F2 9.4 Tf 58.00 1050.00 Td (How does the database guarantee reliability using write-ahead logging?) Tj ET
+0 g
+0.3 g
+BT /F1 9.4 Tf 526.55 1050.00 Td (51) Tj ET
+0 g
+0.48 g
+BT /F3 8.3 Tf 66.00 1063.50 Td (System Design from its first principles : Part 3) Tj ET
+0 g
+0.12 g
+BT /F2 9.4 Tf 58.00 1081.00 Td (Bronze, Silver, Gold layers in data engineering) Tj ET
+0 g
+0.3 g
+BT /F1 9.4 Tf 526.55 1081.00 Td (58) Tj ET
+0 g
+0.48 g
+BT /F3 8.3 Tf 66.00 1094.50 Td (distributed systems) Tj ET
 0 g
 0.88 g 58.00 31.40 479.00 0.60 re f
 0 g
@@ -145,7 +181,7 @@ BT /F3 8.3 Tf 66.00 1001.50 Td (System Design from its first principles : Part 3
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (2 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (2 / 59) Tj ET
 0 g
 
 endstream
@@ -196,7 +232,7 @@ BT /F1 9.6 Tf 58.00 270.75 Td (The disk is composed of the following components 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (3 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (3 / 59) Tj ET
 0 g
 
 endstream
@@ -223,7 +259,7 @@ BT /F1 9.6 Tf 58.00 204.38 Td (Arm: Moves the read/write heads inward or outward
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (4 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (4 / 59) Tj ET
 0 g
 
 endstream
@@ -262,7 +298,7 @@ BT /F1 9.6 Tf 58.00 82.32 Td (where a particular row begins inside the page.) Tj
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (5 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (5 / 59) Tj ET
 0 g
 
 endstream
@@ -295,7 +331,7 @@ BT /F1 9.6 Tf 58.00 91.64 Td (DB finds the page where the rows live and pulls it
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (6 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (6 / 59) Tj ET
 0 g
 
 endstream
@@ -348,7 +384,7 @@ BT /F1 9.6 Tf 58.00 100.94 Td (row is 64 bytes so :) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (7 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (7 / 59) Tj ET
 0 g
 
 endstream
@@ -408,7 +444,7 @@ BT /F1 9.6 Tf 58.00 89.56 Td (the number of block access.) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (8 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (8 / 59) Tj ET
 0 g
 
 endstream
@@ -450,7 +486,7 @@ BT /F4 8.2 Tf 66.00 95.47 Td (= 366.3 ~ 367) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 518.49 18.00 Td (9 / 55) Tj ET
+BT /F1 7.4 Tf 518.49 18.00 Td (9 / 59) Tj ET
 0 g
 
 endstream
@@ -522,7 +558,7 @@ BT /F1 9.6 Tf 58.00 158.25 Td (Pointer to that index page) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (10 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (10 / 59) Tj ET
 0 g
 
 endstream
@@ -559,7 +595,7 @@ BT /F1 9.6 Tf 58.00 116.27 Td (Thanks for reading Evolving Engineer! Subscribe f
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (11 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (11 / 59) Tj ET
 0 g
 
 endstream
@@ -601,7 +637,7 @@ BT /F1 9.6 Tf 58.00 92.62 Td (CMU Course, Database Systems) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (12 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (12 / 59) Tj ET
 0 g
 
 endstream
@@ -619,7 +655,7 @@ BT /F1 9.6 Tf 58.00 778.00 Td (B-trees vs B+ trees) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (13 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (13 / 59) Tj ET
 0 g
 
 endstream
@@ -628,6 +664,115 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 31 0 R >>
 endobj
 31 0 obj
+<< /Length 3614 >>
+stream
+BT /F2 19 Tf 58.00 772.00 Td (Local SSD \(NVMe\) vs Network SSD \(Block Storage\)) Tj ET
+0.46 g
+BT /F3 8.6 Tf 58.00 740.25 Td (2026-02-09 \267 distributed systems) Tj ET
+0 g
+0.55 g
+BT /F1 7.6 Tf 58.00 724.75 Td (Source: Engineering notes \227 pradyumnac26.github.io) Tj ET
+0 g
+0.84 g 58.00 703.05 479.00 0.70 re f
+0 g
+BT /F2 14.5 Tf 58.00 678.75 Td (Local SSD \(NVMe\)) Tj ET
+BT /F1 9.6 Tf 72.00 652.90 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 652.90 Td (The SSD is inside the machine, it is attached directly to the compute instance via PCIe,) Tj ET
+BT /F1 9.6 Tf 72.00 637.00 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 637.00 Td (it is super fast, and has low latency, and high throughput,\(no limit to IOPS unless the hardware is limited.. \)) Tj ET
+BT /F1 9.6 Tf 72.00 621.10 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 621.10 Td (Belongs to that one machine, If the machine crashes / is deleted, the data on that local disk can be lost.) Tj ET
+BT /F1 9.6 Tf 72.00 605.20 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 605.20 Td (cannot detach and reattach to another instance) Tj ET
+BT /F2 14.5 Tf 58.00 573.30 Td (Network SSD \(Block Storage\)) Tj ET
+BT /F1 9.6 Tf 72.00 547.45 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 547.45 Td (The disk is not inside the machine, it is a separate disk that is attached to the machine over the network, \(It) Tj ET
+BT /F1 9.6 Tf 80.01 534.05 Td (lives on a separate storage system in the cloud/datacenter.\)) Tj ET
+BT /F1 9.6 Tf 72.00 518.15 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 518.15 Td (data survives instance reboots, terminations, and migrations because it is stored on a separate storage) Tj ET
+BT /F1 9.6 Tf 80.01 504.75 Td (system.) Tj ET
+BT /F1 9.6 Tf 72.00 488.85 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 488.85 Td (It is a bit slower than local SSD because the request goes through the network. meaning it has higher) Tj ET
+BT /F1 9.6 Tf 80.01 475.45 Td (latency... \(also has limited IOPS\)) Tj ET
+BT /F1 9.6 Tf 72.00 459.55 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 459.55 Td (What if even that seeprate storage system fails ? , i mean it can too so for that -> typically replicatation is) Tj ET
+BT /F1 9.6 Tf 80.01 446.15 Td (done...) Tj ET
+BT /F1 9.6 Tf 72.00 430.25 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 430.25 Td (Examples: AWS EBS gp3/io2, GCP Persistent Disk, Azure Managed Disk) Tj ET
+BT /F2 14.5 Tf 58.00 398.35 Td (Use Cases) Tj ET
+BT /F1 9.6 Tf 58.00 372.50 Td (Local SSD \(NVMe\):) Tj ET
+BT /F1 9.6 Tf 72.00 352.60 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 352.60 Td (Cache layers \(Redis, Memcached working sets\)) Tj ET
+BT /F1 9.6 Tf 72.00 336.70 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 336.70 Td (Temp data, scratch space) Tj ET
+BT /F1 9.6 Tf 72.00 320.80 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 320.80 Td (High-throughput OLTP where you replicate at app level) Tj ET
+BT /F1 9.6 Tf 72.00 304.90 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 304.90 Td (Workloads that can tolerate loss and rebuild from elsewhere) Tj ET
+BT /F1 9.6 Tf 58.00 289.00 Td (Network SSD \(Block Storage\):) Tj ET
+BT /F1 9.6 Tf 72.00 269.10 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 269.10 Td (Boot volumes) Tj ET
+BT /F1 9.6 Tf 72.00 253.20 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 253.20 Td (Databases where persistence is required) Tj ET
+BT /F1 9.6 Tf 72.00 237.30 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 237.30 Td (When you need to detach/reattach disks) Tj ET
+BT /F1 9.6 Tf 72.00 221.40 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 221.40 Td (Workloads requiring durability and backup) Tj ET
+0.88 g 58.00 31.40 479.00 0.60 re f
+0 g
+0.52 g
+BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
+0 g
+0.52 g
+BT /F1 7.4 Tf 514.37 18.00 Td (14 / 59) Tj ET
+0 g
+
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 33 0 R >>
+endobj
+33 0 obj
+<< /Length 1743 >>
+stream
+BT /F2 19 Tf 58.00 772.00 Td (Database Indexing Best Practises) Tj ET
+0.46 g
+BT /F3 8.6 Tf 58.00 740.25 Td (2026-02-26 \267 distributed systems) Tj ET
+0 g
+0.55 g
+BT /F1 7.6 Tf 58.00 724.75 Td (Source: Engineering notes \227 pradyumnac26.github.io) Tj ET
+0 g
+0.84 g 58.00 703.05 479.00 0.70 re f
+0 g
+BT /F1 9.6 Tf 58.00 694.75 Td (A bad database index is worse than no index.) Tj ET
+BT /F1 9.6 Tf 58.00 674.85 Td (Database indexing can be expensive if not done the right way.) Tj ET
+BT /F1 9.6 Tf 58.00 654.95 Td (here are some best practices to follow :) Tj ET
+BT /F1 9.6 Tf 72.00 635.05 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 635.05 Td (add indexes based on actual query patterns, especially columns used in filters, joins, and sorting) Tj ET
+BT /F1 9.6 Tf 72.00 619.15 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 619.15 Td (use explain analyze before adding an index to understand the query path, and after adding it to confirm the) Tj ET
+BT /F1 9.6 Tf 80.01 605.75 Td (database is using the right index properly.) Tj ET
+BT /F1 9.6 Tf 72.00 589.85 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 589.85 Td (indexes can slow down writes, because every insert, update, and delete may now need to change in both) Tj ET
+BT /F1 9.6 Tf 80.01 576.45 Td (the original table and the related indexes table. So avoid adding unnecessary indexes.) Tj ET
+BT /F1 9.6 Tf 72.00 560.55 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 560.55 Td (avoid indexing huge fields like large text columns, because that can make the index bulky, slower, and) Tj ET
+BT /F1 9.6 Tf 80.01 547.15 Td (more expensive to maintain) Tj ET
+0.88 g 58.00 31.40 479.00 0.60 re f
+0 g
+0.52 g
+BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
+0 g
+0.52 g
+BT /F1 7.4 Tf 514.37 18.00 Td (15 / 59) Tj ET
+0 g
+
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 35 0 R >>
+endobj
+35 0 obj
 << /Length 3048 >>
 stream
 BT /F2 19 Tf 58.00 772.00 Td (Scaling the Databases: Choosing the right strategy) Tj ET
@@ -667,15 +812,15 @@ BT /F2 12 Tf 58.00 328.65 Td (What is Vertical Scaling?) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (14 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (16 / 59) Tj ET
 0 g
 
 endstream
 endobj
-32 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 33 0 R >>
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 37 0 R >>
 endobj
-33 0 obj
+37 0 obj
 << /Length 1803 >>
 stream
 q 322.93 0 0 420.00 136.03 353.00 cm /Im12 Do Q
@@ -700,15 +845,15 @@ BT /F1 9.6 Tf 58.00 82.65 Td (Potential downtime during upgrades) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (15 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (17 / 59) Tj ET
 0 g
 
 endstream
 endobj
-34 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 35 0 R >>
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 39 0 R >>
 endobj
-35 0 obj
+39 0 obj
 << /Length 1619 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (Scaling up often requires a reboot or some kind of failover:) Tj ET
@@ -732,15 +877,15 @@ BT /F2 12 Tf 58.00 499.40 Td (What is Horizontal Scaling?) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (16 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (18 / 59) Tj ET
 0 g
 
 endstream
 endobj
-36 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 37 0 R >>
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 41 0 R >>
 endobj
-37 0 obj
+41 0 obj
 << /Length 2053 >>
 stream
 q 328.07 0 0 420.00 133.47 353.00 cm /Im13 Do Q
@@ -766,15 +911,15 @@ BT /F1 9.6 Tf 58.00 91.00 Td (to be consistent, meaning every user and every ser
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (17 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (19 / 59) Tj ET
 0 g
 
 endstream
 endobj
-38 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 39 0 R >>
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 43 0 R >>
 endobj
-39 0 obj
+43 0 obj
 << /Length 2878 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (So when we add more database servers, we have to decide how they share data and who is allowed to do what,) Tj ET
@@ -808,15 +953,15 @@ BT /F1 9.6 Tf 58.00 303.95 Td (Just for example in the application layer it may 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (18 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (20 / 59) Tj ET
 0 g
 
 endstream
 endobj
-40 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 41 0 R >>
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 45 0 R >>
 endobj
-41 0 obj
+45 0 obj
 << /Length 3838 >>
 stream
 0.16 g
@@ -958,15 +1103,15 @@ BT /F2 10.5 Tf 58.00 209.15 Td (1. Synchronous replication) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (19 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (21 / 59) Tj ET
 0 g
 
 endstream
 endobj
-42 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 43 0 R >>
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 47 0 R >>
 endobj
-43 0 obj
+47 0 obj
 << /Length 1307 >>
 stream
 q 479.00 0 0 249.08 58.00 523.92 cm /Im14 Do Q
@@ -988,15 +1133,15 @@ BT /F2 10.5 Tf 58.00 285.02 Td (2. Asynchronous replication) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (20 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (22 / 59) Tj ET
 0 g
 
 endstream
 endobj
-44 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 45 0 R >>
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 49 0 R >>
 endobj
-45 0 obj
+49 0 obj
 << /Length 2080 >>
 stream
 q 479.00 0 0 301.77 58.00 471.23 cm /Im15 Do Q
@@ -1026,15 +1171,15 @@ BT /F1 9.6 Tf 58.00 83.43 Td (A shard is just a subset of your data stored in a 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (21 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (23 / 59) Tj ET
 0 g
 
 endstream
 endobj
-46 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 47 0 R >>
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 51 0 R >>
 endobj
-47 0 obj
+51 0 obj
 << /Length 3072 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (Shard 1 -> Users with IDs 1\2261,000,000) Tj ET
@@ -1091,15 +1236,15 @@ BT /F1 9.6 Tf 58.00 332.80 Td (Thanks for reading LevelYouUp! Subscribe for free
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (22 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (24 / 59) Tj ET
 0 g
 
 endstream
 endobj
-48 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 49 0 R >>
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 53 0 R >>
 endobj
-49 0 obj
+53 0 obj
 << /Length 3181 >>
 stream
 BT /F2 19 Tf 58.00 772.00 Td (Nail Sharding in System Design Interviews:) Tj ET
@@ -1143,15 +1288,15 @@ BT /F1 9.6 Tf 58.00 244.50 Td (A shard is just a subset of your data stored in a
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (23 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (25 / 59) Tj ET
 0 g
 
 endstream
 endobj
-50 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 51 0 R >>
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 55 0 R >>
 endobj
-51 0 obj
+55 0 obj
 << /Length 2246 >>
 stream
 q 479.00 0 0 305.50 58.00 467.50 cm /Im16 Do Q
@@ -1183,15 +1328,15 @@ BT /F1 9.6 Tf 58.00 78.70 Td (goes through this routing logic before it touches 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (24 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (26 / 59) Tj ET
 0 g
 
 endstream
 endobj
-52 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 53 0 R >>
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 57 0 R >>
 endobj
-53 0 obj
+57 0 obj
 << /Length 3766 >>
 stream
 0.16 g
@@ -1266,15 +1411,15 @@ BT /F1 9.6 Tf 58.00 94.00 Td (Higher latency and complexity) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (25 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (27 / 59) Tj ET
 0 g
 
 endstream
 endobj
-54 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 55 0 R >>
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 59 0 R >>
 endobj
-55 0 obj
+59 0 obj
 << /Length 2535 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (Immutable and Stable) Tj ET
@@ -1316,15 +1461,15 @@ BT /F1 9.6 Tf 58.00 97.78 Td (sharding strategy.) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (26 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (28 / 59) Tj ET
 0 g
 
 endstream
 endobj
-56 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 57 0 R >>
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 61 0 R >>
 endobj
-57 0 obj
+61 0 obj
 << /Length 1386 >>
 stream
 q 479.00 0 0 261.32 58.00 511.68 cm /Im18 Do Q
@@ -1344,15 +1489,15 @@ BT /F1 9.6 Tf 58.00 347.33 Td (shard assignments in a mapping table or service.)
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (27 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (29 / 59) Tj ET
 0 g
 
 endstream
 endobj
-58 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 59 0 R >>
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 63 0 R >>
 endobj
-59 0 obj
+63 0 obj
 << /Length 2037 >>
 stream
 q 479.00 0 0 261.32 58.00 511.68 cm /Im19 Do Q
@@ -1378,15 +1523,15 @@ BT /F1 9.6 Tf 58.00 255.28 Td (them easier to maintain. This keeps your database
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (28 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (30 / 59) Tj ET
 0 g
 
 endstream
 endobj
-60 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 61 0 R >>
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 65 0 R >>
 endobj
-61 0 obj
+65 0 obj
 << /Length 1844 >>
 stream
 q 479.00 0 0 261.32 58.00 511.68 cm /Im20 Do Q
@@ -1414,15 +1559,15 @@ BT /F1 9.6 Tf 58.00 159.88 Td (Share) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (29 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (31 / 59) Tj ET
 0 g
 
 endstream
 endobj
-62 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 63 0 R >>
+66 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 67 0 R >>
 endobj
-63 0 obj
+67 0 obj
 << /Length 4697 >>
 stream
 BT /F2 19 Tf 58.00 772.00 Td (SQL vs NoSQL: A Simple Checklist to Choose the) Tj ET
@@ -1477,15 +1622,15 @@ BT /F1 9.6 Tf 58.00 91.30 Td (sharding, read replicas, and failover since not al
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (30 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (32 / 59) Tj ET
 0 g
 
 endstream
 endobj
-64 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 65 0 R >>
+68 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 69 0 R >>
 endobj
-65 0 obj
+69 0 obj
 << /Length 2414 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (???? ???????????: \(How correct does it need to be ?\)) Tj ET
@@ -1513,15 +1658,15 @@ BT /F1 9.6 Tf 58.00 116.21 Td (Thanks for reading LevelYouUp! Subscribe for free
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (31 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (33 / 59) Tj ET
 0 g
 
 endstream
 endobj
-66 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 67 0 R >>
+70 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 71 0 R >>
 endobj
-67 0 obj
+71 0 obj
 << /Length 3673 >>
 stream
 BT /F2 19 Tf 58.00 772.00 Td (Relational Databases & ACID Transactions) Tj ET
@@ -1567,15 +1712,15 @@ BT /F1 9.6 Tf 58.00 90.17 Td (No clear rules \(constraints\) to prevent invalid 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (32 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (34 / 59) Tj ET
 0 g
 
 endstream
 endobj
-68 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 69 0 R >>
+72 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 73 0 R >>
 endobj
-69 0 obj
+73 0 obj
 << /Length 632 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (Data was scattered across many files/programs.) Tj ET
@@ -1589,15 +1734,15 @@ BT /F1 9.6 Tf 58.00 345.66 Td (And to help RDMS achieve all these properties, \2
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (33 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (35 / 59) Tj ET
 0 g
 
 endstream
 endobj
-70 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 71 0 R >>
+74 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 75 0 R >>
 endobj
-71 0 obj
+75 0 obj
 << /Length 910 >>
 stream
 q 462.10 0 0 420.00 66.45 353.00 cm /Im24 Do Q
@@ -1613,15 +1758,15 @@ BT /F1 9.6 Tf 58.00 250.30 Td (These are the steps you would follow right.) Tj E
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (34 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (36 / 59) Tj ET
 0 g
 
 endstream
 endobj
-72 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 73 0 R >>
+76 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 77 0 R >>
 endobj
-73 0 obj
+77 0 obj
 << /Length 1833 >>
 stream
 q 479.00 0 0 257.06 58.00 515.94 cm /Im25 Do Q
@@ -1644,15 +1789,15 @@ BT /F1 9.6 Tf 58.00 291.89 Td (And mid way as you update and send 100$ to accoun
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (35 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (37 / 59) Tj ET
 0 g
 
 endstream
 endobj
-74 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 75 0 R >>
+78 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 79 0 R >>
 endobj
-75 0 obj
+79 0 obj
 << /Length 1280 >>
 stream
 q 479.00 0 0 241.63 58.00 531.37 cm /Im26 Do Q
@@ -1672,15 +1817,15 @@ BT /F1 9.6 Tf 58.00 362.77 Td (ensuring that the entire transaction is treated a
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (36 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (38 / 59) Tj ET
 0 g
 
 endstream
 endobj
-76 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 77 0 R >>
+80 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 81 0 R >>
 endobj
-77 0 obj
+81 0 obj
 << /Length 1499 >>
 stream
 q 479.00 0 0 277.18 58.00 495.82 cm /Im27 Do Q
@@ -1699,15 +1844,15 @@ BT /F1 9.6 Tf 58.00 373.12 Td (the data state consistent with the leader node an
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (37 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (39 / 59) Tj ET
 0 g
 
 endstream
 endobj
-78 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 79 0 R >>
+82 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 83 0 R >>
 endobj
-79 0 obj
+83 0 obj
 << /Length 1861 >>
 stream
 q 361.43 0 0 420.00 116.79 353.00 cm /Im28 Do Q
@@ -1733,15 +1878,15 @@ BT /F1 9.6 Tf 58.00 75.75 Td (FOREIGN KEY \226 child rows must point to existing
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (38 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (40 / 59) Tj ET
 0 g
 
 endstream
 endobj
-80 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 81 0 R >>
+84 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 85 0 R >>
 endobj
-81 0 obj
+85 0 obj
 << /Length 3544 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (CHECK \226 values must satisfy conditions \(e.g., age must not be negative , age >= 0\)) Tj ET
@@ -1836,15 +1981,15 @@ BT /F4 8.2 Tf 66.00 211.70 Td (\);) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (39 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (41 / 59) Tj ET
 0 g
 
 endstream
 endobj
-82 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 83 0 R >>
+86 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 87 0 R >>
 endobj
-83 0 obj
+87 0 obj
 << /Length 3977 >>
 stream
 0.16 g
@@ -1970,15 +2115,15 @@ BT /F1 9.6 Tf 58.00 173.60 Td (See you in the next one ??) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (40 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (42 / 59) Tj ET
 0 g
 
 endstream
 endobj
-84 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 85 0 R >>
+88 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 89 0 R >>
 endobj
-85 0 obj
+89 0 obj
 << /Length 1651 >>
 stream
 BT /F2 19 Tf 58.00 772.00 Td (Relational Database & ACID Transactions : Part 2) Tj ET
@@ -2006,15 +2151,15 @@ q 420.00 0 0 420.00 87.50 116.65 cm /Im29 Do Q
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (41 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (43 / 59) Tj ET
 0 g
 
 endstream
 endobj
-86 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 87 0 R >>
+90 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 91 0 R >>
 endobj
-87 0 obj
+91 0 obj
 << /Length 1613 >>
 stream
 BT /F2 12 Tf 58.00 765.00 Td (3. Isolation) Tj ET
@@ -2037,15 +2182,15 @@ BT /F1 9.6 Tf 58.00 346.66 Td (in the committed state.) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (42 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (44 / 59) Tj ET
 0 g
 
 endstream
 endobj
-88 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 89 0 R >>
+92 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 93 0 R >>
 endobj
-89 0 obj
+93 0 obj
 << /Length 1386 >>
 stream
 q 479.00 0 0 256.00 58.00 517.00 cm /Im31 Do Q
@@ -2066,15 +2211,15 @@ BT /F1 9.6 Tf 58.00 84.26 Td (NOTE: This is different from non repeatable reads 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (43 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (45 / 59) Tj ET
 0 g
 
 endstream
 endobj
-90 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 91 0 R >>
+94 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 95 0 R >>
 endobj
-91 0 obj
+95 0 obj
 << /Length 2015 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (changes, but in phantom reads, new rows are added or deleted.) Tj ET
@@ -2102,15 +2247,15 @@ BT /F1 9.6 Tf 58.00 162.19 Td (databases.\)) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (44 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (46 / 59) Tj ET
 0 g
 
 endstream
 endobj
-92 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 93 0 R >>
+96 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 97 0 R >>
 endobj
-93 0 obj
+97 0 obj
 << /Length 947 >>
 stream
 q 479.00 0 0 220.34 58.00 552.66 cm /Im34 Do Q
@@ -2127,15 +2272,15 @@ q 479.00 0 0 221.94 58.00 84.35 cm /Im36 Do Q
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (45 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (47 / 59) Tj ET
 0 g
 
 endstream
 endobj
-94 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 95 0 R >>
+98 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 99 0 R >>
 endobj
-95 0 obj
+99 0 obj
 << /Length 2270 >>
 stream
 BT /F2 10.5 Tf 58.00 767.00 Td (Read Committed) Tj ET
@@ -2170,15 +2315,15 @@ BT /F1 9.6 Tf 58.00 110.46 Td (As you see we havent committed yet in T2) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (46 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (48 / 59) Tj ET
 0 g
 
 endstream
 endobj
-96 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 97 0 R >>
+100 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 101 0 R >>
 endobj
-97 0 obj
+101 0 obj
 << /Length 3301 >>
 stream
 BT /F2 10.5 Tf 58.00 767.00 Td (Serializable) Tj ET
@@ -2219,15 +2364,15 @@ BT /F1 9.6 Tf 58.00 88.97 Td (catastrophic failure:) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (47 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (49 / 59) Tj ET
 0 g
 
 endstream
 endobj
-98 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 99 0 R >>
+102 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 103 0 R >>
 endobj
-99 0 obj
+103 0 obj
 << /Length 1274 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (Full Backups: Capture the entire database at a specific point in time.) Tj ET
@@ -2246,15 +2391,15 @@ BT /F1 9.6 Tf 58.00 618.40 Td (Thanks for reading LevelYouUp! Subscribe for free
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (48 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (50 / 59) Tj ET
 0 g
 
 endstream
 endobj
-100 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 101 0 R >>
+104 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 105 0 R >>
 endobj
-101 0 obj
+105 0 obj
 << /Length 3022 >>
 stream
 BT /F2 19 Tf 58.00 772.00 Td (How does the database guarantee reliability using) Tj ET
@@ -2302,15 +2447,15 @@ BT /F1 9.6 Tf 58.00 249.30 Td (disk are changed both in the table and in any ind
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (49 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (51 / 59) Tj ET
 0 g
 
 endstream
 endobj
-102 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 103 0 R >>
+106 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 107 0 R >>
 endobj
-103 0 obj
+107 0 obj
 << /Length 1562 >>
 stream
 q 479.00 0 0 171.91 58.00 601.09 cm /Im41 Do Q
@@ -2333,15 +2478,15 @@ BT /F1 9.6 Tf 58.00 346.09 Td (Before making changes to the actual database file
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (50 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (52 / 59) Tj ET
 0 g
 
 endstream
 endobj
-104 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 105 0 R >>
+108 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 109 0 R >>
 endobj
-105 0 obj
+109 0 obj
 << /Length 2512 >>
 stream
 q 479.00 0 0 277.18 58.00 495.82 cm /Im42 Do Q
@@ -2374,15 +2519,15 @@ BT /F1 9.6 Tf 58.00 88.02 Td (OS writes that to the page cache in RAM.) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (51 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (53 / 59) Tj ET
 0 g
 
 endstream
 endobj
-106 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 107 0 R >>
+110 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 111 0 R >>
 endobj
-107 0 obj
+111 0 obj
 << /Length 3409 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (Only when the OS actually issues a disk write + flush do the bytes land on physical storage.) Tj ET
@@ -2426,15 +2571,15 @@ BT /F1 9.6 Tf 58.00 81.65 Td (The record is considered corrupted / incomplete.) 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (52 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (54 / 59) Tj ET
 0 g
 
 endstream
 endobj
-108 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 109 0 R >>
+112 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 113 0 R >>
 endobj
-109 0 obj
+113 0 obj
 << /Length 1701 >>
 stream
 BT /F2 10.5 Tf 58.00 767.00 Td (6. Under the Hood: Segments, Pages, and LSNs) Tj ET
@@ -2460,15 +2605,15 @@ q 479.00 0 0 382.67 58.00 76.18 cm /Im43 Do Q
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (53 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (55 / 59) Tj ET
 0 g
 
 endstream
 endobj
-110 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 111 0 R >>
+114 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 115 0 R >>
 endobj
-111 0 obj
+115 0 obj
 << /Length 2190 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (LSNs are used to:) Tj ET
@@ -2498,15 +2643,15 @@ BT /F1 9.6 Tf 58.00 94.46 Td (Flush WAL to Disk: It forces only the WAL records 
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (54 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (56 / 59) Tj ET
 0 g
 
 endstream
 endobj
-112 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 113 0 R >>
+116 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 117 0 R >>
 endobj
-113 0 obj
+117 0 obj
 << /Length 3710 >>
 stream
 BT /F1 9.6 Tf 58.00 778.00 Td (Note: The main data file on the disk is still old. The new data exists only in the WAL \(on disk\) and the Dirty Page) Tj ET
@@ -2547,24 +2692,156 @@ BT /F1 9.6 Tf 58.00 200.10 Td (Share) Tj ET
 BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
 0 g
 0.52 g
-BT /F1 7.4 Tf 514.37 18.00 Td (55 / 55) Tj ET
+BT /F1 7.4 Tf 514.37 18.00 Td (57 / 59) Tj ET
 0 g
 
 endstream
 endobj
-114 0 obj
+118 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 119 0 R >>
+endobj
+119 0 obj
+<< /Length 3734 >>
+stream
+BT /F2 19 Tf 58.00 772.00 Td (Bronze, Silver, Gold layers in data engineering) Tj ET
+0.46 g
+BT /F3 8.6 Tf 58.00 740.25 Td (2026-06-16 \267 distributed systems) Tj ET
+0 g
+0.55 g
+BT /F1 7.6 Tf 58.00 724.75 Td (Source: Engineering notes \227 pradyumnac26.github.io) Tj ET
+0 g
+0.84 g 58.00 703.05 479.00 0.70 re f
+0 g
+BT /F1 9.6 Tf 58.00 694.75 Td (TIL: Medallion Architecture is a layered way to organize data pipelines so data quality improves step by step.) Tj ET
+BT /F2 14.5 Tf 58.00 658.85 Td (What is Medallion Architecture?) Tj ET
+BT /F1 9.6 Tf 58.00 633.00 Td (It is a pattern where data moves through 3 layers:) Tj ET
+BT /F1 9.6 Tf 72.00 613.10 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 613.10 Td (Bronze: raw ingested data) Tj ET
+BT /F1 9.6 Tf 72.00 597.20 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 597.20 Td (Silver: cleaned and validated data) Tj ET
+BT /F1 9.6 Tf 72.00 581.30 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 581.30 Td (Gold: business-ready aggregated data) Tj ET
+BT /F1 9.6 Tf 58.00 565.40 Td (Simple idea: do not jump directly from raw to dashboards. First keep raw, then clean, then model for analytics.) Tj ET
+BT /F2 14.5 Tf 58.00 529.50 Td (Bronze layer \(raw\)) Tj ET
+BT /F1 9.6 Tf 58.00 503.65 Td (Bronze stores source data as-is with minimal transformation.) Tj ET
+BT /F1 9.6 Tf 58.00 483.75 Td (Typical characteristics:) Tj ET
+BT /F1 9.6 Tf 72.00 463.85 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 463.85 Td (append-only ingestion) Tj ET
+BT /F1 9.6 Tf 72.00 447.95 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 447.95 Td (full raw records) Tj ET
+BT /F1 9.6 Tf 72.00 432.05 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 432.05 Td (useful for reprocessing and audit/debug) Tj ET
+BT /F1 9.6 Tf 58.00 416.15 Td (Think of this as your "ground truth landing zone.") Tj ET
+BT /F1 9.6 Tf 58.00 396.25 Td (Small example \(Bronze\):) Tj ET
+0.16 g
+BT /F4 8.2 Tf 66.00 370.35 Td (order_id=101, user_id=42, amount="1999", created_at="2026-06-16T10:11:12Z", source="mobile-app) Tj ET
+0 g
+0.16 g
+BT /F4 8.2 Tf 66.00 359.35 Td ("order_id=101, user_id=42, amount="1999", created_at="2026-06-16T10:11:12Z", source="mobile-ap) Tj ET
+0 g
+0.16 g
+BT /F4 8.2 Tf 66.00 348.35 Td (p" \(duplicate\)) Tj ET
+0 g
+0.955 g 58.00 330.35 479.00 47.00 re f
+0 g
+BT /F2 14.5 Tf 58.00 313.35 Td (Silver layer \(refined\)) Tj ET
+BT /F1 9.6 Tf 58.00 287.50 Td (Silver is where data quality improvements happen.) Tj ET
+BT /F1 9.6 Tf 58.00 267.60 Td (Typical operations:) Tj ET
+BT /F1 9.6 Tf 72.00 247.70 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 247.70 Td (schema enforcement and normalization) Tj ET
+BT /F1 9.6 Tf 72.00 231.80 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 231.80 Td (deduplication) Tj ET
+BT /F1 9.6 Tf 72.00 215.90 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 215.90 Td (null handling and basic validations) Tj ET
+BT /F1 9.6 Tf 72.00 200.00 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 200.00 Td (join/reference fixes) Tj ET
+BT /F1 9.6 Tf 58.00 184.10 Td (At this stage, data is trustworthy enough for most internal analytics and feature prep.) Tj ET
+BT /F1 9.6 Tf 58.00 164.20 Td (Small example \(Silver\):) Tj ET
+0.16 g
+BT /F4 8.2 Tf 66.00 138.30 Td (order_id=101, user_id=42, amount=1999.00, created_date=2026-06-16, channel="mobile") Tj ET
+0 g
+0.955 g 58.00 120.30 479.00 25.00 re f
+0 g
+BT /F1 9.6 Tf 72.00 119.30 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 119.30 Td (duplicate removed) Tj ET
+BT /F1 9.6 Tf 72.00 103.40 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 103.40 Td (amount converted to numeric type) Tj ET
+BT /F1 9.6 Tf 72.00 87.50 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 87.50 Td (timestamp normalized to a standard date/time format) Tj ET
+0.88 g 58.00 31.40 479.00 0.60 re f
+0 g
+0.52 g
+BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
+0 g
+0.52 g
+BT /F1 7.4 Tf 514.37 18.00 Td (58 / 59) Tj ET
+0 g
+
+endstream
+endobj
+120 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources 3 0 R /Contents 121 0 R >>
+endobj
+121 0 obj
+<< /Length 2137 >>
+stream
+BT /F2 14.5 Tf 58.00 762.00 Td (Gold layer \(curated/business\)) Tj ET
+BT /F1 9.6 Tf 58.00 736.15 Td (Gold is optimized for consumption by BI tools, reports, and product metrics.) Tj ET
+BT /F1 9.6 Tf 58.00 716.25 Td (Typical operations:) Tj ET
+BT /F1 9.6 Tf 72.00 696.35 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 696.35 Td (aggregations \(daily, weekly, monthly\)) Tj ET
+BT /F1 9.6 Tf 72.00 680.45 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 680.45 Td (dimensional/star style modeling) Tj ET
+BT /F1 9.6 Tf 72.00 664.55 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 664.55 Td (KPI-ready tables \(for example: revenue by region, retention cohorts\)) Tj ET
+BT /F1 9.6 Tf 58.00 648.65 Td (Gold should be stable, easy to query, and aligned with business definitions.) Tj ET
+BT /F1 9.6 Tf 58.00 628.75 Td (Small example \(Gold\):) Tj ET
+0.16 g
+BT /F4 8.2 Tf 66.00 602.85 Td (date=2026-06-16, channel="mobile", total_orders=12450, total_revenue=24500000) Tj ET
+0 g
+0.955 g 58.00 584.85 479.00 25.00 re f
+0 g
+BT /F1 9.6 Tf 58.00 583.85 Td (This is now directly usable in dashboards/KPI reporting.) Tj ET
+BT /F2 14.5 Tf 58.00 547.95 Td (Why this model works well) Tj ET
+BT /F1 9.6 Tf 72.00 522.10 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 522.10 Td (easier debugging \(you can inspect each stage\)) Tj ET
+BT /F1 9.6 Tf 72.00 506.20 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 506.20 Td (safer transformations \(quality gates between layers\)) Tj ET
+BT /F1 9.6 Tf 72.00 490.30 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 490.30 Td (reusability \(many gold datasets can reuse same silver data\)) Tj ET
+BT /F1 9.6 Tf 72.00 474.40 Td (\225) Tj ET
+BT /F1 9.6 Tf 80.01 474.40 Td (better governance and lineage) Tj ET
+BT /F2 14.5 Tf 58.00 442.50 Td (Quick mental model) Tj ET
+0.16 g
+BT /F4 8.2 Tf 66.00 410.65 Td (Raw events/files -> Bronze -> Silver -> Gold -> BI/ML/Apps) Tj ET
+0 g
+0.955 g 58.00 392.65 479.00 25.00 re f
+0 g
+BT /F1 9.6 Tf 58.00 391.65 Td (That is the core of Bronze/Silver/Gold in data engineering.) Tj ET
+0.88 g 58.00 31.40 479.00 0.60 re f
+0 g
+0.52 g
+BT /F1 7.4 Tf 58.00 18.00 Td (Database & Storage Deep Dive) Tj ET
+0 g
+0.52 g
+BT /F1 7.4 Tf 514.37 18.00 Td (59 / 59) Tj ET
+0 g
+
+endstream
+endobj
+122 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
-115 0 obj
+123 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
-116 0 obj
+124 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
 endobj
-117 0 obj
+125 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
 endobj
-118 0 obj
+126 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 789 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 326562 >>
 stream
 xÚì˜Eº¿ÿÏs¯wïŞ]ÃwÍ fÄ€$(HN$*" Š€(‚€AIJC˜ar3ùLÎ9çœsÿwNÁÙ³CpÀˆ|¿§Ÿ3gúTW}õuwõ[ÕZ[E"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"‘H$‰D"ÑK-:577_ã×kH(‰D"‘H$ú£Á­`ªH$‰D"‘èòiö‰D"‘H$]Q:555éßÎ·tXWÄWñªH$‰D"‘H$‰D"‘H$ú#«¡¡¡¾¾¾¶¶¶ªªª¬¬¬¨¨(???çz”——WXXXZZZQQA$ÕÕÕD¨Z¥T$‰D"‘èÖTSks³n»ø‹nÓıÏVßÚZÛÜZ^ß_]›YZ”W“‘œêãääãçèíëàåc¯õ¶õĞZ»y°Ù¸{^¾ÙyzÌ-08 &."%->;7¥ ¨ °¼¶mekhjmlhjnnMT%Ím[sÓESÔÖr•M$‰D"‘Ht“³hKKKSCcc}CS}SumCUM}E]CYM]~yElf6	Iz…E@¡0§±Ã9»³Ö¶lg¬lŒ,­O[X2·äóò0çmí-œ]5¾şÚĞpÿèØàøÄ¼üÒŠªÚšºFˆ”Ïúº††ú†º:ş4ü›E[š…EE"‘H$‰ş´jã½][hˆÖÔÔTVVæ%¦gÆ¥¤Å¤¥G§¦…$$ÇÆDE{‡†y»ù8j½¬]\mİÜ;¸Ù{x:xj¼¼9–ˆÇ7<Â+$Ô?2*(&646."!1&))53³´¼mB-M
@@ -3857,7 +4134,7 @@ JJhùt<Œ³‚ı}zuMs¡"fĞ$Î·êOúEW7‰oÿæ?ˆF  ş¯øÿóïÚóº¼¯¬­ótÜıöÃ7*¥¬^úµ…©LMml
                                                                                                                                                                                                                                                                                                                                                           ÿ÷üe«
 endstream
 endobj
-119 0 obj
+127 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 312 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 141851 >>
 stream
 xÚì ÅõÿöŞcÄˆ&ş5vÅ‚¢b¯DÅ–¨QD£?Q”Ş;¤w”¦HïRE@DEàõ÷n}½Ü~·Ïÿ;{î—gILTœ¯ëeßŞÙÙİÙ½;Ÿ93s¿€lÛN¹ÂŠ`±X,‹Åb±~[®¸X,‹Åb±X,‹Åb±X,Ö)Çq¸X,‹Åb±X¿%*ee±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,ëçÊ4Í´«p8Ü£G—_~ù•W^ÉÊÊ*++Ó]Ù¶o5M³,"½ã8ØŸØo±>ñV°=•J!'“IÚˆul§}!Ê
@@ -4411,7 +4688,7 @@ YQñvQ¦:œP:åKdNì°”–—ïŞEZYyÅµk× uMyp¥=ÚR°åİ†•U}vÎ{¼¶!9%sWDÔ¡¢’–Öv?ç—ƒJûKÉƒH”
 ‹ÅR__ìØ±ööv¼ˆÕŒĞ(pQ“£"ˆÿ“ş†
 endstream
 endobj
-120 0 obj
+128 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 350 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 67637 >>
 stream
 xÚì`Ç÷Çï.º»÷×R…Š•Å¥X)îîîîîPPŠShqwHr'ó»$=ßÓı¿İI–å¤ÿ÷íã:77;»wÙİùì›™74B¡P(
@@ -4770,7 +5047,7 @@ mäJ«×Şwß}1ÖX§ÃU®JiiqyşWf=–iK8–f³Õ]ãÚcÂ²çLŸÿÏ+ÿmNÍJpdX'Ìei¦ÒÆ²:ê)SEJDÁ
 Ÿª»àxppPAODDDDÓB’äĞĞaN5g¨jÔë?U¤”L¨'ÕÉ^v«%ªÄ«ò¡^\Tv#UX®•J¥³^t²šô‘¡ÉSívÊÿ DDDDÓÈ0ñh‡÷QÒß†«¯@ÕT¤šÕüå¼¨ùÏuõ'îˆ4qR•cÛ3é7ì_d¨Ò¯o#5ÙæPDDDD4õqT‹­ç4•ßz‹aË¤¿Ï‘Te×{=£6!5O²EÔ/ïbè¯¦@™B‰ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆş¿şä{½
 endstream
 endobj
-121 0 obj
+129 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 421 /ColorSpace /DeviceGray /BitsPerComponent 8 /Filter /FlateDecode /Length 45764 >>
 stream
 xÚì]`EŞ\Éå.½½é”Ş{SA,XQP,ü¢"Š¢ˆE@zPéBïB ½İåvwê?³ äv“\(aGE’»Û›}ß¼2ï}R}èCúĞ‡>ô¡}èCúĞ‡>ô¡}èCúĞ‡>ô¡}èCúĞ‡>ô¡}èã‘„ÿ‡)¢X_÷Ey§ÍŸlö‰ËY~ÄÊá›ƒÈeöañíA@¶k‹ˆ"’}dı0¦8›T¡;%/ë«R˜õeef·¿™Sö;8ë«Ù¿‰ı"sfYå<ËW¡¬ï'ğ.éÏ:Uîzğ(ë’`rç´³®‡&©áw®|Ñ‡›Á—ÊNBb)+pœL>å¬/‹¾¹É°m†½ÈYq’ì­X”³ÉNÖŸd†v)Ë!³I'¦Rö¯Î)JìÙ~!ÓÛc0!8-+‚!ºC“ÈYç-g»¶Dø·'&S)+è$áôlÈ¾0•í6Å,+Fø&'ß‰ÿÛ7! Afø^GĞ]«VêÃİX¶lU"ß÷:õM¬Zqk,]¹ğ¿ìúÈ±kù26–+¯®Z¼ä\6ÙÆñk–İ+­ş+–dA€‡–ß~yùŠå[R²b9V/¿5–-[¹äÉ†ï‹—Ş+—-\!e›˜xhé­‰­X±dÙn)›.³g™»úšY¯MàÅ•Ê·*Ÿ]µrñÆÄ,:‘=Æ]+oÏlåÊå{³˜ĞôÍ·'¶tÙò%—a6¼G¯v-+—,_—MŸ¿}éåk£R1R7FÙnåXÔ¹´ wÃ(˜‚3ä!S…2ò+YnÃ x7†Ùÿ©YnÒf¾ÙTÀ†ÒY×ÀXz}V-ˆÁhC¶Ujw&«ùç¸f¸5¼Øw]ô¾Î¾Ä1›¤_å5öéÁÙLW|¤b¶û9»ÎıÓ’íåZQY&† x!Ë¼áõìfğùÆY?k2Ï³-ÙœìŞ‘M§‰Ÿy{İFk•¡Õ%†iRû¡Wú÷ìßWîF¯&Ökø¡3F	ûgî !·Æ3Ïƒ²É[âôgŞ÷_ŸıÓgßT^x†ƒ¿v$«=ˆñ¼·ÇÀÁOtåö
@@ -4945,7 +5222,7 @@ r–8E~µúwñûÜËÍ[¸±Y|6«{5Ï£œÜçWìa’?´Ê[tö¢¼uu’¹&–xŸ“[ø¾h­(ú~µPïE‹r·5‹&»ró=wçç
 B˜V;wø¥f¨YM–øC,Í {ÄïUœ5U47Lûæ×6û9%XãcWŠv’’ÁV.£lÖøÁŸ7+H›gõÈ’h»£J4Ê·ı½Wmf{l6•ìà+f›GV½ô&©æÕX½ÕNŒMœ.ÜLıjˆ·bÖ8kÿW¥±AÛĞÛ*(îº/Äi&3lŞ‹	ñ–'Eg€ÑooîµYìKqt`kzz+f·Ø“vŠê$‹½Np×ºvß‘q>ãKæ¤ƒÚcÎÌÌPœêÓk3¥gfÊóÁ£ËÓ3ÎÉ1;cöùöÊyÆ}³ÜÊÈ>(?ü½Y‚2/ÕŠÑÉ9Ş’™Œ-Òè€v<öGéOeJ˜ÔşÕaTÊxtúã«¥ËìØoÅ2ÿ–~Ù3×[ò,Ç‹ÉÎÁ¡b3Ó—ì >^ \NwÌÚ®Šãú|–P±ÇÒŸ>$MñG™{3æÕœ×H©DŸ=RPÒš‹ÇTvÒäœò’ƒŞwfòU&ıßâ´Ko¤şß§.ÑXiÒ³H«ü+´•C&Ï……{cáDšvñ9meL˜ìmÊkÿD¶;ò¼–ÏÙ4˜á)¶ª52Šjr½[EÏbÚK=RAG@ÁâëúõéŞµK Á6€@AÀ A @ @ @ @ @ @ @ ış££6
 endstream
 endobj
-122 0 obj
+130 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 391 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 85980 >>
 stream
 xÚì|Åù¿B ’h?B	¡· ‚qÜporï½Ûr·\ä"w[.ØÆ½âŞ{ï²%Ë–mIwÒI'ÙêÒéÚ^İ»Ûÿw÷•†³°å&¹ñ>÷™Û›™•¥çf§(
@@ -5318,7 +5595,7 @@ Y…BnÁcø‡İ¬€à£ªª‘‡E=Hf3P7f)eä6ÒYÔƒOh;ìŞÇa#Š6E»(êË‚(²(
 …B}ôÿÃòQ
 endstream
 endobj
-123 0 obj
+131 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 677 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 97546 >>
 stream
 xÚì]˜W×îWù*_½…"kqYwvwww—â·bÅ§+Š;×ÅYË&Ùè&ëŸÉD6ùÏä²ÓE*´¥´?÷}î“ÌÜ¹¹çÜ{Şs®Œ×‹ño‚§¸*şŸ¡¼¼œño^ìr¹à“ øt»İ¸ö0~³‹¨¬`¿GÇÇïÔFŒ_7L`ƒ°AùWHê÷sQ¸(¨Óé¬Ì100ş*c”Êå®=Œ?Š¢ĞğæãßÂ~6›‰Õá®4Œ¿À?A¯ÀÙÁn,Æ/Ñ•r~ı20%(z†hÿ
@@ -5684,7 +5961,7 @@ O’~Q  ø%8’;(ÛŞL¬*,uH–¿ÏĞwÃ	pQ~¢\°1JÖ:P.”””Ø]{÷µN$ìIè¢î{½ì5_º0MAíéb]¿6šIÅC
 maë-wÈ—“ÓE]µ·x¸×¯•Ñ  À1¸(à¢´2    \   pQÀE   pQÀE   \    \   pQÀE   pQÀE   \    \   *–X,f.ŠfÀ¡ğûıæ¢ ?IëÆáÏ  ÈE}>5Æ …~ ¨X¼P	(,,ÌÎÎ.**Ò©%777''G…„¤€ãD¥Èãñè¯Mii©ÂÔƒ P±D r‡I8ÑhÔqçD *ÿï¥J±
 endstream
 endobj
-124 0 obj
+132 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 577 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 149693 >>
 stream
 xÚì]xTG×¦ÿWûh‘w’@‚kqwww—âPÜİ½8×âN‚$¸¯kÜV¯®ÜÿÜ¸İ†~ÒR£ß¼Ï<ûÜ½2wöœ™=ï9c‡ñ—€å-J·Ûíèªİ†aàÓf³	wZ­Vt	}¥(ŠeÙ_Q ÈSøü_HD*#9#ñ"á;‹]u>vÎG8JòüE€7ZÀäÏj•B+CŠ&IR¨è*œAê†«è”RAB=ù¥Ú„ûQ5ÀêÀÀÀÀÀø€L¢ïRAdƒhšFœİ€l“@AÑyDP(Ÿ_d¼q‚GàS0©˜‘
@@ -6335,7 +6612,7 @@ n-ehª®JÂ€$iB•4İ+$$õª†ÊæQ;j®Âdv˜©   \ÀEA$¡«ÂLª±©ëªf´Å«úÕZQÍ<`Öú$¤! 
 ^¯—Ë•š	2  ¸Mx@A9K){)ÈplRä"ZZ¼[.Ê5äÈ,  à6ñb_‡
 endstream
 endobj
-125 0 obj
+133 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 488 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 119700 >>
 stream
 xÚì]”ÅÖö)æÀÉ9çÉH(QQ1£<T	ŠdÉ9çœ"(,fwfg'lœÙI=İ=iû¿3÷Y¿îêŞÙYT®3gÏl×tÕ­{oU}•¾²Ûí999~¿?_„HÈËËËÊÊ‚(üŸÃß@  Ïív» >Ÿ/77^ƒ’(ç­V«Ãá€ï¡PHk±XX–ÅïâX¯×QÃÀwL“ÄºİnCJA …ììl—Ë…éˆË’Ûl6H“È Ùa”T’ˆ…ßá÷ ÇqòŒ<¼ïÊ%t: 
@@ -6793,7 +7070,7 @@ CœÍç‘ß1¸ÌÂ¸h¬Şb(èöÙ†”’’’rËd²³7MÓ´‹‹îí>Mö0CšÁ“Üöxg{g7œG£‘ç‚fÑÎÎ7uª=mo
 Í§“]¦À¼ƒ[ì=ô‘LÓÉŞƒ½Gf^Xînİ¢.ÂEh^"WGÑ¯æªz»Ó½ÑöX4—‰ÓÙdgŠ¢sû\ÄE1Ovv¡†	Ò.¬wt²3Şİ>XùÀ;?›ñáxùñÁáÖxrpt¬—“Lªôèàx4Ş%î5(âáƒGãÑ4ŒÎáEL=àæîãñd2İÛÃÜî±(L´zæñì/=†ß?ÚW¿=!ğûÖıí½İ‹âQ[[[QêNßOfKÌ©C—øÊíî=$<ÓO[vú`g²k°+#ÆxéîÚŞ`xL²··+)öİ‹ÅZ8Z&ZËÒ~Ç?aUTÊSP’ûºc<“LŞmoí,¬gBÓsèpç>|°Ï%ÊJc~øwí?>0•…`Üu­LQ_¦{ğEã¥¨qàŒçvÁ¿„g&~Ç*]}ÇcQŒ*÷ïß9l—•:#´7À{wïÑÖhrV)õ4´ø}´3=YFduDWv¦»£ÉÑñIä÷Ñîô¡÷;äÅP°js,[îıoÃN†pRRRn³üÃ{¬H
 endstream
 endobj
-126 0 obj
+134 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 472 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 149911 >>
 stream
 xÚì½‡×d·u'ø¯ì9^Ÿİ3s|æ{<¶fÖöŒåyfvd{5Á»;²½N²­`Y¢(™¢˜3ÅLSÌY‘"E‘sf³™ÙÍn’ÍÎá«¯âËX ·
@@ -7351,7 +7628,7 @@ x5Hü€Õîï#>È±R•­‰~²«¢,z‹èc”Në‰^›á |R[ñ¹4t%.J Í£XÙvš95§%--•ÉdG-Uºæ|EebÍ
 ™TÇ–ÕrQÈŒªu)‡B!ì	bÑ¼”cQÀ_­IW+åp%c5¶†‹KÎ]µ\TÕ•º±”yµr0“œÓ`B @ @ @ ÒâÿÉ»Ü
 endstream
 endobj
-127 0 obj
+135 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 544 /ColorSpace /DeviceGray /BitsPerComponent 8 /Filter /FlateDecode /Length 13823 >>
 stream
 xÚíg`Õ†_	²B# „²”Ğ{eAQPTD(ıŠH¹ŠâUWÅ
@@ -7417,7 +7694,7 @@ M7ª­\7 Dø{bõìˆMCmxqsÛÆá¹çè¥['+V[3Ûî›ƒ·Næ)³:Ã`j\"ªŠêàáÀmFéz‘!@«öåÄ]4ÆÍ¹‰
 6L0Á˜Â@,	£ËÂD		€fé!‡ÆÄ dd´Å¾›j±K³¿o?Ş.i´‡<í/Îm—ï!OûÒö²KKvŸ§C_İ¾»4“·Eó§}Ñ—x(z¢]Ú¯‹çmÑòô°÷ì‹nŸ§ıŞóNE·™ÙCZ¼‡ç!œ½üRt‹·E·ˆÃÀ¸ø€´IvÏ2uZ­-#Sâ<äi¿œ‡4û<í+¢É.-É}·/‚½ƒFo‹nò§}Ñ</Ñ.-ÁÿEwÈÓÃŞ³/º}ö{Ïc8=İä¡xÒÌŠî)­ E·x]ôDB!„B!„B!„B!„B!„B!„ÿ¡-O+
 endstream
 endobj
-128 0 obj
+136 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 527 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 38979 >>
 stream
 xÚìİxe‚>ğì.Ë·{ÿÛ»½»]ØÂQXÊR ”e¹=j=” ± $!=¤‡ô;½÷Şã;;‰—¸È–Õ{—f4M£Iş’ã46»ÇÈVò¾Ï‹Ÿ Ëú43Ÿ­ŸF£QK‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ Š$Ã:À†@:÷ÜÀ*@AAAù>‹Å¢±˜(†Õú§ªrOÈ-F;°¹ÇKÊ*ëTÍ>?‹§cv…ÅÇµD£Q§Û[S×t¬ôÌ¡ücØ:Ú£ùE¥eåÕÍ:“$I±ääHıÄHüÑğpÁSıüŠıŸ^ÚmëäG7Mxt3ÚA¯üñÏïøfXáºõµÅun£•±ÿA4ŠÍîÚ²óPÿÁºıOß;{å¿zÏ¯¡Ø?<ñê¾üØŸßîÑwĞ¤™Ùz£%‘S?1Âa©±Y7râ¼WßùüáçŞ¼ëÑWîys£ƒ{÷ã¯ŞıÄ«İ_şpĞˆoöç¹½şÔOŒ`ˆ_|æĞ#[Æÿ[væO}òOÙı”yÚÑ%[á†¬ş?[ØïÆå_¾´o^®®*àAÎŠfŞ0úş§zŞ×­Çİ{?òü›=Şôö'ÃĞl¯wûË{<İûŞ§{ıñÉí“yª².Å#å9ñÜkıÈøã“½xºÏÓ/}Ğç£¡Ø:Ø·>şê[Ÿ?òÜdn_Øûº½>xÌŒ@€NåÄ#òô²İ]Ò%;ƒø§KVÿ.îßeI&ùß.YhÇ5ûÓëÈ&XÜ?éR²]n^9¨ÒŞŒÇ8A:y\ïÄéY÷?İë©ÿíûùğoŠK+İŞ@á´Cr>?}º²~á²=Şûòş'{şï›™r‹e9E{GÉ@ë·îöÕÈÜxû“+Öï¬ªSûAÌÎ07nonQÙÇƒÆ?ñâ;=ÓçÓÁTMÚ=uqSoÿÅ²/~’ùOÙ?_öù“Û§:ºvyMŞzU!Ú]ÛP¸ òÀ[9‹ïY?ú†ì?[2à‡Yİ·M®°i¢±(Ş‰ HçŒÎ`y?3¾GôãAÎÔ¨„PX–£a)"†e´ÃK6„$GäHÄí	Ÿ0÷OÏôéúâ»[vÃR
@@ -7821,7 +8098,7 @@ zšøj»N]û«¬QÖQ<"’¦Dqş’õÏ·ø¬YëÏ;÷µ}ßñÊ:C„cñ;¨–(Ê“mÿ±³£'g·ı°Çó¯únÇ—niÙ
 …ø;øŠ(‚ •x"‰?ÔÿIyšj0åmì$Hšt¦$µƒúF¸X	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAîÉÿÆ£Æ‚
 endstream
 endobj
-129 0 obj
+137 0 obj
 << /Type /XObject /Subtype /Image /Width 692 /Height 900 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 391953 >>
 stream
 xÚì½‡›TÅòÿ?9l1b 1¢  H’ Y¢€( ˆˆ
@@ -9280,7 +9557,7 @@ Z­at:µA(§¥fÆD%Ü¾îtİ?ÈÇÏßóÂÅc'N;tæèÁÓ‡öØ·ûÈÃ7÷­®¿¬p\e·ĞşÇ³'Lš2fÜø£F
 ôï.Ñö[jè‚ãĞĞĞĞĞärƒîT|¡     ºººººº‚       ºººººº‚àXDtttttÁ9ŒèèèèÑ>)0ö‚t_¬ë¿^uß}r¨ù›éR7øvcuuÜKûaèĞİ İ İ İ İ İ AĞĞtttA7@7@ĞĞĞİ İ A7@7@7@ttİ İ İ AĞĞttƒ®vƒï¬•şÛ™éÈ?<VÒ·[şsªïH] èèèèèè‚n€n€`g;‚n€ èÒÍİà[)n€n€ èºººº‚  èºº‚ ü÷óéô_ºED7@ttttttA7@p†E—*V‡ø*nĞ±ÕŞÛqttƒï	¼Ñttttİ İ A7øºnĞ­î)   èè‚n€e)ºº‚  èèèè‚n€t[7èøİtttA7@¾±Ù—ß®t(Îa{qÑĞ¾«cñ?ÑttttİàûAÛÅ7m¿İ;Âû%!ò]Lš :@§Vèèèè‚      ‚n€n€n€n€n€ ººººº‚ èèèèè‚     è‚n€n€n€n€  ººÁ?ÑÚÄÑ~€´tè/í”µ•;o-ftA¾¾p¡ØĞĞĞĞA7@7@7@7@7@İ İ İ İ İ AtttttAĞĞĞĞĞA7@7@7@7@7@7@tƒÎqƒÿ¿„ı
 endstream
 endobj
-130 0 obj
+138 0 obj
 << /Type /XObject /Subtype /Image /Width 703 /Height 900 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 426031 >>
 stream
 xÚì½w|TUğ¿}7…ª€±‹E)*"Ò)¢"R± ½w¤÷Ş;B)¤mï½—lIÔçyŸÏûşşûÍ¹³{¹)‹¬&äæ3Ÿåf³ìŞ=eæ;sæÌQ´êºDå×ü›DíW5 Ô_T~UmQû4D4~mR?oP×)u¶v¼×‹$ôõ´Áµ‰HÃv}"½£JPÏoDÒ`
@@ -10882,7 +11159,7 @@ HZ"ö>©j¡ú>)ÁÃå÷¢¤ok+í‹–ñ ³5Ô‡dxHåF¼ŞGK=ÑÍe0]I¶¡’uépa®køßm,ÄEä’6jóş3È4Ú—|¾
 ?Xé³³)˜–zàx €àx ²±çãC,C^_x¦3yÇqÆæ9ïò~ç–ÏºÅ6åAÆ°_4’ÈÁÆGD1FğÀò!3´ğ!†²AÚ”„d.ÌÅ< ÀğĞÿğlƒkÚÀğÅx r°F±ÅNñÀE$òÙ€…‚‹É?Ë´È–˜Ä†c³@b	(ëN9°#‘ƒ€Üši€µ2Y_Ø—¿wQÑUÙ±Á3ÇÌiNºJ½Ö6.}íHâñ™rh¢¾&$ÛV)ùàx °w2|ï`óÀğ < ZØ;Iºd³jƒgÎò&ı™Ó Àğ <`ï ÀC¿Àºğ < h€àx €àx@ó<`ï À†-€àx °w0aÁ„Iàx Ğ<aïàVMÜª	< Àğ€æ	x@Ï‚a‹”·#)•K	´B+€4OØ;À< Àğ€æ	x àx €x àx €TKà{x €àÕxÀŞÁ€àx €ìà€àx@ó„½< ÀğxÈô¨éHĞú%YV-Ó×(ôçæ)SN ,“÷N†œhı)92SRÕû~‘¨¾Dğ < Àğ < Àğ < Àğ < Àğ < Àğ < Àğ < Àğ < Àğ < Àğ < Àğ < Àğ < Àğ <ôœ”?¨ı’?Í¿y€ëMîáóÀÃÀÄƒÖ#x ² é[Ïë< Àğ < Àğ < ı¶ €àx €‡ş;çx 0çx €‡¾œó < Àğ < Àğ < }€‡$\>ÜÃçàx €‡LÀƒ–ºğğÓ†	rİx  ’Àğ < Àğ < Àğ < ™‡4«š6uZ×wJß—tİS\@ É²š–’¤¤ëï3L:ÌiR² NZoÍÈ²)=é+ÉoM— inÒ%Ì¹ı-%HŞ¢Y3&—uÇÇ@ÆCæxÀCğ}‡Ÿ¤D—I;à!³8ğ < ™‡”,G < »‚½¦¾nàx újíí”¾ÿàxè3<$;b5x úRR¨àx €àx €àÃÀğ€aàxÀ°ğ < ˜0	<`Â$&LÀnÕp«&nÕp«&nÕRÕ–i\ñ;ÉŸ™Î­¾éyHáN¿„Å ºş‡=?¿»ïŸÏ8{~’ƒxèË.mÀÌ©ö)ÀC§2~i{AÓ—hİï}ÿ¸ŠN«E%{ìæ­(< Àğ < Àğ < Àğ < ÀğğãáÿQ
 endstream
 endobj
-131 0 obj
+139 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 468 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 127111 >>
 stream
 xÚìxTÕ¶Ç§fÒ{/$¤JSôÚ;¢X¯½\ *VTl`±!" HGDŠ  ½÷J @Bêô™tR¦ŸúÖÚ'äzë»~ßSñİÅûİy““3göÙ{Çóßk¯"K²üÇÁãã~g¼‚Ëã÷sb—Çïòòûxöù7ŸıÖ°§^zqÌ[»”ùyÙíá¹€èõ~ÿÖAñ_‰ßà¼(Hç¿ºeâp®ÇÄ€€Wx/Hø~#‚Ìşõ¼¡î"‚ âwA‡Jˆ¦6şH4ø¥ß››ƒf4qr‹ ;}¼ÃË5ø…fŸĞÚàˆ‡³{øf›êH¿{k	‚ ‚øï¤G89}bç§º3ûÄ?Ö€üûbáZ·`ñÉV¿löÊ¶€lôÉ5.Şy8Áü{7• ‚ ˆÿZlÜ?9Hêîÿ@
@@ -11451,7 +11728,7 @@ x<\ô¶j…,ejª_Jõ!_P\¢R,©~  ”Rxİ-k…¢œÈ²¥æ†vpÒxšèCsQÙ·õƒ¬gBGS¼ò9‚L¶«D3
          ”(˜âO      <(€\                                                               ~ü6ìË±
 endstream
 endobj
-132 0 obj
+140 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 567 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 160359 >>
 stream
 xÚì˜TEº÷;OéÉ9ç†,"Š¨(ˆ«‚YA¸ºŠŠ9Œ(Q¢äœ%çœ†a€a†ÉûœÓyrìîSßûÖYïİõ{îİëîóì>‡û¿³ºO×©ªcıê­7Xx“E”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%J”(Q¢D‰%êoÄyVb¾Ú#üÆìÕ5›“pÄÖÀs¶nş‰lÄlõ2ğ†×ÃWoü÷ºYÖcrõàf-^¸k3K¿vŞ‹°pƒâ¬øC=iöì'Ñ­ƒÉÃÆJXo¶{+¼ úœ¬¼Áâ5²Ä„ó˜·¾Xá+KşY³ËN0ô6œÀ&Æ£µ¹™Û3ßB‡Çd!ø8Àlù?‰Ø·ŞI,0EíÄbÁîÂ§ÒìÖØˆÉÜ­ƒù	¯Z+J”(Q¢Dı‡ PÙ¯_a5ÄFÂjš«n²×«,7oÙnè:kløëq57şŞ/.â°¦Ãrÿëí­¼ÕAl¦.½pÆNƒX­âÄøCàÊmB òM=`ıFk'ƒtjâˆÑÌkX¯_IXJ_Ç›ah4­•.bı'N0/´‡³Qú…ƒFBÃXb†–‰è]€‚<Nu˜	ÿÊî‚– ˆÂ^	$|Ãy67g÷X°%sq@/¡ˆ8»D‰%JÔ”]ô¯\Ê›ausy-{÷ÈòÜ‚ì¼Ş¹;miãmÖ_íT”ßà³€vÿ^àÍº°Êÿz¿À¬ÓcvzÍ^‹ÅcpxŠ,qbüò˜·ÁFMy,çÚ7ÖXËë·tUÚ†j}c­¡©ÎØZOm}Ô:Í3V¯Ùê†ïÖßî}şè9Ïâ<‡3Ûx†õ¢!Ôæeí<c#f»&6<&õ_Ù]^“Õc¶¸é7øé:àv'aí£ÚæA@E3)<t^qv‰%J”¨ÿ(µ'Ğ3zº ]„-1_yä…~>¾á1aêˆĞÉÓÿRå¼éàñeDAYÏ[ÿÍnƒÑ›º´È<¼¡¬şÊeCaQı¹ËõÊ˜R;1Ã‘Šã1:´z¾Ü@¬õÍU¹D"‘Êd2©\.‘Jd2ÉƒÜ»ãĞÆ*æ†‹Xl¼™é24‡É£gxı?oK3óêqßÑ­g‰	æ¶Ù]ÇñZ˜ f¯0Úcøo”¨‰z@0ë\uEºÂÌåbÍÅRöª‰×QÏCÏ£*J”(Q¢DıÇÓãâë5¶ûùò3À)‰)ÁÁ¾~~?õ§ó•§%,ÔSÔFm§”4Ìÿv,Ê¹ñ0Özk·Y×Z#ñA4’ËÀF‰I-¤éÖYxƒ8+şï\ƒ{ÑéQpÄ¾>rD¿Ay½ûçdç¥÷é_——£òõ(OŠ.*/4vÕ3-ué´üóv:8Õ	LuøÆåa+,7ÖíX¹óÄ¶]'Ùzxc¥£ÜÁ3vê6ğ¯ì.jöd©‡ŒCÛZøè«eR¥L"‘Ëå?ñˆÍÍ8	óÓ!ú‹Š%J”¨ÿ8f¸miAÎtvŞ&•Jsûæ$øúI%’=¶·§Åƒ>u4ğ ÔÈıÛİ)1¸ˆMÛQPdãÍæN=àĞ »úçäç$$'¼òæx‡—£Ñ4â¬øä œ±«®8İõæ.-ô¼¡³¶ O¿ `‰ K®‹
@@ -12040,7 +12317,7 @@ wtéÄy¦±æG³ÓÓçÂ±Ë)ÁíqQˆ‹^mqÑ‹>°@mÉ`‹äÄœFl¥ÍX‹^	pšÕ.Óë6ƒÑ™m=       ¨ÁI\ÔF~Ú
       p€ur8ÍŠ(‰ª&y	¸¨q‚­Ñ{€‹      œ§}œéªÅE!.z)`–;Í*ÆEkt” k      à”JLZË5Ë‹^Ò|QO´v	â¢       §O±~NÃã¢À!/!%Öi¸éåÅö        Œ#9	kbù)zéé¨Ã¨ş	—      àŒ|©¸(                                                                                                             Î‹ÿ¡<\
 endstream
 endobj
-133 0 obj
+141 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 574 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 287451 >>
 stream
 xÚì½œTE¶?ş~ûö½}ÿßoßÛ·nR%g†a$ƒb Q1'˜Ö°ævM`AÁŒ¢¢("Š’s&vºf†!H˜ĞqabÿO÷aÊ²êTİÛ=ãê¾wëSŸ¡éÛuï©Sß:uªnÕ÷$ÉÔÒÒ[ÛRSSS‚Jp‰ü¬ú†LÍÍÍìÇø\Uqø%û>ğ…ûğw€{j$áŸ¨Jªâü÷øtùªûcYT/ò>!Ù}d9õúHêŠÿ,«‘ï£’¬‘E=óÍMş†	“„Ô?YA¾!2ƒJ‚å;À—‚ŠØäßk@¢C¥=+XÅv×ôtH4½5­n¨·3iõeYN=HXİ™1Lí	~æ­ŸÆ„²òSô H·.*S¦·™PA•lzX´ú;X1ÔB[£`[!€Ä¢ùÍB0³§ğ2Ë°:#ş€/BjÛ"H4&H?äi*kªy¸$‹hF|cé‚DYäÊÊšlI%R-*¦kÛù„İJ@ á†¦?H×â±Î’®%Š9r„¼CCCƒJ*Ğ vù¶ğ½lvX>,Ü“YQvÃ–¶ÄJI%ÒŒ@)•ÅùU­Ü”Jä%(¥ºÄÌ‚~øªÆ'X6¨ÜVÀ3~&ÕÈ$Qi•L@Wªá
@@ -13147,7 +13424,7 @@ IÚ IT²AhRõ (‹b_Ú3Î”å2»ø!…d 	É K"k‡î¦"¯SW d•kä§§T®~8ÒÜAÿÀ¿jI¨5I'ª$”E&(ÊrÇ
 HbxÔÉ©F=Š™$ŞqÛVH`¨†NÂ&Ôî‘–Ğ ^Œ%T]¦P|+9ÖØ#fd+Ø³ªT@Rÿ6úid|®Ä3ÛÒM!Mà3cR“¨«Ğ„=ÒŒ{>Ub‹‡d3Z*~ù"-HPÂÿğ9"è
 endstream
 endobj
-134 0 obj
+142 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 491 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 307478 >>
 stream
 xÚìœ$Gyèºœo/ŸîtÊ–Ñ€ Ë"áÉœÀ?°ŸÁØ˜$twfwrÎ9îäØİ“sØ	;9½¯zîV{»·³;»;{{§«ß\oOwuÕW_uıë«¯ªZ­Fk^h·›W‡k|Z­V“ü´®¾wAh6ëóÃ:şÚ',J³Ì}B£QëŠ¶ÿ½Ëæ}~$}bî/Æ>ÏZmO’Ke­ÿ½sb¿¦(’[½^½f¾–ÍİÉ,PŒ>™º¦Î¬<t:­ù¡yõ§E~z•¨Óé,øuA-»æ½K}TĞÅµ`^Xxï‚„-şuŞ§±¸ çIµÿg€j»è×«>ò3/ÙWİ»¨d¯ÎÀ¼üµ¬6ÎOŞü:Øÿ¡ı]î¡”û¢Âê÷ e«À‚êß§DzåtïbÑÁ7T¥kş4Wİn{Qä-(bxƒÌiËÕRm¬:ô}©6¯nTŸµ¬V«Ì½*â@JŞ“öÜ™>ZÑ{?Ï…ÅAUœKÉµêìå–e.æÍÜÊ›ÚUƒÄ5Kd¾dg§÷ş_Vÿ¤¶¿dÖBMËªĞ\åºVÌW5UK·5×ÄÃÁªÿ\â[CcÑá‘êŞ°è ŠºòÖg’YŠEWªXtÁÛ`-,º–®Á\ä«(èAâ²èrÔ´@nx]pm_Ql‹.HğÊY´¿ V¢×TéõeÑÖš>«|Üˆ,:W"K¤á*HPkdÑ^Û=¿¡6‹.(µ!±è‚4÷×™ş‚êÏ¢óÛ»Å­Ï@­ö¦eÑ> 6$]ü ù,º¸+·,ºÀÎ6<]õj
@@ -14391,7 +14668,7 @@ X´9Gßœ£o²è•Å¢ÕÒ255ÑdÑF‹^}Û+®8­©J“E„,º¨]ÉjÒ:şªÆgÑš>lM+…š,Úœ£o²hÆE »«›Ekœ8˜
 D$SúæÂ˜°ñç>i•XOÄüBó®CgÕıaâÔÏ5‹ q¯K°5Qáû¨Á‡aV¯ ÄÂ6˜İ ÒàB¿†#PÑ–òg#/¶=ü/à‡İ
 endstream
 endobj
-135 0 obj
+143 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 491 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 368188 >>
 stream
 xÚì½	œUšèk÷kÛîV»Û¶gº§ïô›™wgæÎÌ{çöonß;=½Û¶û‚‚Š ((¢ˆ+(È¾
@@ -15994,7 +16271,7 @@ T¢7îqøoRábù$,˜ÒÊ‰x··äò0''I¿9
 \êsÊ<Š_Bc_ÍOéN{Ğ¾Ê;…o-Ñ»–R½‚ŸrC ?–²‰ÿŞ]†0ÿ¿¤N6mÒ^¬0ûMf©N²/Ö—¯aÓH“c™p´ó{¬óqƒ½NL³©¹ñ.,÷ÍæJvÍ&s»Y¬lŸ/Å+öWUÆŒQ?eŠ7~¢ü“mÇ¡… ‹‡Â¢Å Äi}ÑhEB8:×) Ÿßb3\Jb•Ò,¢T ÈÀ$r†V6ŠU'‹½‘“ğv–Ç'°ÄÎéŸÅ' ¿æ. 3Ø@pdà°¨é‡31½ÃÂzÈR&±g+Ì°Wc%°|ú½¹‡8…”úï¬$%!½dÀâŠ»¥Ÿ€“'§JY1–^.?ÓHI×júë²mjçJ‚NwéÏ|»³0ÿÌì.W¥PÏ¬9XùÙ{‹åÇ±NËZsiUäºeºİÓà„©a/^4,HéáƒßÊ*“İÎ:*{52ıFV'KÙ>$ÖíY·LÕªÉºëçl¼.¶Ó–µHº0ø:ÖR¬~°ERaÁ[ğ½X’ya–¼77ğÓC#İX¹•fDìí¹!Ÿë¢é~›¶îÌàğé"a%0†“ã'KuºÅs5¹ªŠ£)7ÄX…çºèÒ{‹gæ#Ô`ü ë´áfå-¹Šò]†/ÌÊ¶ ƒg ï»NºØØY½¥‡j‘+²QşÒbÏL—ô OŸ\«1kûMëô*#}Áª6÷F3Íos?s/M?-W'E6»–E§kiieæ¸_®ğ¹ÏÉÕ@š‹æÏRñ-K§<–kÂ•­|+Í(rgêÌMÍ9$\,a–Ç.Şˆ/=UÍ]Ä/f4VX`¼,½‚c€Èôæ?Ù¿ØçäÖ}…y|ñx;½p¥Î˜<Ff„4+YPÚô}:"pÊÚ(b!ÓQéñ™ÿ¨A
 endstream
 endobj
-136 0 obj
+144 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 491 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 296981 >>
 stream
 xÚìx××Æ¢Å’@ğ@p¯ ¥®_İŠ–´¥ıÓ-´Ôh‹·xqŠ;qÁ]‹C\°$nk³ö½3'&³ÙÙİÙÍ&İå<ËdwvæÎÕß=÷œsÆ`]ŒF½„ˆNÖëuB}k6ùÓ´Zµèd†Ñ–5÷^üÒ¿p¦"<St².UJt:/öŸ	¡+Ó¯lŞE$|Âì¹o™Ù(÷v&Éş|“ş­ÃâÇ±¬Âo-«}éKñÕ¯Œ—Qò%İšdµµ2KÇ&“AâÊt‚P¤OŠè‡–¿µ¿sõ°²n*º2Ú]JÙş‡•»¬ôÓí ”Z›ËßKn50Üyé'ã@ÇI©“E-ÂhÒÅ`Tó"ú­YÁ7é“-›!ÿk
@@ -17232,7 +17509,7 @@ ufÂ¾‚Ã}ÅŒkÅdÁÅød5ùÄ>Ï¤ùL³ÛäbÊĞŸ_Äß;×Ië:¦ÔW$w‘—Ñ¢éLgôÖf¼Gš°JKgÄuÉ§UÉ§¥ö
 üãä9,Ïù~ N?>ÆwIU"ÆÓTLÛŒYò‹b&ŒjŠ·â˜6?˜JcMŒ¹TLG'û¤,’²»İÃ½¨T²¸+€İ-ÎC|^Ö•á	ÔûG^‚1=g|æLe¿€4îÈ9AÊxVÁei~_½á]øJÀZ*â˜®cB–‹iÅò¾KÊFùJßË“— ì&ìÆcZ·|¤H¬É‰o8RVÿ·sûÇ
 endstream
 endobj
-137 0 obj
+145 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 491 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 367619 >>
 stream
 xÚì|ÅÇÓû¥÷B' ½Š‚Š‚úGQD°¢¢" üE¤	H¥¥‰Ô?‚H'ÒAzo¡¤'—ë5ùÿvY6wÉæ6Wr	wÌçØÜíÍÎÌÎ¾ùÎ›7ïz#/:~2
@@ -18658,7 +18935,7 @@ Y)Š<Š,:*/kcÜ¿R)Ú	¸ou_‹öÍÜ=â­ñ¢•»ÖJº9Œ[>+İGo=©Gµ’ËÆ¢yïeöçÖÔzî÷m~æW’$€,87«(Ïf
 ş$ïImğ´êÍ~àö³Ü_ğë´æ™éò¼¹•<xèkü·o®à Ûe‹ZEöÚÏ4oó†`Ş¬k^õæ¡ÙoÈÖ¹¶gÿ4«¢o{Èc?ëwÏ/xë0¿µ_¶}Ç°çæQØ*Y)Ò£j÷:ÏûÓ¾ÿÖ).rCÎû•YWyÔd¯OkA^Ïš¢Á˜©äİc­õ£‚"å½™×‚±áÿ¿mó
 endstream
 endobj
-138 0 obj
+146 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 667 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 348177 >>
 stream
 xÚì½`TUÚğË$tÒ“é“ÌdR@°XÀŞ×Ş°®bYËêÚ»€ ‚½ VPH2=.EVWW’LOOèÉÜ{îù?Ï¹ÁUw_İ]÷ûşï~ŞãaœLn9ç9'sç9O¡T+ZùÕEQdB¨B|è¡c–Á”a0géM™&s&¼jU«ZÕªVÿ»+~¥gLğõiË·d›Re¾õeö  Ú3P+ZÑÊÿßªÀ7Q(ğè‚çæïW6íQÖu»•µ»å5øªU­jU«Zı/¯ğÅ®¬é'köÓÍ/¸‰}ùEµ¢­üïáQ¢ ŒÒyóŸŞK›ãŠ/J|ğ#Ş(¼×ªVµªU­ş—×ñÅØ·ún²æÁ¹³	M/ª­hå‹^TQY”(óÌİ§´Do„úbÔ¥Ş¾ÑªVµªU­şWøVÇWê+eÍó¯Õô¢ZÑŠVş·á(Û¤§óŸ}fmÁ4â¨;¢xàL«ZÕªVµúß^c¨EİKZ˜7[cQ­hE+ÿÛh”(è»4ş3{éš(EÀQí\«ZÕªVÿ_¨ê‡ïv`ÑİTcQ­hE+‹jU«ZÕªV5ÕŠV´¢EµªU­jUcQ­hE+ZÑXT«ZÕªVµª±¨V´¢E5ÕªVµªUEµ¢­hEcQ­jõg‚EªùşÇŸù­VµªUEµ¢­h,ªU­şŸZ3¸æ·Iæ?‰'©U­j,ª­hEcQ­jõÿ^ô‡<öÛ”†6%´ª±¨V´¢EµªÕÿ«ÏVâù!…Âê'¿e"ÕT£ZÕXT+ZÑŠÆ¢ZÕêÿe}`Xv‡ˆ¦kœ¥Û†÷PS¶£–Û1r`ò=¨kU«‹jE+ZÑXô7EÄ¦B´Wü×È'¤xàÄ8…W &M˜¿¬úC(õt*õa»ì?Pº}¿²&¦x÷*-”n•èúê„ºÃ¤:N1Å×Iı á Tùñ Á3­L©;Nqá˜8ŞÈ•aLÿÃD§u ÌÀaLî‹’ì‘âÈş_qM?L¡>ROÈæ„²•*›%ºUV6Æ	tYÓjUcQ­hE+‹şf*¢…/,»‚Ä$®¾†äÚ°ì@Š)š.ëŸÕ…Æ•@­í”M_,™yïEùÓìºb½P#ëÍS‹Ïš}J|È!Ş(AÂÇ7L}ÁÅ‚?(×´ËµßË?L<í¤&ÀaÂÏëA@IÿÉT†“‡}¬`¸•qåüuWË¾Ú/Ÿ3óÄß]wÊ9³O:çÆÓÎ»ş”n¹>(»¢Š†£ZÕXT+ZÑŠÆ¢¿…êw'	4ı{Û›­ÿBõm~s[d9²¨¶¯úOÛˆ†÷€x{å“¢9+×‹N³®ÌÌ;B™iTU}F¹B·!|Ê¾ğj;QÿÜA=-K@à?”¿óë_¼óÙÎZ÷ÔôÊMı‰8+¦²«üŸî‚ˆËu¤¡XWFí+ü•ÁĞÿĞ¨à_G\ßÎ¡ê·jæ‰ÙINWn+Œ#œ–>¥1„h“J«‹jE+ZÑXô·MÈßF]=róQ§MäÒ’¸QÂ?_ÅQÂ\Ş«P/Jİš0ÿÕh‡ä£tË¸*³Xjé°	vç4	z±Ò¤sÚ®¸ıœƒtc{ÂİAëCòÊêQo;õvJŞ#ød-şmÆŠÜHAHâ¸t±ø¬IÏ~t×@bİ~ºn°ëtuĞ¥>ï[ñİ¾Ovî_õíş•;¸vÓú0qE™ÕÁ¿Ï²+H=ïxæ‹¶4®ÌÀÛc'YG;Í´¡}¨¦CÛ¦×ªÆ¢ZÑŠV4ımèE#ûäæi“TeÊÍÿB-3İùìu²?B4ıgk¿Üxëó×êLé¢ÓÀ9|™‰/2$çè/â²G>şÆ]q»Ş¨ìíPI kO·R/–˜‡A¨>_?š„J¾/3‰Y¼95½ÂxÃ}—nm[ÖAş“ ×¯4Ú¦;xc
@@ -20061,7 +20338,7 @@ U:ıR§¿šµqÿYËWY×ç;cQ²(eQÚ(‹R¥,JeQÊ¢ÎY´Krçœ%–ÛƒC¹<íÅêm3§º¨)ãçºn¶‘§šKíY
 t"¹izuuİ¶ŒkÂS÷ñ7^R\ôŒíÎ9CêJ.‹|¢ÿ+µBi‘©4/)0ç´ßSX¾vÓÅü—,H²q4,vÚ˜7òYG‡P×W¾µ³-_×/u»z—¿…!%íYO/ZD·åÈ›/én{]ã-í¬<€£ÉôCÈbàÄ.J{·=²Œä;€Pº&>6áğ>V+ùVğ|E‡èöw¹æ‘^o8|:^SèÖŒAŠøœºÈØŸ‘ÿ÷Ã	Fe:&İiÚAªßÇóË7­y¼ÿKËÖÇ¯Ş{Dí·¥¬	Z³eÔ¬™Ş«–Dl]ûê­›hÿU:üxò&jmbì§ß[»}óª¸¨ğ-Ñ«6‡ÓCÓåa„#¶.1îßßY“°…œÕJ§ãÓ­l¼@â¢"·Æ_à:eñüğ-QÊa¥÷ôm±«âb"·Å†m‰šìıÉ”ÑèNMçzü¦Ğ-h&úİ>[cìæ|:8wı´Oxxáë8×ÿ P²
 endstream
 endobj
-139 0 obj
+147 0 obj
 << /Type /XObject /Subtype /Image /Width 788 /Height 214 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 13343 >>
 stream
 xÚíùSVW¾õÿ ›_ßî_Ş¶ê&U­öÆJêævzH'¶t´c†¶êmSVc§­Òµã€¢¥"Æ'PT!4¨ 8’€‚â„FTœŞÕì›oïì}‡eø¬ZeÉösÎ>kïï:{:                            ièè8!„B!„Bá ñf÷uG Ñ3DÏBÊ&„è¢g!eBô!z†²	!z†=CHÙ„=Cˆ!„”Mˆ!DÏBÊ&DÏäDÏBÊ&„è¢g!eBô!z†²	!z†=CHÙ„=Cˆ!„”Mˆ!DÏBÊ&DÏ¢g!eBôÑ3„²	!z†=CHÙ„=Cˆ!¤lBˆ!DÏR6Éˆ!DÏBÊ&DÏ¢g!eBôÑ3„²	!z†=CHÙ„=Cˆ!¤lúlokÍË[u`™	‰5¢gâ¤l¦ç¥K~ò“ÿóÔSÿ!îÚY’áY¿ıí¯İ)ë
@@ -20100,7 +20377,7 @@ fÎœ¹mÛ6¹¦÷Ş›áºâ[JÆlÑ¢ErP6Çï„û‹úúzRÅÅÅÍÍÍyªÎ›-6¨,ù:tHb>o×§w²•”Ü``
 Ùö•`‘pû³´´d”äFš¾?@Ù =€mmmÛ¶mûâ‹/‚>&×?˜~8"Ş	P6@Ï =?ª««F«*ËKKKJK·ïİS¦?FÌ}eBß;ª>â9b Ö =ƒ€‚‚×_I»e ô z€²	 z =@Ù =€ ”M€@Ï  Ê& è g  e ôĞ3 €²	 z =@Ù =€ l€@Ï  Ê&@Ï  g  e gò g  e ôĞ3 €²	 z =@Ù =€ l€@Ï  Ê&@Ï  g  e g Ğ3 €²	 zè ğdñÿİÒ
 endstream
 endobj
-140 0 obj
+148 0 obj
 << /Type /XObject /Subtype /Image /Width 788 /Height 590 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 47437 >>
 stream
 xÚì½ûoÇ¶ïû',¼÷ÆìË2`’òázól Al¤lÎõ!Dàú€PPHĞ‚ '.‰ áb@ïD<‚òàD˜ !&¼ÄC`ùíşrÇò8)Õª~Ìêîêêšs~KS–gÏİŸY5ºúÛ£FêÜ9Zù×ı×N‰Ë¿üË¿üÛ¿ı[çd¥ÀHJJJP' Å‚$ ‰û$ŠX¨ë.M\ìO‰‘?HŒ“ù$ 	H@SŠ$ 	Ô~Ú$	a@¸¦èà	ÙLõºL’$éÙ0H@€$EH2fçˆN 	H@Rä${]×HbÃ€$ qS;%édÌöºI*
@@ -20266,7 +20543,7 @@ F&»xøäNõfú
 ı?H¹£n$›ç‚$•#‰ç*	HÌ®l»;¡uÀÊºš@4%IY›§ƒ$"‰ÇĞ:ÿRÖ¨›YE 	H*tƒ$6$áï‰õ®âVv§xê$ÚÖ©şj	H@ÒÄ$Ç:ÄLROœZ¹Nâq'ôX›xÔÍ©"€$•¸ŠA{’÷Äü«¸5İ):‰¶uòÁB^M 	Hš$ØX’˜IòÅ©5ë$wBmHÒ°uVH@³ÛH@R9’0÷D«¸ÕÜ)LŒ3¦B­“è±:`a®&€$-B`¬IÌ$:âÔjuÒ¦L™rÃ7Ø×	ÉOoooúüW^yeæñDY¸pá¢E‹®¾új’K/½4ıN:BÇ‹Ö	aÏš5+q°««K‡äÿ÷Ş¾J
 endstream
 endobj
-141 0 obj
+149 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 818 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 58076 >>
 stream
 xÚìİil\YŸß÷÷A	ìØp€A–‰‘qâÌØ3Ï¼I#6lg È‹À0’Ø“ñøÉ<Ï<İO·Ôjíû®VkënµvJÔ.Q¤¨]ÔJ-·"YUdíûşÏ¿ê´ªKÅb©Xu‹âáı~p@Hd-·nºõ»çÜs                                                                                                                                                                                                                                            €ÛåóùH$R(Ø   XÊÇgßK$Åb‘İ  €n‹Åb>ŸO#èÜ{~¿ßëõj"eç    ŠÅb<×äY›BkéïƒÁ`*•*•Jì.   8"“ÉD"Ó?÷1æ6šZóù<»   mÓ<ı~+)´.‘ê½Òé4û   m¤Ğêè¤¹v™^{)   Z7tR'ô¡ôg.—cÇ  `!Åb1•JƒA§Rhm©ÒˆËE¤   ¨“Íf[Ôa(Õ¬›L&™   J“a£“:á¯ ×  ÀJ‰D¢É|¡İ¦Ï
@@ -20475,7 +20752,7 @@ yA£…JwùòåäÔvUZ‹t)J/q¥Š
 òÿF¸-s
 endstream
 endobj
-142 0 obj
+150 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 483 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 100086 >>
 stream
 xÚìxSeÛÇÃ*{/Y²7*Èe#{#SD†2…2º“&M÷ÌNw¥,{®¬ö¢ˆ¾úªß+ ¥ôû'·Ó+ `Áû=×éÉ9Ï~Ò“ß¹Ÿ•ŸÏb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,ëItïŞ=:æååİ¾}û^AåÔ½b•WPÅDU|ÀQUQOK”®PÕ…ê¼P–îTnÉ“‡~IòX¦¢íNÿİ¨^~Ä±X,«„‹xà«¯¾úæ›op¼RP_±MWş	Qº—/_¦“ÇÊÆ×õw<?qTÂì
@@ -20892,7 +21169,7 @@ EŠH$Nf*B!„Óò¬°°ÊpÆŒ"äjˆUéIÇ¡%K–$''/Z´¨¶îB€^xŠ*TFWÖ­[wÂ„	×_½ô¼»	ë(tİĞ¡C{
 áúÀ˜Õ D;¶uëÖK–,1vW\Ïy|óÍ7ZôÁDºIâĞ.J!„rZBÔl‹~ƒ¶<ÿüó¡ëÕ«õµ¶eËWw@K0ˆ1ü~úé§8„`>„èÚµk±¿¤¤Ä§ö?—€ÆÛ·oäå5×\#†G„lÛ¶-öÈ²ïˆ-555//O´\yy9"¼é¦›d´ nò8---??_îSæ.‰,ôNù¿ì²Ë.¾øbˆÛ/µOƒAkŞ¼ù Aƒ°!}ô ÷Ğ Aƒßıîwnb•O	;Y°`¨G5´è}÷İ×¥K	F»(!„BÈéb&ãˆ„6Û´iÓ¢E‹6lØ ]äb”YänÂ”ŠC;wî\¾|ù®]»D1zcÃ¿ß/ËnÊ~ü)±IÈ<Y1S§®g©P„”aœr]Ä#W9Š?å\3ÿ]~q‰²²²Sô­$öæ¹°y=	x§Gá¡xdé(—¾î	!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„B!„BÈ·ˆÿgA+
 endstream
 endobj
-143 0 obj
+151 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 454 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 77135 >>
 stream
 xÚìXWÛ†×.‚½×k4Ÿ“hLL¢11Ñh,±ÄMìF]ãQc‹=z‘"ØEÅ‚‚°+öˆ¥Ã.»ÀşûşœoØ‚bò>×¹†aæô3;sÏ{Êèõ,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹ÅÊ—2Šµ¸}_JCó…ÊW‹Åb±şmJKK£¤¤$ÚOOO§#b‡U˜Û.İ Óöbÿ×J«ÕJ/®[‹Åb	ªÉ\¾|yÛ¶m;wîôğğØ±c¶¬üiÇ›h—Aöööîîî8ÂÕÈ‚îİ»'^3™EY,‹U˜EÆ4bÑ°°°ãÇ_¼xQ©TªTª+
@@ -21232,7 +21509,7 @@ wÈtl„“~<ı„N7™k!¼mÛ6Ùî²{ìç÷šEuj²(YÿÜY49ëEÚˆğ­’‰‹‘½ÁİÔl~÷'³n³dD{{(o{7m·uS~Pl1a‹
    ¼kŠÅ¢ÆQ:Î                                                                            €wÇÿç<¤ã
 endstream
 endobj
-144 0 obj
+152 0 obj
 << /Type /XObject /Subtype /Image /Width 572 /Height 331 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 48754 >>
 stream
 xÚì½xÅÙşMB€„$äãOŞÀHBy„bƒmlporor/Ø²{•î½÷†{—«zï²šÕ{ï½œ¢Ó‹ö»Ïy¬a‘-cdç¹¯½÷ìÎÎ®ö¬ç·÷Ì33’Äb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X¬U-,’Õ¾Ü3Í·Ò³X,‹ÅÌb±X,ëŞ’1«%r±X,‹ÅÌb±X,Ö³î‹2VÙÂb±X,3‹Åb±X¬‡Y-É*}³Ü–Ë·¹Ætc±X,ÖÇ,K²Z¿YnËŒ…™Åb±X¬R:(¦Õè°ØWzI§5ÖÕ*Í¦Fl1%½Ö‚íX¯¯¯·g5c«d¶/Ì,‹Åb=,Á&FñÕd2ÕT×‚G&£Ù 7båVlÂÆ[.p^µríñc§*Ëë€#E½Úb¾^¯×Ú	ÅÌb±X,ÖC§ §±Ñf£ô:›±ÂJ~nÉœYgLŸ?óËç¯8wæê½'¿Z¶ÉiòloÏ`e½Şj–4Zêel2îB+{g±X,ÖC`–B¡°AÆjc@ãéá3fÔÄç®è4Ö²’Ú¼œ2e½!3­8)>'2"Ør¹èjÔÛ¼«ÕJf‹Åb±~ Y,†ÆFÓí 
@@ -21435,7 +21712,7 @@ K¸M›6è–è±vvv÷îİÃõaã‘5^(›$Kº¿<ê:lT‹ùÁ2&MšV‹úAıC“6ìîİ»DœaìŞ½›†ß°ù,V
 VC%éãB´ Ò'u™Îk+ş ¹¢^Õ‚öI%¼Yùé'fXÿ%±¬¸jáJª´;{ò(—†{§ë%7^ÎIÜÜ€CúX‰4?#õÀ´ŠÕ{>¸£E{¥²AâÓ›6Z.Wuë¸*Æ38¹«p_‘À’)ê²àÛğ_ï-_ÍYË…h‘@ üjÎZ®ûG‹@àGøs™°\÷	@pV ?ç¦°L ‚³@ @ @ @ ¤øDDÔô
 endstream
 endobj
-145 0 obj
+153 0 obj
 << /Type /XObject /Subtype /Image /Width 759 /Height 882 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 179962 >>
 stream
 xÚì½ç›SWš·ÛÂùpŞë:çLÏÌ;3o‡™n·Ø`Œ1&ƒÉØà„É0Æ0`¢1™*«$UI%©r¢ “*Beå¼•c•ÎOz`[]nÓ¦Õ<w?×î¥¥¥½·¶€u{ÅXŒa†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†a†éKtwwß+¿W¢ÿğˆİgô~®X¬×`†aæqÖ{™OìæĞ‡‚a†a˜ÇĞmºîœîAäİ÷½Ÿ'öüC3Ã0Ìc(9?Ñ€#Â-9Ã0Ãü8Éa†a¦BS÷Q¾Ä½äç~¥ÿ„0Ã0Lß•œu}8ƒ}_rz–†a†yLèQÃp¼^¯ †{ 3ûDè¦^ƒ%‡a†a¢wæQÎÂ…û÷ïß¯_¿'Ÿ|ò‰'Àñ©§úK¤ÿòÔÓ÷O<ùT¯q¯òO>ıÌ}Å½ÎÿÔ3ışü—'ÿû?ÿkàkƒp<ôõAC†^¾|™¾/tNlËŠD"üÇ€a†aş)¡N+İn÷Ò¥KwïŞzßï÷{½^€/n¯ïŸÿ¾â^çñúF³% £Åf×M#FºtéÒİ’å©åÃ0óOõÈ@i(a6›çÍ›—““ãt:­V+^âh³Ù,	6˜ÌÿĞ€™<Ü“Åêt¹á6Í­mhÜŸÿòäÅ‹©İ†âŠ@ü'a†aşÉ”…B8º\®éÓ§>|X„dÉÁ’·›ı¾Âjwô÷[ş~£½SëöúÌVÒPÁ:ì.ô{Ã0Ã0ÿô¶ƒº>~ğÁGu80£Ñˆ#ôÆ” ŞšcsŞWXíB¯qïÜŸD™­^£Sg´;İMÍF³-µ¶k.ï³Ï¿T]],9÷;ƒa†a˜>„Ïç£D4µÛíóçÏ?yò¤ËåBÚjµâá±%@ÚæpıƒÃy_q/YÜ>HVo‚P9T§+4dXee%Æ¡q88²ä0Ã0Ì?+GLÃj¦L™räÈøŒÉd28šÍf©U¶p_a0Y{{äşÆŞÜëü­íÚNÑãº<~¼ÔÌ¡H÷_êWQQÑCrø Ã0Ãü³B=µç„B¡¹sç9s¦Ç˜qàñ½ºŸî·[êŞ¹¿±7÷jrº¼f+
@@ -22103,7 +22380,7 @@ ešØ4şT4MKMMİ¿UUÕ¼yóNœ8Ñßßÿâ‹/çìİ»÷‘Giiiill<|ø0ú¢±°°°°âBe@499pKmm­ÛíFÜÉ
 J¼*&­¥‰SMœv¨´Aµ:xtÖß®ÿ®ï ô
 endstream
 endobj
-146 0 obj
+154 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 900 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 728194 >>
 stream
 xÚì€EÖ€wrÜ@¢ˆ`BÄˆŠñÌYÏŞ¯bÎ¨göNÄœNÅŒŞ™1GTP¢Š(
@@ -25096,7 +25373,7 @@ M¹Q"¨~~ÑTÆ,‘ğğÎ½¼˜RİÏ(g$°h¡v<‹Ö<Îuô
 ÒEµÏù²”2ôÿe1C¤
 endstream
 endobj
-147 0 obj
+155 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 383 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 164874 >>
 stream
 xÚì½…w×Ú¨ÿıîï»ëŞï;§§Û‚aB37Mš6§mÊ=§ÜÂ)œ2„Ù‰™Ä#–Œ²Ì"[æ8íèî=rY‰slg¯õ,¯Ñh4gÙ{¿ï‹øcW¸ĞªOLL“Ş]ÊtG'è4%&jœŠPcoÈ¿ô–`«§fÛ<£CÑªO¦7X7OÔÏúPô¦¥'Xß¬]AÔuwÔO0¿¨X(súl¤1)W€ô×‡¥{Üõ­a2“¯{iW•rmO¹Î§|0ÍÂb…ñĞu&z=\¾.šz¹÷¦H`‚X¤qaàœş©è™‰O®MrQä¢+ÊE—ÅÓô,]4‚\@,¸‹.ôõp*]jš°?İ-/­D%ßÁËßEŸó'ŸÈEŸíûÓ°ì/Jiñ¡ê'31¿vúL[>{aGwgâéa©] ‘‹>M}ô+ÊE¡1vÌ’ô yC.Š\t‰»hxN.šòEèÖŒ@ ]R.
@@ -25765,7 +26042,7 @@ cQÆ¢ŒE™ØÜCLŒE‹²Â±h¼æRa,ÊX4,T-ÀX4Æ£Tü›‰V¡31e,Ês¼ØeÑ‡'0=‹ÆPcÀüw9.
 C‡™ÖøŒE#.Æ¢ñeQáë&é×\r™I°3¶pE¼ûXÔ—›&¿=	’yİçÿzhè
 endstream
 endobj
-148 0 obj
+156 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 481 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 722826 >>
 stream
 xÚ”½	plÙyß÷HŠâ2$gßÎ×¡hJ²¤H2E…Œ)K²¥ªX–h'Se•l+q•ËKª’”#YI)"93oÇÃ<ìkxÀÃò°ï;ĞİèzĞ@ïÍP¢“òäÿ}ÿ{?œ‡‰³Tºuúôí{OwŸs¿ßù¶“¿’¿’œº¾7q•Ìl	ê»£ïF†~y'Ô÷g‘¡îMŞØŸºŸ*Ù›)İ*ÙŸ¯ŠÏTÄ¦Êö§nEG®â˜œ.MLÜŒ^CIÍ”ÅÇoàåşDIzºÇİÑkhÁ[;c×"£WYâã×XR3øx	
@@ -28604,7 +28881,7 @@ l	¼==RJ,ÈNÏ§Šû¼©-ºÈˆtá¬«ÿC»ü§â}S×;VåGÁñ ¢şÑ#Ñ#şƒŸ&NÄñUµ«óÕÁéŠèBmx®#ó
 Î×&±ë¥Ì8}~£İ''§4?¾òÁß>óxÆßsÎ6œ\J©Ç6î†–46jOê[cºæ°¦	mMØ) ´„D	D¬®“o¤?Vªr‹uECSÚ€VğIMKb¹9±Ü”7b¯v ¯¢U–ÔÖeŒm»"c¨M8äMõ'/»á¾ş9—Ù2Syüíÿ¢¿k
 endstream
 endobj
-149 0 obj
+157 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 470 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 642241 >>
 stream
 xÚÌ½wtdW•ÿ;oŞ!Ún»ÛîÆvã À˜4ä8Æ`ÆŒmğ`0††ÁÃ0†6clÀ¹s·º[Y¥œ¥ÎênI­*•¤ÊYR{Â{ÿ¼ï>ûŞ]§n©e˜ùıf½µöºëÔ­[·Ò	Ÿ³ãUW\½mË¶k®ÚşæíÛ¯ÙvÕõW¾éío¾ñ]×]ùÕ¿º±ü©{¦zvÑsj§çÄ÷ñ—pôÜé?A²xzodô $4|`éÌ>–àĞ—Ïî‡à©èXIxthd_äÜøÄ!ñpyxïÒÙ=\ƒ‹q¼jáÔnß9prÎà<?ÅÏrƒÏã…xSq1?Å¯‚à¡ñBÜíøß±—¼G_äF ŸyhÏò™}áááá}¡³{—Ïìá³ŒO…Ï‰‡<V²tnğÜ¾Å±ıKã Ë%8.ŒîõïöİµHW\9 	ŠN”q;xvßâ0îS‚gq•F'*cS‡Ssu‰™êèTEx²,4Qºx®D—¥±ƒËã‡ x
@@ -31195,7 +31472,7 @@ S¿EË8jDB g,JØŒx±ıBø5‚Z®„=W}Brät?ŒEÙşÙ[`/"+y;w¹@}¹9kn7õRØ„£ÜıÓò]!·q©Š
 ?†´¹ì‘Ü„E©²”5F1%°Ê¹ ¬¹‰#«=àv'•g¿­^4ºI;³h•€™€?É˜Šğó`¥²Ur_&[õÃ	Ç,Ãã—³^R›QÈ2!¹2¤L…˜¬êäõ³¤Ó§ƒãD{ãÕ7^şİ{o<¥ÜÉø‰ÕÃ½r=Df?‘/0±bÏ†”vÃĞ”ºÉ¬¹Usêùg~UWs.0•âºbTUŒJVã¢Õè(q—‚ŸÚ\¶W®%ˆkîrl*êÕH‡ëxõå":~üĞåË§êêkjnß®­‡n\»véò¥3Çşxÿ®#‡ö6İ½´4+Î…f—C“9ßDÎ;^ Ã´¤70F*®×iel14‘ö[â½ïıéÑ_ÿªåÎÙ¨Uj™áyÌRë‚@;Ö¢Ÿì˜”ÖYø†™Ñ@ÍÇ{^şõ/~üé7f&ø>›Ön›Qõ÷w\¹|æ@wËŸ…uK3	2ŠÔ/	9–ùî™±F¬qBZ;>Ò¬mUŠš$ƒwdCcÃ­ra‹v¬ÏcQÓºlxº™Ïû5óˆy²İµ0¨“¾‰”W4‹Äİçö¿ùİxgÚ%Ê¸‡S®A¯¡wRÒpûâÁã‡ßıâÃ·N|üú‘}/|¶çùqş¨C2Û¦»¦GntêşË!ãPØ4,í¹6ÆİRAíñÃ¯óš/Æ¬ò'Ì9Hl3­½È¢[{ÉÓqõçü*­´õÆ¥#õº{jD²A@ÌÓ»vïúê(ñPJºõZUÛkÒv›gz­ó<µ¤¥½öâË'ïŞ¹\×tóâİ7k.^8æĞ{{[îØfÛLšÛ‡ŞùçÿöÃïüåÃ?xèÿşÿ~U™
 endstream
 endobj
-150 0 obj
+158 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 514 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 667180 >>
 stream
 xÚ´½	dWu°9óGÌâßƒ4H-©[kki´"2 lÀÆØ`c0Æ,c~Á1ÆÛ`6©—ê½kÏÚ·Ü·ÊZ{«êªÊ}ß×—kUuKB0˜™˜˜sîyïäÍ—¥–°c"N¼¸ùòåË›/ïòİ³]×ÜY·ñœsæœcú,M£=–Ñc¦áŸÙGŸwŒüÜ3şÂâÄO–&~º:õÂ†é”×rÒkí	¹N&–OÆ—Ç—'/œÌ]éM]8_>[:Y>•¼t>»>ºÜ›¸8˜¼4š¾8”½Ø×6ûKŞA8æ®öç7Š›Å¾âÕ³•­^òæy8*Ş¾š ê¨xûŠŞŞ²¿_	BC¥ĞpÁß_
@@ -33944,7 +34221,7 @@ VÊx@jIı!e},J©E«	I•Ò2É¹E‹èµŸıäç?ûó8†Ø¤I5Ö±n“9—õ™ÀåÓì¬W>|£ëËî\ıû×ú
 ’AkÂ¿bQŞ¾üîİ«ç‡]‘<´(¿]™‘:ìòEÃÈdÿM³ìQpGK§–*ùU´n(–ód­å„¼šP¥G”ùe=âXô ¦:ÌX¶‡^ûÉ_ıäıç¬+6”“*‡µO#]3)<ËÓ”w¼–œ¬t^{ãÓwÜ³3wĞµ4Ş÷­İØ_J®2©Õ|ÈPKËÁáeıG¡õş¬ß:ÖséqÇUj«^r0éÕBb¹İĞİ[ÖvÆâøöHbK–z&ÉºÇ¹L’S9—¬€2u›j‰ù’ß^—*{?-y­G‰:bMçØÌîš]ûÅ'çvWÇ‹[`S6+0«{÷6” Ã+†Ç=7ß{ğÉ¹9™È¿nHîéó~sÔ)Ëº®Uõ†MfUD7™ıÉÿ¢­ÿY2¬ÿû{OjO9xûş/Ş¹ÿ[ùã÷7Í±­Á¼_\H‹!Un•Æ.zP^-¤¬¥•Àã«Æ¥…ğbÒB\ËÄgs€¦~C6 È†a—&êµÄö­ş=©×©ğïü;À¢*ŸSé\_·‹ıË‘MÓo×ÿ_-Y
 endstream
 endobj
-151 0 obj
+159 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 414 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 224511 >>
 stream
 xÚì‡G·÷?ïMÀVYõŞ«åŞ{ï½÷nƒé½Ó1Ø`\pïÆ˜bL3àŞ¶©´{Ÿ{ÿŸ÷ì®$Ë’LBò<"¿"«¬vggÎ|çÌ™3¶d¾­UVYeÕŸ$„g‹pubˆd¾¡H¤-BˆZY‹úİ&®E²Ô’ˆ¡‘¬e²„–ÉZPVYe•UVµÊÊ¢VYYÔÊ¢VYe•UVır5"R+‹ZYÔ*+‹ZYÔ*«¬²Ê*+‹ZYT/"0•µÿq²ŞD+‹Ze•UVYYî¢ùìL=ÈZÔß²?ÍêR³²¨UVYe•UVı£Yt“s¶ÁQkQ;+‹ZõŸ5ø²LÖ‚²Ê*«¬²²¨UVµÊ*+‹Ze•UVı½ÚIäZ¢o–E·#Rë5+ÏH²¨I`NÍªÿ¨ÊóçX®¿-˜Ä³DÖæc•UVYµ]ÿbó§I+‹ZYÔ*+‹ş±`cS}SÁ«VµÊ*«¬ú÷fQ„ëóóbÖ;ûuqâ¯®'V}ãù¯rxş3Y”c‰¬ÍÇ*«¬²ê/ªgQ#"µ²è×dQ“ôM6dY;S«¾ıvj#‘È±DÖæc•UVYeeQ+‹ZYÔª?BÍä»…¡¡VµÊ*«¬²êïeQ#"µµ•Eÿ£d!ÚıãXôgµ²¨UVYeÕ_6SfeQ+‹ZYÔÊ¢=‹Zú³XYÔ*c}YÖ;£wE~m	ÌZrİ~ytE*v­ğÎtËş)©…H`i¦µÏm,hR¼1ÑÑ¶Öİ»D’Ğı¯n ‹mh?ß¿Fp(Ó
@@ -34926,7 +35203,7 @@ E\Š ú©ú”ŠmT;¼ @ø/•%¢²S’ˆB%]PBˆˆ¢ĞyP,1PŠJ¬¢OQ˜B*ùÔïÖç\ª~R‡	W>u
 ,J¹°GÌ¢XXX˜E1‹bÅ,ŠY³(fQ,,,,Ì¢AıÂĞ¦ñfÑ³†ó˜E¿ªÈ0‹~†E%¿±ÿlıU"ıSXTH¢ğÏ³(Ö?Çîû‚AÕÿHŸíÿjı$ÂÎ“oö¬éE/èú‰„‹ã/S²ÿó¢¸CÆÂÂÂ,Š»>Ì¢X˜EqÉbÅÂÂÂúƒYô~‰E/°…YfQ\²‹’q‡Œ……õ÷í`¿È¢ÔOôÅcfQ¬ó‰åbÂ,ú­–ìE+ gAp}Ú!Zú¸`aaı}qôñ+)ŸgQÜïaÅÒøSü‹bıvKö¢vô_.ŒWD±°°¾-û/ƒ(îñ0‹baÅ%û'”#ù×NRá³(fQ,Ì¢¸d1‹baaaı'¬™¾@¡x¤ÃÂúŠ6¥vVI¥K."Ì¢¯’ıs„)ë›íD§ªOR>Ñùã?ù,,¬3mê´È À™³è7P²>í5p‡Œ……õ÷İ>şíñGÈş,,¬ß¹áûÕKg˜Eÿ9ë±g@wÈXXXSıMÑ™õãXXX˜E±~£.ÉwÈXXX˜Eq×‡…õ?|ˆY³(ÎR,,¬¿5‹~npüMÇÂÂú,J¢/"Ì¢ÿLÅ2Ö· ÚÇúµ“ù¿éãXXXÿap–şYôBÂ2ÖHÿ?Š­AÁ
 endstream
 endobj
-152 0 obj
+160 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 260 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 129523 >>
 stream
 xÚì½÷W\W¶ïk[PU;WÎ‘\ä(A9#ÊBYˆ¨„$#DN
@@ -35421,7 +35698,7 @@ KÊ5ÁËÄR¡Ñ` JZhÊP¥!ä¢ÿüUıÆE]«±fµóßÒEW53Càã…e–ä7ıêpÚ©Â`—µî‹@ şH¿è‡Ğ†
 ¶n8ÓjŒ†yiaúWz~X0ä¢ä¢ÈEø\§áÚ&£¢%:¿ ğ5É¡ë¢6½C(‰¸¨ë0õ¼à±ÈEÈE‘‹"ˆÏšÿbä×
 endstream
 endobj
-153 0 obj
+161 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 417 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 347906 >>
 stream
 xÚ´½÷SUÛº6¸·²â\9'rÎ9GE‚˜0¡bV@AÉ9çœsfİéìî=ß×_÷­¯ú§®ê_úèwŒ±Öbtë>çV¢&sÍ8Âó>oœL’ùÍ½ßNG¶»QŠıš
@@ -36902,7 +37179,7 @@ eV(xªçÈÉéo{ÇzzÙVc§Är4ô]¡â·ú‰$¼8+”êø¶ÍËÇ-”t„qw{ò‚v6Îäâ.JW8(ä2‰˜NÅ˜$µŞ@iz£
 3Uº‹’·¯êÿ’*µ
 endstream
 endobj
-154 0 obj
+162 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 247 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 170258 >>
 stream
 xÚ¤½÷[TÙ¶6ºwUµòªœ«È±ÈssBQÄĞÆ6ç¬(D1‚€äœs³m‡½ÏŞß¹÷Üï?rß9Úv÷9{ßçû|æÃSUkÍ5æïxß1ƒŞªùŸË9h³Ï4¼óMûóçÕÂoåÍÿ¢‰‚‹loaE³·ZE›„k²5câ$‡Z°ÓfÕ_..Ì|_ù]E;šš³(m¢l$şÄHNFr0’•m*NïÅÈ¸#àóNFpp‚E,¼hä#ÇqkLŒhbd³7¯Wf¥i”çeM‚`“DÏ94j‹,ùàËX9ÎÊóø®×!—âø$ËØĞDÑ)Š\\­YÖ ø¤M£1Ğ_-ôü4“±øŠ]à²l%¼C?©Fí¢äÆ½ğ'IôQk¬è¼Š·1²soVËvFgedƒJĞªx7«óòÆí,¼àäD»†tŞ®á\ŞÁÂ’YÍëUœo²’—¬‚dC4¬‘¬ŒhWñF°á¤áÊ¢E%4¢ÍKcV3VAtáµhàe'+Ç@—t²MàŒ<cfU‰sÁx4–3ğ¢V3|&UìïÍË#t@Í5‚‘•`m¼6àW5göÒ }æ*¯ôW«šC#ï‹²“ÍjvC'áx"¤ÓˆzÜˆ×Ú9Ù¦æÍ*M.¥bÉÙÎ
@@ -37603,7 +37880,7 @@ f+xóæÆ‡nĞ4›d¦aÈîL¿Ğqšy¡5s+İ47éÙÌÊõ+#yQs[]"z¦Zª´¶·_Šã=É¥˜¹£ÔIQçU3½FMª¦ô€º0
 ÊÖ¨‹Öá¢     `Ş.ZµÃÆz·ûÚÙñaï»³µ„NPbÕålh~ ¢1    €¹Ñ{5;Š×wº¯ôÃ{ïm´7×"²Ğ‰¨Å“Eëc.*$pQ     0£‹Ú^ÃŠrÑ[¹‹†EKW,Í{:¡Å     À"]4&-ˆ‹ŞÏ]´jéº5¥l™ß`Ğ¤     `&M¬(-ììÜ:?~™]tk-*™¤hlyÍK-tÂ¨=  ¬ÿ6_À
 endstream
 endobj
-155 0 obj
+163 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 74 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 69944 >>
 stream
 xÚŒ½sÉ¶.:¤î.Û]í½¼oyƒa„‘ğŞŞáAB#ä÷Ş{!ì3ÛœsÏ‰{#^Ä‹÷KŞ—•’Øçìs‰ŒRuueæÊµ¾õ­•oQı÷EÉÛ•ŠU)XT‚I%T‚‘L,‚;zz‡|EŸæ‹IõÏå›7»kŒ
@@ -37887,7 +38164,7 @@ FšAÔŒ£ügñ17µ”T¿E5¼YRXTG,„ÿ`@ã
 &˜`‚	,*˜`‚	&˜À¢‚	&˜`‡Eÿ?¶³å‡
 endstream
 endobj
-156 0 obj
+164 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 74 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 66795 >>
 stream
 xÚ´½s[¶&zÚ–ª*++³˜AÌPb²,3[f-3³e”e[²²À²$[ÌÌÌŒ–ñ@Ÿî¹ïÆû5ïÛ¹%Ùçôí¾3ób"vdd¥ª2w.øÖ·ÖIdFÉ¿nRÖLšÌ$Å9iú?6­T¦cdáËæ›˜3J8ı¿i£uk™É‘Ñ‹¤än,§[%–‹dZVif¤&4útVfYê†Ğ™E²Ô„±&†³0œ	}À}$,îc1·ˆx‹gtäI·%•£T‰?±œY$5âWRŞÌÉM§gY­/È[e¼Y†ßòFVnÉLbÎ¼Üˆ(5ÃĞ7	oÀNéÌrV)kä8£œÓñ¼A&ÓÑ†2Œ×e˜Ô c-‰†auÂÓèŒX¦ƒ¤r#«0á†<oBo¥R£”1ñœÅ+°ztI†w—šIğ+áËø•£TC¤ÇêpHo½ßGÓI¥–\áÍT&+MÌêE¬Vhj©\/““_¡“
@@ -38185,7 +38462,7 @@ FÅ¢] œ$§Mõ=çP^¼^“ñk’ÎÚ¹^¥Ì¶¿±u\K)³)IÖ9•{nì‚/XºAYT’=Õ¨°¯\®ášp_b‰ÖK²CKÄ
 9qåâââââZÛ}ô€£µööç.ÿìÒÂkõÉí’-i„[¼qäâââââââââ,ÊÅÅÅÅÅÅÅÅÅY”‹‹‹‹‹‹‹‹‹‹³(×¨ôÿ¶²Ä«
 endstream
 endobj
-157 0 obj
+165 0 obj
 << /Type /XObject /Subtype /Image /Width 700 /Height 105 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 42892 >>
 stream
 xÚì]|ÇÛˆ»„@H€àZ,¸C	îP(n-Z¬Hñ`Åİ	\’`"!~qww×ó{¿wvï"H¿¶¼7¿%ì­ÌÎÌóÊóÎÌÎŠÅb ÈÊÊ*//Ç‰Dò$OŸ1±"WVV–““#—ÀïÜŒŒ>Ÿ/÷»…\[ÿk çååáH$Â¿©©©(B¡°Räé³'<¿¤¤$±XŒæHŞ ßMB4ÑÂÄÅÅ"m7ÈwÇÜÜ\¹¶ş§´±F’ŸŸ/gPò$Oò$Oò$Oòô7SJJ
@@ -38349,7 +38626,7 @@ DØğ´õËæ¤Ì›g`N|÷–¸t·jÅüÔsg5÷K$È¨û!2.kÅ‚™Óf¥Îœ;oÖ”ñ×Ü}LÆãR?ÃjtH
 CQtx<ö¿ ‹¢Èó|†a|p"tå|ßã¸,Ët]‡&Ì@næyNÎ*ŠbÛ6ÕBhÂ@Zo·}÷+9‹´^$ÅÔÈq×u©-<ŸûhnY––eQgp8Ïóâ8N’„GPƒ1ÈÓ4M£("—¡ ­—Âqœ0ï÷{Û¶#Iÿi§    >ÁñõÓ8Ó4Ñùµ¯cà<^û@ò›®ß0Û¶á2f.=^º®[–åı;òHë<Ï}ß#­×1¼>JÅùÓ-w
 endstream
 endobj
-158 0 obj
+166 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 323 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 221311 >>
 stream
 xÚ´}	¸eEuu¿©'º›¡…De•(‚Š F‘ğ'Q€QDÀT"‚8üœE~%Æ$NqÄ8@ÀDE5 ‚Q¡iÆnfè¹ß{÷ÖŞUÿ9§¦½wUsîk¼ß¥yÃ}÷¡j×ªµ×^{íÚG×¬ydİº5×¯]·fMõİÆ¦§7ÍÎN333›ÃhmŸ
@@ -39197,7 +39474,7 @@ r†şÚt2ğ	ú}°¦´éç…áGoåd©÷G§JEÕp=.ÒÅ˜¢û‹.1…†ôãì<¦Ãó±¤“‹ï(X÷ç8ì©V?b[hjø¸õ
 Åf›4ƒÛÁé(˜™ß²¾zŸVú]Z0NÓ,BùÄ‰,›)ÇR.˜•@eŞ~\ˆØdŒ`lcøYt>zi“úSV)*‚sÒ›w L!Ã[.åq÷Äº I3›ÁNPŠXZ#ºX+5Æb†4Íj8‰¶n¥Û¨i;‚{ÆEvbÜLLX_ˆÇ[ä«Ö©ÔgÓö PEÅ‘¼}M%{Ğœ¹ñ„Œç¼›3²â¡ `f#mu{j5MX©sf3B¸\"fz”éÙ4iI!Ø²Âˆ+İr4µ´]¶½Aus·{a…Ù8”Ã<LÜ 8äÿ6wnË‚0ıÿ_.I8f'!©Ò·ÓÎtÔ¹ha™«f›¢ÉÈ™^Tç×c3Êí÷hMHÂdö>s9/™«øU:Ñç.Ëv%âSIÚ$O>Èòä&bÛ^È‡—-A†òî%²§=U£ËÏ$Hò5»£<‰Ó§ªjT^ºD€\Ù¼Ñ0°$?BqY p×»š¾˜³>9Ôs­ËP\ŒËw÷k!óÅØIOoa>Ûßï?¹û†¥Ä„İk˜zÙ»¥PfË,»‰İyA’-˜—.¼Î$a³g;1%òÜ<“c|ÜÏ;ôIŠyÒÊµƒĞŒŒâo«É+ZÚ«ŒQ­a¶MAuM-nNFX4Ù™Å­&…M-Ğ…+ºa T®ÀrŒm¬ù.KÖÕBúm€@·!¤ÍOU[Î x+¥gSCËÉNcX¸™¾W!ÔéÆ]ò92G¥0ï,$	#:ÁuX² 6¡â(îcÄJp=+.É°‘ªë(8j,±xë–ôÒ³³UßOCÊ gµ7@¦©f‚d  V­µ+aClÃÜ‰TÎ|mÛ#Ä†OäñÇ®êÓ‚İ›Y×„Ò€¤#ú3¿§ö
 endstream
 endobj
-159 0 obj
+167 0 obj
 << /Type /XObject /Subtype /Image /Width 572 /Height 331 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 48754 >>
 stream
 xÚì½xÅÙşMB€„$äãOŞÀHBy„bƒmlporor/Ø²{•î½÷†{—«zï²šÕ{ï½œ¢Ó‹ö»Ïy¬a‘-cdç¹¯½÷ìÎÎ®ö¬ç·÷Ì33’Äb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X,‹Åb±X¬U-,’Õ¾Ü3Í·Ò³X,‹ÅÌb±X,ëŞ’1«%r±X,‹ÅÌb±X,Ö³î‹2VÙÂb±X,3‹Åb±X¬‡Y-É*}³Ü–Ë·¹Ætc±X,ÖÇ,K²Z¿YnËŒ…™Åb±X¬R:(¦Õè°ØWzI§5ÖÕ*Í¦Fl1%½Ö‚íX¯¯¯·g5c«d¶/Ì,‹Åb=,Á&FñÕd2ÕT×‚G&£Ù 7båVlÂÆ[.p^µríñc§*Ëë€#E½Úb¾^¯×Ú	ÅÌb±X,ÖC§ §±Ñf£ô:›±ÂJ~nÉœYgLŸ?óËç¯8wæê½'¿Z¶ÉiòloÏ`e½Şj–4Zêel2îB+{g±X,ÖC`–B¡°AÆjc@ãéá3fÔÄç®è4Ö²’Ú¼œ2e½!3­8)>'2"Ør¹èjÔÛ¼«ÕJf‹Åb±~ Y,†ÆFÓí 
@@ -39400,7 +39677,7 @@ K¸M›6è–è±vvv÷îİÃõaã‘5^(›$Kº¿<ê:lT‹ùÁ2&MšV‹úAıC“6ìîİ»DœaìŞ½›†ß°ù,V
 VC%éãB´ Ò'u™Îk+ş ¹¢^Õ‚öI%¼Yùé'fXÿ%±¬¸jáJª´;{ò(—†{§ë%7^ÎIÜÜ€CúX‰4?#õÀ´ŠÕ{>¸£E{¥²AâÓ›6Z.Wuë¸*Æ38¹«p_‘À’)ê²àÛğ_ï-_ÍYË…h‘@ üjÎZ®ûG‹@àGøs™°\÷	@pV ?ç¦°L ‚³@ @ @ @ ¤øDDÔô
 endstream
 endobj
-160 0 obj
+168 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 719 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 203797 >>
 stream
 xÚìxU÷ÿ7[²é!zï½(½7©""U‘fE¥E:( €DQÀ
@@ -40264,7 +40541,7 @@ nNp°œ»©¶]ÈÑZpá    ®f)ÅMë‰ÃÚÎKĞQì‚à)OŒ#_‘„‡ålñÄ±ªê™Ë–<ù£ß×r¬«¡aàĞazS
 $Å'(AN°Ô7¾öş‡tÀ½V?tì=‡OôøÍsóT*ÕÓ/½DÂ§…aH°$_½Ébùß¹(J²kÓm}Gr"y]†,ïâi5‹–½°M–šfšWÆb¸p    ×­%çltß¦Ò„Ä¿‡cr‚—<–scÜNøX‘dÑ¥«Ÿ£­/õ•V7º¤äõ·ß¦£=Uª·?ø€äÉ¦,J¸åßÛÕÜ—ŒÁäûmÉ¦dm¸W”lq¦©óRÓh$Orå–$ç¦£Å…   ¸x’û0]’ì%z’dkêôÓOÓ©#Î~ÿéÒEX•“oHI')To4j´ÚÔŒÔGÓVHä›E±)XşÎ-£M·ò›Q›Ê¬ä±$™I²M>‰™.™şØ¾éPqÕ    ®¿îñş3ëOì‚L¸ÉÏ‹îk¯müz×şd÷x­J§Ó¥§ß6ĞÏsÿ­C²şâ¥m?7\5	   à†È¢QiÊ¢µ’$_„¹jvœ½|­°}cVVóÂ–e6‹+G   €ÿVı™E,ô6ºàD¯(‘8às]ÈKì>uÆ‰š¼ÿ½Úöß<dQ   €ëÏoÅ¼ÿ QtK'Ç.^$BŠb'è<ôÛ (N^üŠÇ¿•qá    n,êRdw²Ôİ%N¶Zrq‚-ÎĞ8aŠRÛ9Y    şo7Ä?ù±³	—À¹hÅ=oKNhrŠ2£¬àâ%K‚w²âïœøù{üò¥È¢                                                                                                                                                                                         ‚ğ?€9äŞ
 endstream
 endobj
-161 0 obj
+169 0 obj
 << /Type /XObject /Subtype /Image /Width 900 /Height 580 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /Length 133027 >>
 stream
 xÚì`ÕÚ†'Ù–Ş!¡FŠHQ„RDl@(‚(ÒP¢4A¥÷.¢
@@ -40780,171 +41057,179 @@ GƒE–P§²¢ºÂÑHnCìÔ‡î ©6dšİöÔ©ñÀ5†'²U6JW;Õ™0w­BCşœQLñªµ˜iH•vÔÂ¨ê‹:::¢Ü¢)ÇKÔïÓ»
 endstream
 endobj
 xref
-0 162
+0 170
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000505 00000 n 
-0000001208 00000 n 
-0000001312 00000 n 
-0000002938 00000 n 
-0000003042 00000 n 
-0000005222 00000 n 
-0000005326 00000 n 
-0000008509 00000 n 
-0000008615 00000 n 
-0000010073 00000 n 
-0000010179 00000 n 
-0000013108 00000 n 
-0000013214 00000 n 
-0000015183 00000 n 
-0000015289 00000 n 
-0000017403 00000 n 
-0000017509 00000 n 
-0000020084 00000 n 
-0000020190 00000 n 
-0000021366 00000 n 
-0000021472 00000 n 
-0000024910 00000 n 
-0000025016 00000 n 
-0000026920 00000 n 
-0000027026 00000 n 
-0000029789 00000 n 
-0000029895 00000 n 
-0000030179 00000 n 
-0000030285 00000 n 
-0000033386 00000 n 
-0000033492 00000 n 
-0000035348 00000 n 
-0000035454 00000 n 
-0000037126 00000 n 
-0000037232 00000 n 
-0000039338 00000 n 
-0000039444 00000 n 
-0000042375 00000 n 
-0000042481 00000 n 
-0000046372 00000 n 
-0000046478 00000 n 
-0000047838 00000 n 
-0000047944 00000 n 
-0000050077 00000 n 
-0000050183 00000 n 
-0000053308 00000 n 
-0000053414 00000 n 
-0000056648 00000 n 
-0000056754 00000 n 
-0000059053 00000 n 
-0000059159 00000 n 
-0000062978 00000 n 
-0000063084 00000 n 
-0000065672 00000 n 
-0000065778 00000 n 
-0000067217 00000 n 
-0000067323 00000 n 
-0000069413 00000 n 
-0000069519 00000 n 
-0000071416 00000 n 
-0000071522 00000 n 
-0000076272 00000 n 
-0000076378 00000 n 
-0000078845 00000 n 
-0000078951 00000 n 
-0000082677 00000 n 
-0000082783 00000 n 
-0000083467 00000 n 
-0000083573 00000 n 
-0000084535 00000 n 
-0000084641 00000 n 
-0000086527 00000 n 
-0000086633 00000 n 
-0000087966 00000 n 
-0000088072 00000 n 
-0000089624 00000 n 
-0000089730 00000 n 
-0000091644 00000 n 
-0000091750 00000 n 
-0000095347 00000 n 
-0000095453 00000 n 
-0000099483 00000 n 
-0000099589 00000 n 
-0000101293 00000 n 
-0000101399 00000 n 
-0000103065 00000 n 
-0000103171 00000 n 
-0000104610 00000 n 
-0000104716 00000 n 
-0000106784 00000 n 
-0000106890 00000 n 
-0000107889 00000 n 
-0000107995 00000 n 
-0000110318 00000 n 
-0000110424 00000 n 
-0000113778 00000 n 
-0000113884 00000 n 
-0000115211 00000 n 
-0000115319 00000 n 
-0000118395 00000 n 
-0000118503 00000 n 
-0000120119 00000 n 
-0000120227 00000 n 
-0000122793 00000 n 
-0000122901 00000 n 
-0000126364 00000 n 
-0000126472 00000 n 
-0000128227 00000 n 
-0000128335 00000 n 
-0000130579 00000 n 
-0000130687 00000 n 
-0000134451 00000 n 
-0000134550 00000 n 
-0000134654 00000 n 
-0000134761 00000 n 
-0000134858 00000 n 
-0000461594 00000 n 
-0000603619 00000 n 
-0000671429 00000 n 
-0000717367 00000 n 
-0000803520 00000 n 
-0000901239 00000 n 
-0001051106 00000 n 
-0001170980 00000 n 
-0001321065 00000 n 
-0001335062 00000 n 
-0001374214 00000 n 
-0001766341 00000 n 
-0002192546 00000 n 
-0002319831 00000 n 
-0002480364 00000 n 
-0002767989 00000 n 
-0003075641 00000 n 
-0003444003 00000 n 
-0003741158 00000 n 
-0004108951 00000 n 
-0004457302 00000 n 
-0004470818 00000 n 
-0004518428 00000 n 
-0004576677 00000 n 
-0004676937 00000 n 
-0004754245 00000 n 
-0004803172 00000 n 
-0004983308 00000 n 
-0005711676 00000 n 
-0005876724 00000 n 
-0006599724 00000 n 
-0007242139 00000 n 
-0007909493 00000 n 
-0008134178 00000 n 
-0008263875 00000 n 
-0008611955 00000 n 
-0008782387 00000 n 
-0008852503 00000 n 
-0008919470 00000 n 
-0008962535 00000 n 
-0009184020 00000 n 
-0009232947 00000 n 
-0009436918 00000 n 
+0000000537 00000 n 
+0000001240 00000 n 
+0000001344 00000 n 
+0000003242 00000 n 
+0000003346 00000 n 
+0000006178 00000 n 
+0000006282 00000 n 
+0000009465 00000 n 
+0000009571 00000 n 
+0000011029 00000 n 
+0000011135 00000 n 
+0000014064 00000 n 
+0000014170 00000 n 
+0000016139 00000 n 
+0000016245 00000 n 
+0000018359 00000 n 
+0000018465 00000 n 
+0000021040 00000 n 
+0000021146 00000 n 
+0000022322 00000 n 
+0000022428 00000 n 
+0000025866 00000 n 
+0000025972 00000 n 
+0000027876 00000 n 
+0000027982 00000 n 
+0000030745 00000 n 
+0000030851 00000 n 
+0000031135 00000 n 
+0000031241 00000 n 
+0000034908 00000 n 
+0000035014 00000 n 
+0000036810 00000 n 
+0000036916 00000 n 
+0000040017 00000 n 
+0000040123 00000 n 
+0000041979 00000 n 
+0000042085 00000 n 
+0000043757 00000 n 
+0000043863 00000 n 
+0000045969 00000 n 
+0000046075 00000 n 
+0000049006 00000 n 
+0000049112 00000 n 
+0000053003 00000 n 
+0000053109 00000 n 
+0000054469 00000 n 
+0000054575 00000 n 
+0000056708 00000 n 
+0000056814 00000 n 
+0000059939 00000 n 
+0000060045 00000 n 
+0000063279 00000 n 
+0000063385 00000 n 
+0000065684 00000 n 
+0000065790 00000 n 
+0000069609 00000 n 
+0000069715 00000 n 
+0000072303 00000 n 
+0000072409 00000 n 
+0000073848 00000 n 
+0000073954 00000 n 
+0000076044 00000 n 
+0000076150 00000 n 
+0000078047 00000 n 
+0000078153 00000 n 
+0000082903 00000 n 
+0000083009 00000 n 
+0000085476 00000 n 
+0000085582 00000 n 
+0000089308 00000 n 
+0000089414 00000 n 
+0000090098 00000 n 
+0000090204 00000 n 
+0000091166 00000 n 
+0000091272 00000 n 
+0000093158 00000 n 
+0000093264 00000 n 
+0000094597 00000 n 
+0000094703 00000 n 
+0000096255 00000 n 
+0000096361 00000 n 
+0000098275 00000 n 
+0000098381 00000 n 
+0000101978 00000 n 
+0000102084 00000 n 
+0000106114 00000 n 
+0000106220 00000 n 
+0000107924 00000 n 
+0000108030 00000 n 
+0000109696 00000 n 
+0000109802 00000 n 
+0000111241 00000 n 
+0000111347 00000 n 
+0000113415 00000 n 
+0000113521 00000 n 
+0000114520 00000 n 
+0000114626 00000 n 
+0000116949 00000 n 
+0000117057 00000 n 
+0000120412 00000 n 
+0000120520 00000 n 
+0000121848 00000 n 
+0000121956 00000 n 
+0000125032 00000 n 
+0000125140 00000 n 
+0000126756 00000 n 
+0000126864 00000 n 
+0000129430 00000 n 
+0000129538 00000 n 
+0000133001 00000 n 
+0000133109 00000 n 
+0000134864 00000 n 
+0000134972 00000 n 
+0000137216 00000 n 
+0000137324 00000 n 
+0000141088 00000 n 
+0000141196 00000 n 
+0000144984 00000 n 
+0000145092 00000 n 
+0000147283 00000 n 
+0000147382 00000 n 
+0000147486 00000 n 
+0000147593 00000 n 
+0000147690 00000 n 
+0000474426 00000 n 
+0000616451 00000 n 
+0000684261 00000 n 
+0000730199 00000 n 
+0000816352 00000 n 
+0000914071 00000 n 
+0001063938 00000 n 
+0001183812 00000 n 
+0001333897 00000 n 
+0001347894 00000 n 
+0001387046 00000 n 
+0001779173 00000 n 
+0002205378 00000 n 
+0002332663 00000 n 
+0002493196 00000 n 
+0002780821 00000 n 
+0003088473 00000 n 
+0003456835 00000 n 
+0003753990 00000 n 
+0004121783 00000 n 
+0004470134 00000 n 
+0004483650 00000 n 
+0004531260 00000 n 
+0004589509 00000 n 
+0004689769 00000 n 
+0004767077 00000 n 
+0004816004 00000 n 
+0004996140 00000 n 
+0005724508 00000 n 
+0005889556 00000 n 
+0006612556 00000 n 
+0007254971 00000 n 
+0007922325 00000 n 
+0008147010 00000 n 
+0008276707 00000 n 
+0008624787 00000 n 
+0008795219 00000 n 
+0008865335 00000 n 
+0008932302 00000 n 
+0008975367 00000 n 
+0009196852 00000 n 
+0009245779 00000 n 
+0009449750 00000 n 
 trailer
-<< /Size 162 /Root 1 0 R >>
+<< /Size 170 /Root 1 0 R >>
 startxref
-9570119
+9582951
 %%EOF

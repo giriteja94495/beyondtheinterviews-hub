@@ -3,7 +3,7 @@
     "file": "dsa-decoder.pdf",
     "title": "The 40-Pattern DSA Decoder",
     "tagline": "Recognition-first DSA — plus the data structures that power real systems.",
-    "pages": 18,
+    "pages": 20,
     "chapters": [
       {
         "title": "The 40-Pattern DSA Decoder",
@@ -12,24 +12,36 @@
         "source": "Authored for Beyond The Interviews"
       },
       {
-        "title": "Skip Lists Data Structure",
-        "subtitle": "The probabilistic data structure that’s used in HNSW and vector indexing.",
-        "date": "2026-10-03",
-        "source": "https://pradyumnachippigiri.substack.com/p/skip-lists-data-structure"
+        "title": "Skip List",
+        "subtitle": "distributed systems",
+        "date": "2026-09-14",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
-        "title": "Engineering Fast Search with Inverted Indexes",
-        "subtitle": "How modern search systems organize and work for efficient and fast information retrieval.",
+        "title": "Inverted Index",
+        "subtitle": "distributed systems",
         "date": "2026-07-16",
-        "source": "https://pradyumnachippigiri.substack.com/p/engineering-fast-search-with-inverted"
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Time-series delta encoding",
+        "subtitle": "distributed systems",
+        "date": "2026-02-10",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Database Indexing Best Practises",
+        "subtitle": "distributed systems",
+        "date": "2026-02-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
       }
     ]
   },
   "offer-stack": {
     "file": "offer-stack.pdf",
-    "title": "AI & LLM Systems Playbook",
-    "tagline": "RAG, agents, semantic caching and the backend stack behind production AI.",
-    "pages": 37,
+    "title": "AI & ML Systems Playbook",
+    "tagline": "RAG, agents and the model-training stack behind production AI systems.",
+    "pages": 54,
     "chapters": [
       {
         "title": "Zero to One : Learning Agents and Agentic Patterns",
@@ -56,22 +68,94 @@
         "source": "https://pradyumnachippigiri.substack.com/p/everything-you-need-to-know-about-9be"
       },
       {
-        "title": "Semantic Caching",
-        "subtitle": "How Semantic caching helps in saving Cost and reducing latency in LLM Applications",
-        "date": "2026-09-14",
-        "source": "https://pradyumnachippigiri.substack.com/p/semantic-caching"
-      },
-      {
         "title": "A Supa Explanation of Supabase: The BaaS Everyone Is Talking About (And Why)",
         "subtitle": "In this article we will understand what Supabase is, and why it is making so much positive noise in the market, and how it actually works behind the scenes.",
         "date": "2025-11-12",
         "source": "https://pradyumnachippigiri.substack.com/p/a-supa-explanation-of-supabase-the"
       },
       {
-        "title": "Shell Scripting for Devops Beginners: Part 2",
-        "subtitle": "In this article we revisit some of the most used and most important Linux Commands for interviews, and these Linux commands are also used on a daily basis by every Devops Engineer",
-        "date": "2025-11-09",
-        "source": "https://pradyumnachippigiri.substack.com/p/shell-scripting-for-devops-beginners-626"
+        "title": "Agent Memory Types",
+        "subtitle": "ai",
+        "date": "2026-01-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "How Agents write to external long term memory",
+        "subtitle": "ai",
+        "date": "2026-01-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Prompt Injection",
+        "subtitle": "ai",
+        "date": "2026-09-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Knowledge Distillation",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Proper distillation - type of knowledge distillation",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Model parallelism",
+        "subtitle": "ai",
+        "date": "2026-10-02",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Distributed Data Parallelism",
+        "subtitle": "ai",
+        "date": "2026-10-02",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Strategies for scaling neural networks across multiple GPUs",
+        "subtitle": "ai",
+        "date": "2026-10-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "LLM Compute constraints",
+        "subtitle": "ai",
+        "date": "2026-09-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Logits",
+        "subtitle": "ai",
+        "date": "2026-09-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Vanishing Gradient",
+        "subtitle": "ai",
+        "date": "2026-09-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "ReLu activation function",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Sigmoid activation function",
+        "subtitle": "ai",
+        "date": "2026-09-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Tanh activation function",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
       }
     ]
   },
@@ -79,13 +163,25 @@
     "file": "company-vault.pdf",
     "title": "Database & Storage Deep Dive",
     "tagline": "How databases really store, scale, shard and stay reliable under load.",
-    "pages": 55,
+    "pages": 59,
     "chapters": [
       {
         "title": "How databases store data on the disk",
         "subtitle": "Easy explanation of how HDDs and SSDs store data from database",
         "date": "2026-02-19",
         "source": "https://pradyumnachippigiri.substack.com/p/how-databases-store-data-on-the-disk"
+      },
+      {
+        "title": "Local SSD (NVMe) vs Network SSD (Block Storage)",
+        "subtitle": "distributed systems",
+        "date": "2026-02-09",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Database Indexing Best Practises",
+        "subtitle": "distributed systems",
+        "date": "2026-02-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
         "title": "Scaling the Databases: Choosing the right strategy",
@@ -122,6 +218,12 @@
         "subtitle": "System Design from its first principles : Part 3",
         "date": "2025-12-03",
         "source": "https://pradyumnachippigiri.substack.com/p/how-does-the-database-guarantee-reliability"
+      },
+      {
+        "title": "Bronze, Silver, Gold layers in data engineering",
+        "subtitle": "distributed systems",
+        "date": "2026-06-16",
+        "source": "Engineering notes — pradyumnac26.github.io"
       }
     ]
   },
@@ -129,7 +231,7 @@
     "file": "system-design.pdf",
     "title": "System Design Interview Vault",
     "tagline": "Caching, CAP, consistent hashing and the patterns interviewers probe.",
-    "pages": 60,
+    "pages": 75,
     "chapters": [
       {
         "title": "Caching Playbook for System Design Interviews",
@@ -138,10 +240,28 @@
         "source": "https://pradyumnachippigiri.substack.com/p/caching-playbook-for-system-design"
       },
       {
-        "title": "A Simple Proof of the CAP Theorem",
-        "subtitle": "CAP in one scenario (no fluff)",
-        "date": "2026-01-03",
-        "source": "https://pradyumnachippigiri.substack.com/p/a-simple-proof-of-the-cap-theorem"
+        "title": "2-random cache eviction",
+        "subtitle": "distributed systems",
+        "date": "2025-12-29",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Semantic Caching",
+        "subtitle": "ai",
+        "date": "2026-09-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "CAP Theorm",
+        "subtitle": "distributed systems",
+        "date": "2026-01-29",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "PACELC Theorm",
+        "subtitle": "distributed systems",
+        "date": "2026-03-11",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
         "title": "Easy Explanation of Consistent Hashing",
@@ -162,16 +282,76 @@
         "source": "https://pradyumnachippigiri.substack.com/p/client-side-proxy-vs-server-side"
       },
       {
-        "title": "The Power of Bloom Filters in System Design",
-        "subtitle": "In this post, we’ll break down Bloom filters from first principles and see how they’re used in real-world systems.",
-        "date": "2026-01-31",
-        "source": "https://pradyumnachippigiri.substack.com/p/the-power-of-bloom-filters-in-system"
+        "title": "L4 Load Balancer vs L7 Load Balancer",
+        "subtitle": "distributed systems",
+        "date": "2026-02-20",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
-        "title": "Apache Kafka Basics",
-        "subtitle": "Understanding the core components of Kafka for System design interviews",
-        "date": "2026-02-09",
-        "source": "https://pradyumnachippigiri.substack.com/p/apache-kafka-basics"
+        "title": "CORS",
+        "subtitle": "distributed systems",
+        "date": "2025-11-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Bloom Filters",
+        "subtitle": "distributed systems",
+        "date": "2026-01-31",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Kafka Fundamentals",
+        "subtitle": "distributed systems",
+        "date": "2026-02-06",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "SQS vs Kafka",
+        "subtitle": "distributed systems",
+        "date": "2026-05-19",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Claim Check Pattern",
+        "subtitle": "distributed systems",
+        "date": "2026-01-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Facade Pattern",
+        "subtitle": "distributed systems",
+        "date": "2026-09-24",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "SLI vs SLO vs SLA",
+        "subtitle": "distributed systems",
+        "date": "2026-01-31",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "p90, p95, p99 latencies",
+        "subtitle": "distributed systems",
+        "date": "2026-02-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Backend Latency Optimizations without caching",
+        "subtitle": "distributed systems",
+        "date": "2026-02-17",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "DORA metrics",
+        "subtitle": "distributed systems",
+        "date": "2026-01-03",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Loading images faster",
+        "subtitle": "frontend",
+        "date": "2026-01-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
       }
     ]
   },
@@ -179,7 +359,7 @@
     "file": "complete-system.pdf",
     "title": "The Complete Interview System",
     "tagline": "Every kit in one bundle — DSA, databases, distributed systems and AI.",
-    "pages": 165,
+    "pages": 203,
     "chapters": [
       {
         "title": "The 40-Pattern DSA Decoder",
@@ -188,22 +368,40 @@
         "source": "Authored for Beyond The Interviews"
       },
       {
-        "title": "Skip Lists Data Structure",
-        "subtitle": "The probabilistic data structure that’s used in HNSW and vector indexing.",
-        "date": "2026-10-03",
-        "source": "https://pradyumnachippigiri.substack.com/p/skip-lists-data-structure"
+        "title": "Skip List",
+        "subtitle": "distributed systems",
+        "date": "2026-09-14",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
-        "title": "Engineering Fast Search with Inverted Indexes",
-        "subtitle": "How modern search systems organize and work for efficient and fast information retrieval.",
+        "title": "Inverted Index",
+        "subtitle": "distributed systems",
         "date": "2026-07-16",
-        "source": "https://pradyumnachippigiri.substack.com/p/engineering-fast-search-with-inverted"
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Time-series delta encoding",
+        "subtitle": "distributed systems",
+        "date": "2026-02-10",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Database Indexing Best Practises",
+        "subtitle": "distributed systems",
+        "date": "2026-02-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
         "title": "How databases store data on the disk",
         "subtitle": "Easy explanation of how HDDs and SSDs store data from database",
         "date": "2026-02-19",
         "source": "https://pradyumnachippigiri.substack.com/p/how-databases-store-data-on-the-disk"
+      },
+      {
+        "title": "Local SSD (NVMe) vs Network SSD (Block Storage)",
+        "subtitle": "distributed systems",
+        "date": "2026-02-09",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
         "title": "Scaling the Databases: Choosing the right strategy",
@@ -242,16 +440,40 @@
         "source": "https://pradyumnachippigiri.substack.com/p/how-does-the-database-guarantee-reliability"
       },
       {
+        "title": "Bronze, Silver, Gold layers in data engineering",
+        "subtitle": "distributed systems",
+        "date": "2026-06-16",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
         "title": "Caching Playbook for System Design Interviews",
         "subtitle": "Everything about caches - layers, strategies, eviction policies, and production edge cases.",
         "date": "2026-01-10",
         "source": "https://pradyumnachippigiri.substack.com/p/caching-playbook-for-system-design"
       },
       {
-        "title": "A Simple Proof of the CAP Theorem",
-        "subtitle": "CAP in one scenario (no fluff)",
-        "date": "2026-01-03",
-        "source": "https://pradyumnachippigiri.substack.com/p/a-simple-proof-of-the-cap-theorem"
+        "title": "2-random cache eviction",
+        "subtitle": "distributed systems",
+        "date": "2025-12-29",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Semantic Caching",
+        "subtitle": "ai",
+        "date": "2026-09-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "CAP Theorm",
+        "subtitle": "distributed systems",
+        "date": "2026-01-29",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "PACELC Theorm",
+        "subtitle": "distributed systems",
+        "date": "2026-03-11",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
         "title": "Easy Explanation of Consistent Hashing",
@@ -272,16 +494,76 @@
         "source": "https://pradyumnachippigiri.substack.com/p/client-side-proxy-vs-server-side"
       },
       {
-        "title": "The Power of Bloom Filters in System Design",
-        "subtitle": "In this post, we’ll break down Bloom filters from first principles and see how they’re used in real-world systems.",
-        "date": "2026-01-31",
-        "source": "https://pradyumnachippigiri.substack.com/p/the-power-of-bloom-filters-in-system"
+        "title": "L4 Load Balancer vs L7 Load Balancer",
+        "subtitle": "distributed systems",
+        "date": "2026-02-20",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
-        "title": "Apache Kafka Basics",
-        "subtitle": "Understanding the core components of Kafka for System design interviews",
-        "date": "2026-02-09",
-        "source": "https://pradyumnachippigiri.substack.com/p/apache-kafka-basics"
+        "title": "CORS",
+        "subtitle": "distributed systems",
+        "date": "2025-11-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Bloom Filters",
+        "subtitle": "distributed systems",
+        "date": "2026-01-31",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Kafka Fundamentals",
+        "subtitle": "distributed systems",
+        "date": "2026-02-06",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "SQS vs Kafka",
+        "subtitle": "distributed systems",
+        "date": "2026-05-19",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Claim Check Pattern",
+        "subtitle": "distributed systems",
+        "date": "2026-01-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Facade Pattern",
+        "subtitle": "distributed systems",
+        "date": "2026-09-24",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "SLI vs SLO vs SLA",
+        "subtitle": "distributed systems",
+        "date": "2026-01-31",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "p90, p95, p99 latencies",
+        "subtitle": "distributed systems",
+        "date": "2026-02-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Backend Latency Optimizations without caching",
+        "subtitle": "distributed systems",
+        "date": "2026-02-17",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "DORA metrics",
+        "subtitle": "distributed systems",
+        "date": "2026-01-03",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Loading images faster",
+        "subtitle": "frontend",
+        "date": "2026-01-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
       },
       {
         "title": "Zero to One : Learning Agents and Agentic Patterns",
@@ -308,22 +590,94 @@
         "source": "https://pradyumnachippigiri.substack.com/p/everything-you-need-to-know-about-9be"
       },
       {
-        "title": "Semantic Caching",
-        "subtitle": "How Semantic caching helps in saving Cost and reducing latency in LLM Applications",
-        "date": "2026-09-14",
-        "source": "https://pradyumnachippigiri.substack.com/p/semantic-caching"
-      },
-      {
         "title": "A Supa Explanation of Supabase: The BaaS Everyone Is Talking About (And Why)",
         "subtitle": "In this article we will understand what Supabase is, and why it is making so much positive noise in the market, and how it actually works behind the scenes.",
         "date": "2025-11-12",
         "source": "https://pradyumnachippigiri.substack.com/p/a-supa-explanation-of-supabase-the"
       },
       {
-        "title": "Shell Scripting for Devops Beginners: Part 2",
-        "subtitle": "In this article we revisit some of the most used and most important Linux Commands for interviews, and these Linux commands are also used on a daily basis by every Devops Engineer",
-        "date": "2025-11-09",
-        "source": "https://pradyumnachippigiri.substack.com/p/shell-scripting-for-devops-beginners-626"
+        "title": "Agent Memory Types",
+        "subtitle": "ai",
+        "date": "2026-01-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "How Agents write to external long term memory",
+        "subtitle": "ai",
+        "date": "2026-01-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Prompt Injection",
+        "subtitle": "ai",
+        "date": "2026-09-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Knowledge Distillation",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Proper distillation - type of knowledge distillation",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Model parallelism",
+        "subtitle": "ai",
+        "date": "2026-10-02",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Distributed Data Parallelism",
+        "subtitle": "ai",
+        "date": "2026-10-02",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Strategies for scaling neural networks across multiple GPUs",
+        "subtitle": "ai",
+        "date": "2026-10-01",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "LLM Compute constraints",
+        "subtitle": "ai",
+        "date": "2026-09-18",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Logits",
+        "subtitle": "ai",
+        "date": "2026-09-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Vanishing Gradient",
+        "subtitle": "ai",
+        "date": "2026-09-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "ReLu activation function",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Sigmoid activation function",
+        "subtitle": "ai",
+        "date": "2026-09-26",
+        "source": "Engineering notes — pradyumnac26.github.io"
+      },
+      {
+        "title": "Tanh activation function",
+        "subtitle": "ai",
+        "date": "2026-09-27",
+        "source": "Engineering notes — pradyumnac26.github.io"
       }
     ]
   }

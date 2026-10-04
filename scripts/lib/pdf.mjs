@@ -358,6 +358,59 @@ export class PdfDoc {
     this.y += 9;
   }
 
+  // Simple bordered table: first row is treated as the header.
+  table(rows, { size = 8.6, leading = 11.5 } = {}) {
+    if (!rows || !rows.length) return;
+    const cols = Math.max(...rows.map((r) => r.length));
+    const colW = CONTENT_W / cols;
+
+    const wrappedRows = rows.map((r) => {
+      const cellLines = [];
+      for (let c = 0; c < cols; c++) {
+        const text = (r[c] || "").trim();
+        cellLines.push(wrap(c === 0 ? "F2" : "F1", size, text, colW - 10));
+      }
+      return cellLines;
+    });
+
+    this.y += 5;
+    const padY = 4;
+
+    for (let ri = 0; ri < wrappedRows.length; ri++) {
+      const cellLines = wrappedRows[ri];
+      const rowH = Math.max(...cellLines.map((l) => l.length)) * leading + padY * 2;
+
+      // Keep the header with at least one body row.
+      this.ensure(ri === 0 ? rowH + 20 : rowH);
+      const top = this.y;
+
+      if (ri === 0) {
+        this.pages[this.pageIndex].push({
+          k: "rect", x: MARGIN_L, y: top, w: CONTENT_W, h: rowH, fill: 0.94
+        });
+      }
+
+      for (let c = 0; c < cols; c++) {
+        const x = MARGIN_L + c * colW;
+        this.pages[this.pageIndex].push({
+          k: "rect", x, y: top, w: colW, h: rowH, fill: 0.995, stroke: 0.86
+        });
+        let ty = top + padY + size;
+        for (const line of cellLines[c]) {
+          this.pages[this.pageIndex].push({
+            k: "text", str: toWinAnsi(line),
+            font: ri === 0 ? "F2" : "F1",
+            size, x: x + 5, y: ty, leading, color: 0.14
+          });
+          ty += leading;
+        }
+      }
+      this.y = top + rowH;
+    }
+    this.y += 9;
+  }
+
+  // A short table of contents entry point used by the kit builder.
   spacer(h = 8) { this.y += h; }
 
   pageBreak() { this.newPage(); }

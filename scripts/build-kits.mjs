@@ -10,6 +10,7 @@ import { fileURLToPath } from "node:url";
 import { parse as parseHtml } from "./lib/html-to-blocks.mjs";
 import { PdfDoc, assemblePdf, layout, toWinAnsi } from "./lib/pdf.mjs";
 import { decodePng, downscale, prepareImageData } from "./lib/png.mjs";
+import { loadNotes } from "./lib/notes.mjs";
 import { createRequire } from "node:module";
 
 // jpeg-js is a *build-time* dependency only (devDependency). The deployed site
@@ -64,8 +65,62 @@ function decodeImageBuffer(buf) {
   return decodePng(buf);
 }
 
+// Local note images live beside the markdown under content/notes/images.
+// WebP and HEIC are transcoded to PNG once via the OS image tool so the
+// build stays free of image-format dependencies.
+function readLocalImage(name) {
+  const base = path.join(ROOT, "content", "notes", "images");
+  const p = path.join(base, name);
+  if (!fs.existsSync(p)) return null;
+
+  const buf = fs.readFileSync(p);
+  const ext = path.extname(name).toLowerCase();
+
+  // Some notes contain WebP/HEIC payloads behind a .png extension, so sniff the
+  // magic bytes rather than trusting the extension.
+  const isWebp = buf.length > 12 && buf.toString("ascii", 0, 4) === "RIFF" && buf.toString("ascii", 8, 12) === "WEBP";
+  const isHeic = buf.length > 12 && buf.toString("ascii", 4, 8) === "ftyp";
+  const needsTranscode = isWebp || isHeic || ext === ".webp" || ext === ".heic" || ext === ".tiff";
+
+  let source = p;
+  if (needsTranscode) {
+    const cacheDir = path.join(ROOT, "content", ".image-cache");
+    fs.mkdirSync(cacheDir, { recursive: true });
+    const key = crypto.createHash("sha1").update(name).digest("hex").slice(0, 12);
+    const converted = path.join(cacheDir, `${key}.converted.png`);
+    if (!fs.existsSync(converted)) {
+      const r = require("node:child_process").spawnSync(
+        "/usr/bin/sips", ["-s", "format", "png", p, "--out", converted],
+        { stdio: "ignore" }
+      );
+      if (r.status !== 0 || !fs.existsSync(converted)) return null;
+    }
+    source = converted;
+  }
+
+  try {
+    return decodeImageBuffer(fs.readFileSync(source));
+  } catch {
+    return null;
+  }
+}
+
 async function loadImage(url) {
   if (decoded.has(url)) return decoded.get(url);
+
+  // Local note image (bare filename) resolves under content/notes/images.
+  if (!/^https?:/i.test(url)) {
+    const img = readLocalImage(url);
+    if (!img) {
+      console.warn(`  ! missing local image: ${url}`);
+      decoded.set(url, null);
+      return null;
+    }
+    const prepared = prepareImageData(downscale(img, IMAGE_MAX_DIM));
+    decoded.set(url, prepared);
+    return prepared;
+  }
+
   const target = normalizeImageUrl(url);
   const key = crypto.createHash("sha1").update(target).digest("hex");
   const cachePath = path.join(CACHE_DIR, `${key}.bin`);
@@ -247,6 +302,9 @@ function flowBlocks(doc, blocks, imageIds) {
       case "pre":
         doc.code(b.text);
         break;
+      case "table":
+        doc.table(b.rows);
+        break;
       case "quote":
         doc.quote(b.text);
         break;
@@ -295,12 +353,17 @@ function paintCover(doc, kit) {
     y += 32;
   }
   if (kit.tagline) {
-    push({ k: "text", str: toWinAnsi(kit.tagline), font: "F3", size: 11, x: layout.MARGIN_L, y: y + 6, leading: 14, color: 0.82 });
+    // Anchor the tagline to the bottom of the band so a wrapped title can
+    // never push it off the dark background.
+    const tagY = Math.max(y + 4, BAND_H - 26);
+    for (const line of layout.wrap("F3", 11, kit.tagline, layout.CONTENT_W)) {
+      push({ k: "text", str: toWinAnsi(line), font: "F3", size: 11, x: layout.MARGIN_L, y: tagY, leading: 14, color: 0.82 });
+    }
   }
 
   let my = BAND_H + 46;
   const meta = [
-    `${kit.chapters.length} chapters \u00b7 compiled from the ${SOURCE}`,
+    `${kit.chapters.length} chapters \u00b7 compiled from the author's engineering notes and essays`,
     `By ${AUTHOR}`,
     fmtDate(new Date())
   ];
@@ -312,12 +375,27 @@ function paintCover(doc, kit) {
   my += 16;
   push({ k: "text", str: "WHAT'S INSIDE", font: "F2", size: 9, x: layout.MARGIN_L, y: my, leading: 11, color: 0.55 });
   my += 20;
+
+  // Cap the chapter list so it can never collide with the copyright line.
+  // Anything that doesn't fit is summarised and left to the Contents page.
+  const copyrightTop = H - 34;
+  const lineH = 13.5;
+  let shown = 0;
   for (const ch of kit.chapters) {
-    if (my > H - 24) break;
+    if (my + lineH > copyrightTop) break;
     for (const line of layout.wrap("F1", 9, `\u2022  ${ch.title}`, layout.CONTENT_W)) {
+      if (my + lineH > copyrightTop) break;
       push({ k: "text", str: toWinAnsi(line), font: "F1", size: 9, x: layout.MARGIN_L, y: my, leading: 11, color: 0.24 });
-      my += 13.5;
+      my += lineH;
     }
+    shown++;
+  }
+  if (shown < kit.chapters.length) {
+    push({
+      k: "text",
+      str: toWinAnsi(`+ ${kit.chapters.length - shown} more \u2014 full list on the Contents page`),
+      font: "F3", size: 8.6, x: layout.MARGIN_L, y: my + 2, leading: 11, color: 0.45
+    });
   }
 
   push({
@@ -380,19 +458,39 @@ function paginateToc(kit) {
 
 // ---------------------------------------------------------------- kits
 
+// Chapters may reference a Substack post (`id`) or a GitHub note (`note`).
+// Notes are preferred where both cover the same topic, since they are the
+// author's canonical, later-maintained version.
 const CH = {
-  dsaAuthored: { id: "authored:dsa", kind: "authored", title: "The 40-Pattern DSA Decoder", subtitle: "Recognition-first pattern catalogue", date: "2026" },
-  skipLists: { id: "skip-lists-data-structure" },
-  inverted: { id: "engineering-fast-search-with-inverted" },
+  dsaAuthored: { kind: "authored", title: "The 40-Pattern DSA Decoder", subtitle: "Recognition-first pattern catalogue", date: "2026" },
+  noteSkipList: { note: "Skip List" },
+  noteInverted: { note: "Inverted Index" },
+  noteDelta: { note: "Time-series delta encoding" },
+  noteTwoRandom: { note: "2-random cache eviction" },
+  noteIndexing: { note: "Database Indexing Best Practises" },
 
-  caching: { id: "caching-playbook-for-system-design" },
-  cap: { id: "a-simple-proof-of-the-cap-theorem" },
+  noteCaching: { id: "caching-playbook-for-system-design" },
+  noteSemanticCache: { note: "Semantic Caching" },
+  noteCap: { note: "CAP Theorm" },
+  notePacelc: { note: "PACELC Theorm" },
+  noteSli: { note: "SLI vs SLO vs SLA" },
+  noteLatency: { note: "p90, p95, p99 latencies" },
+  noteBackend: { note: "Backend Latency Optimizations without caching" },
+  noteLb: { note: "L4 Load Balancer vs L7 Load Balancer" },
+  noteCors: { note: "CORS" },
+  noteBloom: { note: "Bloom Filters" },
+  noteKafka: { note: "Kafka Fundamentals" },
+  noteSqs: { note: "SQS vs Kafka" },
+  noteClaim: { note: "Claim Check Pattern" },
+  noteFacade: { note: "Facade Pattern" },
+
+  noteDisk: { note: "Local SSD (NVMe) vs Network SSD (Block Storage)" },
+  noteIndexing: { note: "Database Indexing Best Practises" },
+  noteTwoRandom: { note: "2-random cache eviction" },
+
   hashing: { id: "easy-explanation-of-consistent-hashing" },
   concurrency: { id: "concurrency-controls-pessimistic" },
   proxy: { id: "client-side-proxy-vs-server-side" },
-  bloom: { id: "the-power-of-bloom-filters-in-system" },
-  kafka: { id: "apache-kafka-basics" },
-
   disk: { id: "how-databases-store-data-on-the-disk" },
   scaling: { id: "scaling-the-databases-choosing-the" },
   sharding: { id: "nail-sharding-in-system-design-interviews" },
@@ -407,7 +505,24 @@ const CH = {
   rag3: { id: "everything-you-need-to-know-about-9be" },
   semantic: { id: "semantic-caching" },
   supabase: { id: "a-supa-explanation-of-supabase-the" },
-  shell: { id: "shell-scripting-for-devops-beginners-626" }
+
+  noteAgentMemory: { note: "Agent Memory Types" },
+  noteAgentWrite: { note: "How Agents write to external long term memory" },
+  notePromptInjection: { note: "Prompt Injection" },
+  noteKnowledgeDistill: { note: "Knowledge Distillation" },
+  noteProperDistill: { note: "Proper distillation - type of knowledge distillation" },
+  noteModelParallel: { note: "Model parallelism" },
+  noteDataParallel: { note: "Distributed Data Parallelism" },
+  noteGpuScaling: { note: "Strategies for scaling neural networks across multiple GPUs" },
+  noteCompute: { note: "LLM Compute constraints" },
+  noteLogits: { note: "Logits" },
+  noteVanishing: { note: "Vanishing Gradient" },
+  noteRelu: { note: "ReLu activation function" },
+  noteSigmoid: { note: "Sigmoid activation function" },
+  noteTanh: { note: "Tanh activation function" },
+  noteBronze: { note: "Bronze, Silver, Gold layers in data engineering" },
+  noteDora: { note: "DORA metrics" },
+  noteImageLoad: { note: "Loading images faster" }
 };
 
 const KITS = [
@@ -416,28 +531,46 @@ const KITS = [
     file: "dsa-decoder.pdf",
     title: "The 40-Pattern DSA Decoder",
     tagline: "Recognition-first DSA \u2014 plus the data structures that power real systems.",
-    chapters: [CH.dsaAuthored, CH.skipLists, CH.inverted]
+    chapters: [CH.dsaAuthored, CH.noteSkipList, CH.noteInverted, CH.noteDelta, CH.noteIndexing]
   },
   {
     sku: "offer-stack",
     file: "offer-stack.pdf",
-    title: "AI & LLM Systems Playbook",
-    tagline: "RAG, agents, semantic caching and the backend stack behind production AI.",
-    chapters: [CH.agents, CH.rag1, CH.rag2, CH.rag3, CH.semantic, CH.supabase, CH.shell]
+    title: "AI & ML Systems Playbook",
+    tagline: "RAG, agents and the model-training stack behind production AI systems.",
+    chapters: [
+      CH.agents, CH.rag1, CH.rag2, CH.rag3, CH.supabase,
+      CH.noteAgentMemory, CH.noteAgentWrite, CH.notePromptInjection,
+      CH.noteKnowledgeDistill, CH.noteProperDistill,
+      CH.noteModelParallel, CH.noteDataParallel, CH.noteGpuScaling, CH.noteCompute,
+      CH.noteLogits, CH.noteVanishing, CH.noteRelu, CH.noteSigmoid, CH.noteTanh
+    ]
   },
   {
     sku: "company-vault",
     file: "company-vault.pdf",
     title: "Database & Storage Deep Dive",
     tagline: "How databases really store, scale, shard and stay reliable under load.",
-    chapters: [CH.disk, CH.scaling, CH.sharding, CH.sqlnosql, CH.acid1, CH.acid2, CH.wal]
+    chapters: [
+      CH.disk, CH.noteDisk, CH.noteIndexing,
+      CH.scaling, CH.sharding, CH.sqlnosql,
+      CH.acid1, CH.acid2, CH.wal,
+      CH.noteBronze
+    ]
   },
   {
     sku: "system-design",
     file: "system-design.pdf",
     title: "System Design Interview Vault",
     tagline: "Caching, CAP, consistent hashing and the patterns interviewers probe.",
-    chapters: [CH.caching, CH.cap, CH.hashing, CH.concurrency, CH.proxy, CH.bloom, CH.kafka]
+    chapters: [
+      CH.noteCaching, CH.noteTwoRandom, CH.noteSemanticCache,
+      CH.noteCap, CH.notePacelc,
+      CH.hashing, CH.concurrency, CH.proxy,
+      CH.noteLb, CH.noteCors,
+      CH.noteBloom, CH.noteKafka, CH.noteSqs, CH.noteClaim, CH.noteFacade,
+      CH.noteSli, CH.noteLatency, CH.noteBackend, CH.noteDora, CH.noteImageLoad
+    ]
   },
   {
     sku: "complete-system",
@@ -445,10 +578,17 @@ const KITS = [
     title: "The Complete Interview System",
     tagline: "Every kit in one bundle \u2014 DSA, databases, distributed systems and AI.",
     chapters: [
-      CH.dsaAuthored, CH.skipLists, CH.inverted,
-      CH.disk, CH.scaling, CH.sharding, CH.sqlnosql, CH.acid1, CH.acid2, CH.wal,
-      CH.caching, CH.cap, CH.hashing, CH.concurrency, CH.proxy, CH.bloom, CH.kafka,
-      CH.agents, CH.rag1, CH.rag2, CH.rag3, CH.semantic, CH.supabase, CH.shell
+      CH.dsaAuthored, CH.noteSkipList, CH.noteInverted, CH.noteDelta, CH.noteIndexing,
+      CH.disk, CH.noteDisk, CH.scaling, CH.sharding, CH.sqlnosql, CH.acid1, CH.acid2, CH.wal, CH.noteBronze,
+      CH.noteCaching, CH.noteTwoRandom, CH.noteSemanticCache, CH.noteCap, CH.notePacelc,
+      CH.hashing, CH.concurrency, CH.proxy, CH.noteLb, CH.noteCors,
+      CH.noteBloom, CH.noteKafka, CH.noteSqs, CH.noteClaim, CH.noteFacade,
+      CH.noteSli, CH.noteLatency, CH.noteBackend, CH.noteDora, CH.noteImageLoad,
+      CH.agents, CH.rag1, CH.rag2, CH.rag3, CH.supabase,
+      CH.noteAgentMemory, CH.noteAgentWrite, CH.notePromptInjection,
+      CH.noteKnowledgeDistill, CH.noteProperDistill,
+      CH.noteModelParallel, CH.noteDataParallel, CH.noteGpuScaling, CH.noteCompute,
+      CH.noteLogits, CH.noteVanishing, CH.noteRelu, CH.noteSigmoid, CH.noteTanh
     ]
   }
 ];
@@ -456,6 +596,8 @@ const KITS = [
 // ---------------------------------------------------------------- main
 
 const posts = loadPosts();
+const notes = loadNotes(path.join(ROOT, "content", "notes"));
+const notesByTitle = new Map(notes.map((n) => [n.title, n]));
 const authoredPath = path.join(ROOT, "content", "01-dsa-decoder.md");
 const authoredBlocks = fs.existsSync(authoredPath)
   ? parseMarkdown(fs.readFileSync(authoredPath, "utf8"))
@@ -471,6 +613,18 @@ function resolve(ch) {
       date: ch.date,
       canonical: "Authored for Beyond The Interviews",
       blocks: authoredBlocks
+    };
+  }
+  // GitHub note (preferred where topics overlap: author-maintained, wider).
+  if (ch.note) {
+    const n = notesByTitle.get(ch.note);
+    if (!n) throw new Error(`missing note: ${ch.note}`);
+    return {
+      title: n.title,
+      subtitle: (n.topics || []).join(", "),
+      date: n.updated || "",
+      canonical: "Engineering notes \u2014 pradyumnac26.github.io",
+      blocks: n.blocks
     };
   }
   const p = posts.get(ch.id);

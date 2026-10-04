@@ -10,9 +10,9 @@ const FALLBACK_PRODUCTS = [
   },
   {
     sku: "offer-stack",
-    name: "AI & LLM Systems Playbook",
-    tagline: "RAG, agents, semantic caching and the backend stack behind production AI systems.",
-    bullets: ["Production-ready RAG, parts 1–3", "Agents & agentic patterns from zero", "Semantic caching + Supabase"],
+    name: "AI & ML Systems Playbook",
+    tagline: "RAG, agents, and the model-training stack behind production AI systems.",
+    bullets: ["Production-ready RAG, parts 1–3", "Agents, memory & prompt injection", "GPU scaling, distillation, activations"],
     price: "₹99", amount: 9900, anchor: null,
     downloadUrl: "/downloads/offer-stack.pdf",
     featured: false
@@ -30,7 +30,7 @@ const FALLBACK_PRODUCTS = [
     sku: "system-design",
     name: "System Design Interview Vault",
     tagline: "Caching, CAP, consistent hashing and the patterns interviewers actually probe.",
-    bullets: ["Caching playbook + eviction policies", "CAP theorem & consistent hashing", "Kafka, Bloom filters, proxies"],
+    bullets: ["Caching playbook + eviction policies", "CAP, PACELC & consistent hashing", "Kafka, SQS, load balancers, CORS"],
     price: "₹149", amount: 14900, anchor: null,
     downloadUrl: "/downloads/system-design.pdf",
     featured: false
@@ -38,8 +38,8 @@ const FALLBACK_PRODUCTS = [
   {
     sku: "complete-system",
     name: "The Complete Interview System",
-    tagline: "Every kit in one bundle — DSA, databases, distributed systems and AI. 165 pages.",
-    bullets: ["All four kits, 24 chapters", "Compiled from the Evolving Engineer archive", "Lifetime updates included"],
+    tagline: "Every kit in one bundle — DSA, databases, distributed systems and AI. 203 pages.",
+    bullets: ["All four kits, 53 chapters", "Compiled from the author's full archive", "Lifetime updates included"],
     price: "₹299", amount: 29900, anchor: 44600,
     downloadUrl: "/downloads/complete-system.pdf",
     featured: true
